@@ -1,0 +1,405 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&family=Quattrocento:wght@400;700&family=Sansita:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding:0.6rem;
+}
+
+/*------------ cases -------------------*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3333%);
+  gap: 0;
+  grid-auto-rows: minmax(auto);
+  margin-top:2em;
+  border-top: rgba(251,191,0,0.9) solid 1px;
+  border-right: rgba(251,191,0,0.9) solid 1px;
+  border-bottom: rgba(251,191,0,0.9) solid 1px;
+  }
+.bis {
+  border-top: rgba(44,12,50,0.8) solid 0.4em;
+  margin-top: 1.1em;
+  padding: 1em;
+}
+
+/*------- carte ------*/
+.zero {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+.deuxtrois {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+
+/*----- cases légendes ------*/
+.un {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+/*------------ typographie -------------------*/
+
+b, strong {bold: bold;}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+p {
+  margin: 0.4em auto;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+h1 {
+  font-family: "Quattrocento", serif;
+  text-align: left;
+  margin: 0 auto 0.6em 0;
+  font-size: 2.2rem;
+  color: rgba(44,12,50,0.86);
+  /*background: linear-gradient(to bottom left, rgba(0,138,119,0.5) 50%, rgba(250,190,0,0.7) 50%);*/
+  padding: 0.3em 1.1em;
+    background:rgba(0,138,119,0.5) linear-gradient(45deg, rgba(250,190,0,0.9) 8em, transparent 1.45em);
+  line-height: 2rem;
+  width: 70%;
+}
+
+h2 {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  margin: 0.5em auto 0.1em auto;
+  color:rgba(44,12,50,0.76);
+  background-color: rgba(252,252,252,0.76);
+  padding: 0.3em 0 0.1em 0;
+  border-bottom: rgba(44,12,50,0.76) solid 0.1em;
+}
+.nomargeTop {
+  margin-top:0;
+}
+
+
+/*-------------- éléments ------------------*/
+
+.carteBase {
+  width:100%;
+  margin:0;
+  padding:0;
+}
+.carte {
+  width:100%;
+  margin:0;
+  padding:0;
+}
+.noms {
+  z-index:999;
+}
+.caleText{
+  vertical-align: middle;
+} 
+.legende {
+  height: 1.1em;
+  vertical-align: middle;
+  float:left;
+  margin:0 0.3em 1.4em 0;
+  background-color: #FCFCFC;
+}
+.legende_bis {
+  height: 1.1em;
+  vertical-align: middle;
+  float:left;
+  margin:0 0.3em 0 0;
+  background-color: #FCFCFC;
+}
+.caledeuxlignes {
+  margin: 0.5em 0.3em 0.7em auto;
+}
+
+
+/*-------------- button -------------*/
+
+.hide{display: none;}
+
+button {
+  font-family: 'CleverJul', sans-serif;  
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  padding: 0.3em;
+  border-radius: 0.2em;
+  text-align: left;
+  color: #2C0C32;
+  background-color: #FAF9F9;
+  margin: 0.15em 0;
+  width:100%;
+  border: #521B47 solid 0.2px;
+}
+
+.active-button {
+  background-color: #FFFFFF;
+  border: rgba(88,29,69,0.7) solid 2px;
+  font-weight:bold;
+  color:rgba(88,29,69,0.9);
+  margin: 0.05em 0;
+}
+
+#togg1:hover {
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+  margin: 0.1em 0;
+}
+
+#d1 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg2:hover {		
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+  margin: 0.1em 0;
+}
+#d2 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+
+#togg3:hover {
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+  margin: 0.1em 0;
+}
+#d3 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+
+#togg4:hover {		
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+  margin: 0.1em 0;
+}
+#d4 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg5:hover {
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d5 {
+  position: relative;
+  width: 100%;
+}
+
+#togg6:hover {		
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d6 {
+  position: relative;
+  width: 100%;
+}
+
+#togg7:hover {
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d7 {
+  position: relative;
+  width: 100%;
+}
+
+#togg8:hover {		
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d8 {
+  position: relative;
+  width: 100%;
+}
+
+#togg9:hover {
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d9 {
+  position: relative;
+  width: 100%;
+}
+
+#togg10:hover {		
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d10 {
+  position: relative;
+  width: 100%;
+}
+
+#togg11:hover {
+  border: none;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d11 {
+  position: relative;
+  width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 799px) and (min-width: 700px) {
+  .wrapper {
+    margin-top:1.2em;
+  }
+  h1 {
+    margin: 0 auto 0.3em 0;
+    font-size: 2rem;
+    padding: 0.3em 1.1em;
+    line-height: 2rem;
+    width: 70%;
+  }
+  h2 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 0.5em auto 0.1em auto;
+    padding: 0.3em 0 0.1em 0;
+  }  
+button {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  padding: 0.3em;
+  margin: 0.15em 0;
+}
+.active-button {
+    border: rgba(88,29,69,0.7) solid 2px;
+    margin: 0.05em 0;
+  }
+  
+}
+
+
+@media only screen and (max-width: 699px) and (min-width: 600px) {
+  .wrapper {
+    margin-top:0.8em;
+  }
+  h1 {
+    margin: 0 auto 0.3em 0;
+    font-size: 1.6rem;
+    padding: 0.3em 1.1em;
+    line-height: 2rem;
+    width: 70%;
+  }
+  h2 {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 0.5em auto 0.1em auto;
+    padding: 0.3em 0 0.1em 0;
+  }  
+button {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 0.3em;
+  margin: 0.1em 0;
+}
+.active-button {
+    border: rgba(88,29,69,0.7) solid 2px;
+    margin: 0.05em 0;
+  }
+  
+}  
+  
+
+@media only screen and (max-width: 599px) {
+  .wrapper {
+    margin-top:0.8em;
+  }
+  h1 {
+    margin: 0 auto 0.3em 0;
+    font-size: 1.4rem;
+    padding: 0.3em 0.8em;
+    line-height: 1.8rem;
+    width: auto;
+  }
+  h2 {
+    font-size: 0.75rem;
+    line-height: 0.9rem;
+    margin: 0.3em auto 0.1em auto;
+    padding: 0.3em 0 0.1em 0;
+    font-stretch: 80%;
+  }  
+button {
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  padding: 0.2em;
+  margin: 0.1em 0;
+}
+.active-button {
+    border: rgba(88,29,69,0.7) solid 2px;
+    margin: 0.05em 0;
+  }
+#togg4 {
+  width:120%;
+}
+#togg8 {
+  width:120%;
+}
+#togg9 {
+  width:120%;
+}
+  
+}  
+
+  
+  

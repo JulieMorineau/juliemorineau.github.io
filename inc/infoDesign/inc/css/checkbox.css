@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*------------ checkbox --------------------*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.tree {
+  padding: 0.1em 0;
+}
+
+.tree::after {
+  content: '';
+  display: block;
+}
+
+.tree div {
+  /*clear: left;*/
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  left: -99999px;
+}
+
+form {
+  font-family: 'CleverJul', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  position: relative;
+  width: 76%;
+  /*float:left;*/
+  margin-left:auto;
+  margin-right: auto;
+}
+
+label.reponse {
+  display: block;
+  position: relative;
+    color: rgba(40,9,44,0.76);
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.4em 2.9em 0.2em 3.9em;
+  border-top: rgba(40,9,44,0.6) solid 1px;
+  /*border-bottom: rgba(40,9,44,0.6) solid 1px;*/
+}
+
+label.reponse:hover {
+  font-weight: bold;
+padding: 0.4em 2.9em 0.2em 3.9em;
+}
+
+input:focus + label.reponse, a:focus {
+  outline: none;
+}
+
+.sub {
+display: none;
+padding: 0.8em 3.9em;
+font-size: 0.8rem;
+line-height: 1.2rem;
+  border-bottom: rgba(40,9,44,1) solid 1px;
+}
+.sub a {
+  color: #331331;
+  text-decoration: none;
+}
+
+input:checked ~ .sub {
+  display: block;
+}
+
+input[type="reset"] {
+  display: block;
+  width: 70%;
+  padding: 2px;
+  border: none;
+  color: #321230;
+  margin-top: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+background-color: rgba(40,9,44,0.4);
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="reset"]:hover {
+  font-weight: bold;
+}
+
+input[type="reset"]:focus {
+  outline: none;
+}
+
+
+/*----------- chevron ---------*/
+i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 0.8em;
+  left: 3em;
+}
+i:before, i:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(40,9,44,0.7);
+  width: 2px;
+  height: 6px;
+}
+i:before {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+i:after {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(45deg);
+}

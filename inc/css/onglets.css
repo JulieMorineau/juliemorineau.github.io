@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------- structure onglets --------------*/		
+    /** {
+      margin:0;
+      padding: 0;
+    }*/
+    #menu-tab {
+      background-color: rgb(247,247,247);
+      font-size: 0.9rem;
+      color: color: rgba(44,12,50,0.96);;
+    }
+    #menu-tab a {
+      color: rgba(126,91,121,0.8);
+      font-weight: normal;
+      font-style: normal;
+      text-decoration: none;
+      font-variant: normal;
+    }
+    #menu-tab a:hover{
+      color: rgba(126,91,121,1);
+      font-weight: bold;
+      
+    }
+/*--------------Dimensions tableau--------------*/
+    #page-wrap {
+      width: 100%; 
+      margin: 0;
+    }
+/*--------------Onglets--------------*/
+    .tabs {
+      position: relative;   
+      min-height: 1800px; /* This part sucks */
+      clear: both;
+      margin: 0.8em 0;
+    }
+.bigger {
+  min-height: 3800px;
+}
+.biggerPlus {
+  min-height: 4700px;
+}
+    .tab {
+      float: left;
+    }
+    .tab label {
+      padding: 10px; 
+      border-top: rgba(44,12,50,0.6) solid 1px; 
+      border-left: rgba(44,12,50,0.6) solid 1px; 
+      border-right: rgba(44,12,50,0.6) solid 1px; 
+      color: rgba(44,12,50,0.8);
+      margin-left: 0.2em; 
+      position: relative;
+      left: 1px; 
+      border-radius: 10px 10px 0px 0px;
+      cursor: pointer;
+    }
+    .tab [type=radio] {
+      display: none;   
+    }
+/*--------------Contenu article onglet--------------*/
+    .content {
+      position: absolute;
+      top: 2.2em;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+      overflow-y: auto;
+      margin-bottom: -20px;
+      border-top: rgba(44,12,50,0.6) solid 1px;
+      background-color: rgb(247,247,247);
+    }
+    .content > * {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+      -webkit-transition: all 0.6s ease;
+      -moz-transition:    all 0.6s ease;
+      -ms-transition:     all 0.6s ease;
+      -o-transition:      all 0.6s ease;
+    }
+
+/*-------------Onglets actifs--------------*/
+
+    [type=radio]:checked ~ label {
+      border-bottom: 1px solid white;
+      z-index: 2;
+      font-weight: bold;
+      color: rgba(44,12,50,0.9);
+    }
+    [type=radio]:checked ~ label ~ .content {
+      z-index: 1;
+    }
+    [type=radio]:checked ~ label ~ .content > * {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -moz-transform:    translateX(0);
+      -ms-transform:     translateX(0);
+      -o-transform:      translateX(0);
+    }
+
+
+
+/*----------------- responsivite ------------------------------------------------------*/
+
+@media only screen and (max-width: 860px) and (min-width: 799px) {
+
+.tabs {
+      margin: 1.6em 0;
+    }
+#menu-tab {
+      font-size: 0.9rem;
+    }
+.tab label {
+      padding: 10px; 
+    }    
+#page-wrap {
+      width: 100%; 
+      margin: 0.9em auto;
+    }
+.content {
+      top: 2.1em;
+      margin-bottom: -20px;
+    }
+}
+
+
+@media only screen and (max-width: 798px) and (min-width: 699px) {
+
+.tabs {
+      margin: 1.6em 0;
+    }
+#menu-tab {
+      font-size: 0.9rem;
+    }
+.tab label {
+      padding: 10px; 
+    }    
+#page-wrap {
+      width: 100%; 
+      margin: 0.9em auto;
+    }
+}
+
+
+

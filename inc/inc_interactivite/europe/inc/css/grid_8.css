@@ -1,0 +1,558 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 17px;
+  line-height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------ structure cases -------------------*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-auto-rows: minmax(3em, auto);
+  margin-top: 1em;
+  background-image: url("../img/backgroundEurope.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.bis {
+  border: rgba(90,83,157,0.7) solid 0.2em;
+  padding: 0.5em 0.9em 0.1em 0.9em;
+  border-radius:0.2em;
+  background-color: rgba(90,83,157,0.1);
+}
+.nomarge {
+  margin: -0.9em 0;
+}
+
+.zero {
+  grid-column: 1 / 9;
+  grid-row: 1;
+  margin-bottom:1em;
+}
+.zero2 {
+  grid-column: 1 / 9;
+  grid-row: 2;
+  margin-bottom:1em;
+}
+
+.un {
+  grid-column: 1;
+  grid-row: 1;
+}
+.un7 {
+  grid-column: 1;
+  grid-row: 7;
+}
+
+.undeux {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.undeux4 {
+  grid-column: 1 / 3;
+  grid-row: 4;
+}
+.undeux5 {
+  grid-column: 1 / 3;
+  grid-row: 5;
+}
+.undeux6 {
+  grid-column: 1 / 3;
+  grid-row: 6;
+}
+.undeux7 {
+  grid-column: 1 / 3;
+  grid-row: 7;
+}
+.undeux8 {
+  grid-column: 1 / 3;
+  grid-row: 8;
+}
+.untrois {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+.untrois7 {
+  grid-column: 1 / 4;
+  grid-row: 7;
+}
+.untrois8 {
+  grid-column: 1 / 4;
+  grid-row: 8;
+}
+.untrois9 {
+  grid-column: 1 / 4;
+  grid-row: 9;
+}
+.untrois1_2 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+}
+.untrois1_3 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 4;
+}
+.untrois7_8 {
+  grid-column: 1 / 4;
+  grid-row: 7 / 9;
+}
+.untrois7_9 {
+  grid-column: 1 / 4;
+  grid-row: 7 / 10;
+}
+.uncinq {
+  grid-column: 1 / 6;
+  grid-row: 1;
+}
+.uncinq2 {
+  grid-column: 1 / 6;
+  grid-row: 2;
+}
+.uncinq3 {
+  grid-column: 1 / 6;
+  grid-row: 3;
+}
+.unsept4_8 {
+  grid-column: 1 / 8;
+  grid-row: 4 / 9;
+}
+
+.deux3 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.deux4 {
+  grid-column: 2;
+  grid-row: 4;
+}
+.deux5 {
+  grid-column: 2;
+  grid-row: 5;
+}
+.deux6 {
+  grid-column: 2;
+  grid-row: 6;
+}
+.deux7 {
+  grid-column: 2;
+  grid-row: 7;
+}
+.deuxcinq {
+  grid-column: 2 / 6;
+  grid-row: 1;
+}
+.deuxsept {
+  grid-column: 2 / 8;
+  grid-row: 1;
+}
+.deuxsept5_8 {
+  grid-column: 2 / 8;
+  grid-row: 5 / 9;
+}
+.deuxhuit {
+  grid-column: 2 / 9;
+  grid-row: 1;
+}
+
+.trois3 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.trois5 {
+  grid-column: 3;
+  grid-row: 5;
+}
+.trois6 {
+  grid-column: 3;
+  grid-row: 6;
+}
+.troisquatre {
+  grid-column: 3 / 5;
+  grid-row: 1;
+}
+.troisquatre6 {
+  grid-column: 3 / 5;
+  grid-row: 6;
+}
+.troiscinq {
+  grid-column: 3 / 6;
+  grid-row: 1;
+}
+.troiscinq3 {
+  grid-column: 3 / 6;
+  grid-row: 3;
+}
+.troiscinq4 {
+  grid-column: 3 / 6;
+  grid-row: 4;
+}
+.troiscinq5 {
+  grid-column: 3 / 6;
+  grid-row: 5;
+}
+.troiscinq6 {
+  grid-column: 3 / 6;
+  grid-row: 6;
+}
+.trois5_6 {
+  grid-column: 3;
+  grid-row: 5 / 7;
+}
+.troiscinq5_6 {
+  grid-column: 3 / 6;
+  grid-row: 5 / 7;
+}
+.troiscinq7 {
+  grid-column: 3 / 6;
+  grid-row: 7;
+}
+.troiscinq8 {
+  grid-column: 3 / 6;
+  grid-row: 8;
+}
+.troissix7 {
+  grid-column: 3 / 7;
+  grid-row: 7;
+}
+.troissix8 {
+  grid-column: 3 / 7;
+  grid-row: 8;
+}
+.troishuit {
+  grid-column: 3 / 9;
+  grid-row: 1;
+}
+
+.quatre2 {
+  grid-column: 4;
+  grid-row: 2;
+}
+.quatre3 {
+  grid-column: 4;
+  grid-row: 3;
+}
+.quatre7 {
+  grid-column: 4;
+  grid-row: 7;
+}
+.quatrecinq {
+  grid-column: 4 / 6;
+  grid-row: 1;
+}
+.quatrecinq2 {
+  grid-column: 4 / 6;
+  grid-row: 2;
+}
+.quatrecinq3 {
+  grid-column: 4 / 6;
+  grid-row: 3;
+}
+.quatrecinq4 {
+  grid-column: 4 / 6;
+  grid-row: 4;
+}
+.quatrecinq5 {
+  grid-column: 4 / 6;
+  grid-row: 5;
+}
+.quatrecinq6 {
+  grid-column: 4 / 6;
+  grid-row: 6;
+}
+.quatrecinq7 {
+  grid-column: 4 / 6;
+  grid-row: 7;
+}
+.quatrecinq8 {
+  grid-column: 4 / 6;
+  grid-row: 8;
+}
+
+.cinq2 {
+  grid-column: 5;
+  grid-row: 2;
+}
+.cinq3 {
+  grid-column: 5;
+  grid-row: 3;
+}
+.cinq4 {
+  grid-column: 5;
+  grid-row: 4;
+}
+.cinq5 {
+  grid-column: 5;
+  grid-row: 5;
+}
+.cinq5_6 {
+  grid-column: 5;
+  grid-row: 5 / 7;
+}
+.cinq6 {
+  grid-column: 5;
+  grid-row: 6;
+}
+.cinqsix {
+  grid-column: 5 / 7;
+  grid-row: 1;
+}
+.cinqsix3 {
+  grid-column: 5 / 7;
+  grid-row: 3;
+}
+.cinqsix3_5 {
+  grid-column: 3 / 6;
+  grid-row: 5 / 7;
+}
+
+.six3 {
+  grid-column: 6;
+  grid-row: 3;
+}
+.six4 {
+  grid-column: 6;
+  grid-row: 4;
+}
+.six5 {
+  grid-column: 6;
+  grid-row: 5;
+}
+.six7 {
+  grid-column: 6;
+  grid-row: 7;
+}
+.sixsept {
+  grid-column: 6 / 8;
+  grid-row: 1;
+}
+.sixsept2 {
+  grid-column: 6 / 8;
+  grid-row: 2;
+}
+.sixsept3 {
+  grid-column: 6 / 8;
+  grid-row: 3;
+}
+.sixhuit {
+  grid-column: 6 / 9;
+  grid-row: 1;
+}
+.sixhuit1_2 {
+  grid-column: 6 / 9;
+  grid-row: 1 / 3;
+}
+.sixhuit1_3 {
+  grid-column: 6 / 9;
+  grid-row: 1 / 4;
+}
+.sixhuit2 {
+  grid-column: 6 / 9;
+  grid-row: 2;
+}
+.sixhuit3 {
+  grid-column: 6 / 9;
+  grid-row: 3;
+}
+.sixhuit3_5 {
+  grid-column: 6 / 9;
+  grid-row: 3 / 6;
+}
+.sixhuit4 {
+  grid-column: 6 / 9;
+  grid-row: 4;
+}
+.sixhuit5 {
+  grid-column: 6 / 9;
+  grid-row: 5;
+}
+.sixhuit6 {
+  grid-column: 6 / 9;
+  grid-row: 6;
+}
+.sixhuit6_7 {
+  grid-column: 6 / 9;
+  grid-row: 6 / 8;
+}
+.sixhuit6_8 {
+  grid-column: 6 / 9;
+  grid-row: 6 / 9;
+}
+.sixhuit6_9 {
+  grid-column: 6 / 9;
+  grid-row: 6 / 10;
+}
+.sixhuit7 {
+  grid-column: 6 / 9;
+  grid-row: 7;
+}
+.sixhuit8 {
+  grid-column: 6 / 9;
+  grid-row: 8;
+}
+
+.sept3 {
+  grid-column: 7;
+  grid-row: 3;
+}
+.sept4 {
+  grid-column: 7;
+  grid-row: 4;
+}
+.sept5 {
+  grid-column: 7;
+  grid-row: 5;
+}
+.sept6 {
+  grid-column: 7;
+  grid-row: 6;
+}
+.sept7 {
+  grid-column: 7;
+  grid-row: 7;
+}
+.septhuit {
+  grid-column: 7 / 9;
+  grid-row: 1;
+}
+.septhuit2 {
+  grid-column: 7 / 9;
+  grid-row: 2;
+}
+.septhuit4 {
+  grid-column: 7 / 9;
+  grid-row: 4;
+}
+.septhuit5 {
+  grid-column: 7 / 9;
+  grid-row: 5;
+}
+.septhuit6 {
+  grid-column: 7 / 9;
+  grid-row: 6;
+}
+.septhuit1_3 {
+  grid-column: 7 / 9;
+  grid-row: 1 / 4;
+}
+.septhuit2_3 {
+  grid-column: 7 / 9;
+  grid-row: 2 / 4;
+}
+
+
+.huit3 {
+  grid-column: 8;
+  grid-row: 3;
+}
+.huit6 {
+  grid-column: 8;
+  grid-row: 6;
+}
+
+/*------- calage -------*/
+.marge {
+  margin: auto 0.5em;
+}
+.margeGche {
+  margin-left: 0.5em;
+}
+.margeDte {
+  margin-right: 0.5em;
+}
+.margeHt {
+  margin-top: 0.5em;
+}
+.margeBas {
+  margin-bottom: 0.5em;
+}
+/*------------ border --------------------*/
+.moitie {
+  width:50%;
+  height:100%;
+}
+.dte {
+  border-right: rgba(44,12,50,0.7) 2px dotted;
+}
+.gche {
+  border-left: rgba(44,12,50,0.7) 2px dotted;
+}
+.haut {
+  border-top: rgba(44,12,50,0.7) 2px dotted;
+}
+.bas {
+  border-bottom: rgba(44,12,50,0.7) 2px dotted;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  border-top: 0.7em solid rgba(44,12,50,0.8);
+  margin-left: -0.3em;
+  margin-top:-0.5em;
+}
+.decalfleche {
+  margin-left:46%;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  border-top: 0.7em solid rgba(44,12,50,0.8);
+  float:right;
+  margin-top: -0.35em;
+ transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  border-top: 0.7em solid rgba(44,12,50,0.8);
+  margin-top: -0.35em;
+ transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  border-top: 0.7em solid rgba(44,12,50,0.8);
+  margin-top: 0.35em;
+ transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.lien {
+  background-color: #FCFCFC;
+  /*border: rgba(44,12,50,0.8) solid 1px;*/
+  margin-top:1em;
+  font-size: 0.7rem;
+  line-height: 0.85rem;
+  color: rgba(44,12,50,0.8);
+  width: 48%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0.7em auto;
+  font-style: italic;
+}
+.calageHaut {
+  margin-top:-2em;
+}
+.margeTop {
+  margin-top: 3.9em;
+}
+
+

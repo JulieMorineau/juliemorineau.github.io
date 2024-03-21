@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------ cases -------------------*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 0.2em;
+  grid-auto-rows: minmax(2em, auto);
+}
+.bis {
+  background-color: rgba(205,195,80,0.15);
+  border: rgba(40,9,44,0.4) solid 0.15em;
+  margin-top:0.4em;
+}
+.margeTop {
+  margin-top: 1.6em;
+}
+
+/*------------- carte ---------------*/
+
+.zero {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  /*padding: 0.3em;*/
+}
+.zero2 {
+  grid-column: 1 / 4;
+  grid-row: 2;
+  margin-top: 1.6em;
+  /*padding: 0.3em;*/
+}
+.zero3 {
+  grid-column: 1 / 4;
+  grid-row: 3;
+  /*padding: 0.3em;*/
+}
+.zero4 {
+  grid-column: 1 / 4;
+  grid-row: 4;
+  /*padding: 0.3em;*/
+}
+
+
+/*------------- cases ---------------*/
+
+.un {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 0.3em;
+  width:99%;
+}
+.deux {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 0.3em;
+width:99%;
+}
+.trois {
+  grid-column: 3;
+  grid-row: 1;
+  padding: 0.3em;
+width:99%;
+}
+
+.un2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.deux2 {
+  grid-column: 2;
+  grid-row: 2;
+  width:120%;
+}
+.trois2 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+
+
+@media only screen and (max-width: 698px) and (min-width: 590px) {
+  
+
+  
+}
+
+
+
+@media only screen and (max-width: 589px) and (min-width: 520px) {
+  
+
+  
+  
+}
+
+
+
+
+
+@media only screen and (max-width: 519px) and (min-width: 460px) {
+  
+
+  
+  
+}
+
+
+
+@media only screen and (max-width: 459px) and (min-width: 400px) {
+  
+
+}
+
+
+
+
+
+@media only screen and (max-width: 399px) {
+  
+  
+  
+}
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  

@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+
+body {
+    font-family: 'CleverJul', sans-serif;
+    color: rgba(31, 1, 28, 0.92);
+    margin: 0;
+    padding: 0;
+}
+
+.colonne {
+    margin: auto;
+    max-width: 618px;
+}
+
+b, strong {
+    bold: 700;
+}
+
+sup, sub {
+    vertical-align: baseline;
+    font-size: .75em;
+    position: relative;
+}
+
+sup {
+    top: -0.75em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/*----------- cases -------------------*/
+
+.gauche {
+    clear: both;
+    text-align: left;
+    max-width: 85%;
+}
+
+.casegauche {
+    background: linear-gradient(90deg, rgba(40, 39, 86, 1) 0%, rgba(51, 19, 49, 0.9) 85%);
+    color: #FFFFFF;
+    padding: 2px 11px;
+    border-radius: 0 11px 11px 11px;
+    display: inline-block;
+}
+
+.droite {
+    clear: both;
+    float: right;
+    text-align: right;
+    margin-top: 11px;
+    margin-bottom: 16px;
+    max-width: 85%;
+}
+
+.casedroite {
+    background: linear-gradient(135deg, rgba(40, 39, 86, 1) 0%, rgba(26, 118, 152, 1) 65%);
+    color: #FFFFFF;
+    padding: 2px 11px;
+    border-radius: 11px 0 11px 11px;
+    display: inline-block;
+}
+
+
+.positioned {
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    left: 0;
+}
+
+.fin {
+    max-width: 618px;
+    padding: 6px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #805471;
+    clear: both;
+    text-align: center;
+    border-bottom: #805471 18px solid;
+}
+
+
+/*------------ typographie -------------------*/
+
+p {
+    /*width: 92%;*/
+    /*margin: 19px auto 6px auto;*/
+    font-size: 16.8px;
+    line-height: 25.9px;
+    padding:0 10px;
+}
+
+.small {
+    font-size: 70%;
+}
+
+h1 {
+    /*font-family: 'Marmelad', arial, sans-serif;*/
+    font-family: 'Lobster', cursive;
+    margin: 22px 0;
+    letter-spacing: normal;
+    margin:auto;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: normal;
+    /*color: #941a69;*/
+    /*color: #651c5a;*/
+    color: #805471;
+    width: 98.5%;
+    text-align: center;
+    /*background: linear-gradient(180deg, rgba(251, 191, 0, 0) 0%, rgba(251, 191, 0, 0.8) 50%, rgba(251, 191, 0, 0) 96%);
+    padding: 0.4em;*/
+}
+
+h2 {
+    /*font-family: 'Michroma', sans-serif;*/
+    margin: 8px auto;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+    color: rgba(84, 28, 71, 0.8);
+    width: 98.5%;
+}
+
+
+.titre {
+    margin: 0 auto;
+    border-bottom: #fbbf00 1px solid;
+    /*border: #fbbf00 1px solid;*/
+    padding-bottom: 0.8em;
+    background: linear-gradient(180deg, rgba(252, 252, 252, 0) 30%, rgba(251, 191, 0, 0.2) 96%);
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.03em;
+    font-size: 17.3px;
+    line-height: 24px;
+}
+
+.position-right {
+    text-align: right;
+}
+
+.lien {
+    margin: 22px auto;
+    font-size: 16.8px;
+    line-height: 23px;
+    background-color: #197497;
+    border: #fcfcfc 1px dotted;
+    border-top: rgba(252, 252, 252, 0.6) 6px solid;
+  border-right: rgba(51, 19, 49, 0.4) 6px solid;
+  border-bottom: rgba(51, 19, 49, 0.6) 6px solid;
+  border-left: rgba(10, 174, 179, 0.4) 6px solid;
+  border-radius: 23px;
+    padding: 3px 44px;
+    text-align: center;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #d9544b;
+}
+
+.lien a:hover {
+    font-weight: bold;
+    background-color: #d9544b;
+}
+
+
+/*----------- img ------------*/
+
+.emoji {
+    height: 29px;
+    vertical-align: text-top;
+}
+
+.personnage {
+    height: 34px;
+}
+
+/*------ responsivite --------------*/
+@media only screen and (max-width: 400px) {
+    .emoji {
+        height: 20px;
+    }
+    .personnage {
+        height: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .colonne {
+        padding: auto 6px;
+    }
+
+    /*    p {
+            font-size: 85%;
+            line-height: 95%;
+        }
+
+        h1 {
+            font-size: 85%;
+            line-height: 85%x;
+        }
+
+    img {
+        size: 85%;
+    }*/
+
+}
+
+/*--------------- couleurs 
+
+taupe #715969;
+mauve #604a7b
+pistache #979246
+sable #f1c985
+vieuxrose #805471
+rouge #d9544b
+turquoise #00acb2
+
+
+------------------*/
+

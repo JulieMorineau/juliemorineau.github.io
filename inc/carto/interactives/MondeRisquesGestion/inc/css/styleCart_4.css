@@ -1,0 +1,595 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&family=Quattrocento:wght@400;700&family=Sansita:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+/*------------ typographie -------------------*/
+
+b, strong {bold: bold;}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+p {
+  margin: 0.4em auto;
+  font-size: 0.9rem;
+  line-height: 1rem;
+vertical-align: middle;
+}
+
+h1 {
+  text-align: left;
+  margin: 0 auto 0.2em 0;
+  font-size: 1.8rem;
+  color: rgba(44,12,50,0.9);
+  line-height: 2rem;
+  border-bottom: rgba(44,12,50,0.9) solid 2px;
+}
+
+h2 {
+  font-size: 1rem;
+  /*margin-top:0.6em;*/
+  line-height: 1.3rem;
+  margin: 0.3em auto;
+}
+
+.sources {
+    margin: 0.8em 0;
+    font-size: 0.6rem;
+    color: rgba(44,12,50,0.9);
+    line-height: 0.7rem;
+}
+    
+.colornature {
+    background-color: #5A4878;
+    color:#FFF;
+    padding: 0.2em 0.3em;
+}
+.colortechno {
+    background-color: #BF5D54;
+    color:#FFF;
+    padding: 0.2em 0.3em;
+    width:130%;
+}
+
+
+/*-------------- éléments ------------------*/
+
+.carte {
+  width:102%;
+  padding:0;
+  margin:auto auto auto -2%;
+}
+
+.legende_bis {
+  height: 2.3em;
+  vertical-align: middle;
+  margin-left:0.7em;
+}
+.indice {
+  float:left;
+  margin: 0.3em auto;
+}
+.gestion {
+    color:#5D6324;
+    font-weight:bold;
+}
+.legende {
+  height: 1.3em;
+  /*vertical-align: middle;*/
+  float:left;
+  margin-right:0.3em;
+  background-color: #FCFCFC;
+}
+.legende_big {
+  width:12%;
+  vertical-align: baseline;
+  float:left;
+  margin-right:0.3em;
+background-color: #FCFCFC;
+}
+.caledeuxlignes {
+  margin: 0.5em 0.3em 0.7em auto;
+}
+
+
+/*-------------- button -------------*/
+
+.hide{display: none;}
+
+button {
+  font-family: 'CleverJul', sans-serif;  
+  font-size: 0.85rem;
+  line-height: 1.1rem;
+  padding: 0.3em;
+  box-shadow: 1px 1px 0px rgba(171,146,18,0.9);
+  border-radius: 0.2em;
+  text-align: left;
+  color: #2C0C32;
+  background-color: #FCFCFC;
+  margin: 0.2em auto;
+  width:auto;
+}
+.Gestion {
+    border: #5D6324 solid 1px;
+    color:#5D6324;
+  }
+.nature {
+    border: #5A4878 solid 1px;
+    color:#5A4878;
+}
+.techno {
+    border: #D8554B solid 1px;
+    color:#701711;
+}
+
+.active-button {
+  background-color: rgba(251,191,0,0.2);
+  border: rgba(251,191,0,0.5) solid 1px;
+  font-weight:bold;
+  color:rgba(88,29,69,0.9);
+}
+.nature.active-button {
+  background-color: rgba(90,72,120,0.8);
+  border: #5A4878 solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+.techno.active-button {
+  background-color: rgba(191,93,84,0.8);
+  border: #BF5D54 solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+
+
+#togg1:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+
+#d1 {
+  position: relative;
+  /* z-index: 999;*/
+  width: 100%;
+  padding: 0;
+}
+
+#togg2:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d2 {
+  position: relative;
+  /* z-index: 999;*/
+  width: 100%;
+  padding: 0;
+}
+
+#togg3:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d3 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+  padding: 0;
+}
+
+#togg4:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d4 {
+  position: relative;
+  /* z-index: 999;*/
+  width: 100%;
+  padding: 0;
+}
+
+#togg5:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d5 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+}
+
+#togg6:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d6 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+}
+
+#togg7:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d7 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+}
+
+#togg8 {
+  margin-left:5%;
+}
+#togg8:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d8 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+}
+
+#togg9 {
+  margin-left:5%;
+}
+#togg9:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d9 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+}
+
+#togg10 {
+  margin-left: 1em;
+}
+#togg10:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d10 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+}
+
+#togg11 {
+  margin-left: 1em;
+}
+#togg11:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d11 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+}
+
+#togg12:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d12 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 720px) and (min-width: 550px) {
+  
+  p {
+    margin: 0.2em auto 0.2em 0.9em;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+  }
+  .bis {
+      margin-top: 0.2em;
+    }
+  h1 {
+      margin: 0 auto 0.3em 0;
+      font-size: 1.5rem;
+      color: #581D45;
+      line-height: 1.6rem;
+    }
+  h2 {
+    margin: 0.4em auto 0 auto;
+    font-size: 0.7rem;
+    line-height: 0.75rem;
+  }
+  .margetop {
+    margin-top: 0.9em;
+  }
+  .legende_bis {
+    height: 1.8em;
+    margin-left:0.7em;
+    top: -0.2em;
+    position:relative;
+  }
+  .indice {
+    margin: 0.1em auto;
+  }
+  .legende {
+      height: 1.1em;
+      vertical-align: text-top;
+      margin-right:0.3em;
+      background-color: #FCFCFC;
+      margin-top:0;
+    border-radius: 0.2em;
+  }  
+    button {
+      font-size: 0.6rem;
+      line-height: 0.7rem;
+      padding: 0.3em;
+      margin: 0.5em auto auto auto;
+  } 
+.colornature {
+    padding: 0 0.2em;
+}
+.colortechno {
+    padding: 0 0.2em;
+    margin-top: 1em;
+}
+  
+  #togg8 {
+    margin-left:5%;
+  }
+  #togg9 {
+    margin-left:5%;
+  }
+  #togg10 {
+    margin-left:5%;
+  }
+  #togg11 {
+    margin-left:5%;
+  }
+  
+  
+}  
+  
+  
+
+
+  
+  @media only screen and (max-width: 549px) and (min-width: 450px) {
+    
+   p {
+      margin: 0.3em auto 0.2em 0.9em;
+      font-size: 0.6rem;
+      line-height: 0.6rem;
+    }
+    .bis {
+        margin-top: 0.2em;
+      }
+    h1 {
+        margin: 0 auto 0.3em 0;
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        padding: 0.3em;
+        text-shadow: -0.1px 0.1px 0 #c50f56,
+                      0.1px 0.1px 0 #c50f56,
+                      0.1px -0.1px 0 #c50f56,
+                      -0.1px -0.1px 0 #c50f56;
+      }
+    
+    .bis {
+        margin-top: 0.2em;
+      }
+    
+    h2 {
+      margin: 0.4em auto 0 auto;
+      font-size: 0.6rem;
+      line-height: 0.7rem;
+    }
+    .margetop {
+      margin-top: 0.9em;
+    }
+    .legende_bis {
+      height: 1.5em;
+      margin-left:0.7em;
+      top: -0.2em;
+      position:relative;
+    }
+    .indice {
+      margin: 0.1em auto;
+    }
+    .legende {
+        height: 1.1em;
+        vertical-align: text-top;
+        margin-right:0.3em;
+        background-color: #FCFCFC;
+        margin-top:0;
+      border-radius: 0.2em;
+    }  
+      button {
+        font-size: 0.5rem;
+        line-height: 0.6rem;
+        padding: 0.3em;
+        margin: 0.4em auto auto auto;
+    } 
+  .colornature {
+      padding: 0 0.2em;
+  }
+  .colortechno {
+      padding: 0 0.2em;
+      margin-top: 0.3em;
+  }
+    
+    #togg8 {
+      margin-left:5%;
+    }
+    #togg9 {
+      margin-left:5%;
+    }
+    #togg10 {
+      margin-left:5%;
+    }
+    #togg11 {
+      margin-left:5%;
+    }
+    .active-button {
+      background-color: rgba(251,191,0,0.2);
+      border: rgba(251,191,0,0.5) solid 1px;
+      font-weight:bold;
+      color:rgba(88,29,69,0.9);
+    }
+    .nouvellesVilles {
+      transform: scaleX(0.7);
+    }
+    
+    
+  }  
+
+  
+    @media only screen and (max-width: 449px) {
+      body {
+          font-size: 12.5px;
+          line-height: 16px;
+        }
+      .granule {
+          max-width: 360px;
+          padding:0.1rem;
+        }
+      p {
+        margin: 0.2em auto 0.2em 0.9em;
+        font-size: 0.5rem;
+        line-height: 0.6rem;
+      }
+      .sources {
+          margin: 0.5em 0;
+          font-size: 0.5rem;
+          line-height: 0.6rem;
+      }
+      .bis {
+          margin-top: 0.2em;
+        }
+      .indice {
+          margin: 0 auto;
+        }
+      h1 {
+          margin: 0 auto 0.3em 0;
+          font-size: 1rem;
+          color: #581D45;
+          line-height: 1.3rem;
+          text-shadow: -0.1px 0.1px 0 #c50f56,
+                        0.1px 0.1px 0 #c50f56,
+                        0.1px -0.1px 0 #c50f56,
+                        -0.1px -0.1px 0 #c50f56;
+        }
+      h2 {
+        margin: 0 auto;
+        font-size: 0.55rem;
+        line-height: 0.6rem;
+      } 
+      .colornature {
+        padding: 0.2em;
+        width: 63%;
+        margin-left:2em;
+      }
+      .colortechno {
+        padding: 0.2em;
+        margin-top: 0.6em;
+        margin-left:0;
+      width: 76%;
+      }
+      .margetop {
+        margin-top: 0.4em;
+      }
+      .legende {
+          height: 0.9em;
+          vertical-align: text-top;
+          margin-right:0.3em;
+          background-color: #FCFCFC;
+          margin-top:0;
+        border-radius: 0.2em;
+      }  
+      button {
+          font-size: 0.45rem;
+          line-height: 0.6rem;
+          padding: 0.2em 0.2em 0.1em 0.2em;
+          margin: 0.2em auto auto 0;
+          border: rgba(44,12,50,0.4) solid 0.5px;
+          transform: scaleX(0.95);
+      } 
+      .legende_bis {
+        height: 1.3em;
+        margin-left:0.7em;
+        top: -0.1em;
+        position:relative;
+      }
+      #togg1 {
+          width:100%;
+        }
+      #togg5 {
+          width:100%;
+        }
+      .active-button {
+        background-color: rgba(251,191,0,0.2);
+        border: rgba(251,191,0,0.5) solid 1px;
+        font-weight:bold;
+        color:rgba(88,29,69,0.9);
+      }
+      .nouvellesVilles {
+        transform: scaleX(0.6);
+      }
+  
+      
+    }  
+
+    
+    
+    

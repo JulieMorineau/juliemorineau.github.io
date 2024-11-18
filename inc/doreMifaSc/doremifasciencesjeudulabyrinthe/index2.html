@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+	<meta name="viewport" content="width=device-width">
+
+	<title>DMS - Jeu du labyrinthe</title>
+
+	<!-- CSS -->
+
+	<link href="inc/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	
+</head>
+
+<body>
+	<div class="granule">
+
+		<div class="intro">
+			<img src="../DoreMifaSc_intro.png" alt="" style="width: 58%; margin: 0 auto 0 0;">
+			<h1>Le jeu du labyrinthe</h1>
+		</div>
+
+
+
+		<div class="wrapper" style="background-color: none;">
+
+			<div class="zero">
+				<p>Mifa est perdue dans le jeu du labyrinthe.
+				</p>
+				<img src="inc/img/00_labyrinthe.png" alt="">
+			</div>
+		</div>
+			
+
+		
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.4);">
+
+			<div class="zero">
+				<img src="inc/img/1-Dore_tient-plan.png" alt="" class="untiers">
+				<p class="decalgauche">Doré est en dehors du labyrinthe. 
+					<br>Il a un plan, qui contient des indices pour aider Mifa à sortir. 
+				</p>
+				<p>Ils vont devoir s’entraider pour y parvenir…
+				</p>
+			</div>
+
+		</div>
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.1); ">
+
+			<div class="zero">
+				<p>Pour prendre un bon départ, Mifa doit aller à gauche.
+				</p>
+				<img src="inc/img/2_Mifa_dos.png" alt="" class="large">
+			</div>
+		</div>
+
+		<div class="wrapper Q">
+
+			<div class="zero">
+					<p class="suite blanc">Sais-tu où se trouve la gauche de Mifa&nbsp;? 
+						<br> Clique sur le bon bouton.
+					</p>
+					</div>
+
+					<div class="untrois" style="text-align: center;">
+						
+					 		<form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-1" type="checkbox">
+					              <label for="n-1"><img src="inc/img/2_Mifa_dos_Q-gauche.png" alt="" style="width: 50%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					                <a href="#link">Bravo&nbsp;!</a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+					</div>
+
+					<div class="troiscinq" style="text-align: center;">
+						
+					     <form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-2" type="checkbox">
+					              <label for="n-2"><img src="inc/img/2_Mifa_dos_Q-droite.png" alt="" style="width: 50%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					                <a href="#link">Non, c’est la droite ^^</a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+		    		</div>
+
+		    	</div>
+
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.2); ">
+
+			<div class="zero">
+				<p>Mifa doit maintenant prendre un escalier qui monte.
+				</p>
+				<img src="inc/img/3_escaliersX2.png" alt="" class="large">
+			</div>
+		</div>
+
+		<div class="wrapper Q">
+
+			<div class="zero">
+					<p class="suite blanc">Quel escalier choisir&nbsp;? 
+						<br>Aide Mifa en cliquant sur le bouton correspondant à l'escalier qui monte.
+					</p>
+					</div>
+
+					<div class="untrois" style="text-align: center;">
+						
+					 		<form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-3" type="checkbox">
+					              <label for="n-3"><img src="inc/img/3_escaliers_Q_descend.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Non, cet escalier 
+					              		<br>descend pour Mifa.</a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+					</div>
+
+					<div class="troiscinq" style="text-align: center;">
+						
+					     <form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-4" type="checkbox">
+					              <label for="n-4"><img src="inc/img/3_escaliers_Q_monte.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Bravo&nbsp;!
+					                	<br><img src="inc/img/3_QR_mifa_monte.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/></a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+		    		</div>
+
+		    	</div>
+
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.35);">
+
+			<div class="zero">
+			<p>Après avoir monté l'escalier, Mifa arrive dans une pièce.
+			<br>Elle doit y trouver un indice. 
+			</p>
+			
+			<img src="inc/img/4_salle_etageres_cavalier.png" alt="" class="large">
+			
+			<p>Doré lui explique qu’elle doit chercher une photo… 
+			</p>
+			</div>
+
+		</div>
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.6);">
+			<div class="zero">
+			<p>Il y en a plusieurs.
+			</p>
+			<img src="inc/img/4_salle_etageres_cavalier_bis.png" alt="" class="large">
+			</div>
+		</div>
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.2);">
+			<div class="one">
+			<img src="inc/img/4_dore_photo_explications.png" alt="">
+			</div>
+			<div class="twofive">
+			<p>– Dans les étagères qui se trouvent 
+				<br><strong>devant</strong> la statue du cavalier, précise Doré.
+			</p>
+			</div>
+
+		</div>
+
+		<div class="wrapper Q">
+
+			<div class="zero">
+					<p class="suite blanc">Il faut d'abord comprendre ce que signifient «&nbsp;devant&nbsp;» et «&nbsp;derrière&nbsp;»&nbsp;: sur lequel de ces boutons Mifa se trouve-t-elle <strong>devant</strong> le cavalier&nbsp;?
+					</p>
+					</div>
+
+					<div class="untrois" style="text-align: center;">
+						
+					 		<form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-5" type="checkbox">
+					              <label for="n-5"><img src="inc/img/4_cavalier_derriere.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Non. Sur ce visuel, Mifa est <strong>derrière</strong> le cavalier.</a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+					</div>
+
+					<div class="troiscinq" style="text-align: center;">
+						
+					     <form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-6" type="checkbox">
+					              <label for="n-6"><img src="inc/img/4_cavalier_devant.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Bravo&nbsp;! Mifa est <strong>devant</strong> le cavalier.
+					                	<br><img src="inc/img/4QR_cavalier_devant-derriere.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/></a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+		    		</div>
+
+		    	</div>
+
+
+
+    	<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.4);">
+
+			<div class="zero">
+			<p class="debut">Mifa sait désormais dans quelles étagères regarder.
+			</p>
+			<img src="inc/img/4_mifa_etageres_photo.png" alt="" class="deuxtiers">
+			<p class="side">Mais il y a encore deux photos.
+			</p>
+			</div>
+		</div>
+
+		<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.1);">
+
+			<div class="onethree2">
+				<p>– La bonne photo doit se trouver au-dessus de livres, lui rappelle Doré.
+			</p>
+    		</div>
+
+    		<div class="three2">
+			<img src="inc/img/4-Dore_tablette.png" alt="" style="width: 67%; margin: -2em auto;">
+			</div>
+
+		</div>
+
+
+    	<div class="wrapper voff">
+			<div class="one">
+			<img src="../_voixOff.png" alt="" style="margin-top: 0.2em; width: 86%; float: right;">
+			</div>
+			<div class="twofive">
+			     <p>«&nbsp;Au-dessus&nbsp;» et «&nbsp;au-dessous&nbsp;» permettent d'indiquer la position d'un objet par rapport à un autre. 
+			     	<br>Ici, on cherche la position d'une photo par rapport à des livres.
+			     </p>
+    		</div>
+		</div>
+
+		<div class="wrapper Q">
+
+			<div class="zero">
+					<p class="suite blanc">Peux-tu aider Mifa à choisir la photo qui se trouve <strong>au-dessus</strong> des livres&nbsp;?
+					</p>
+					</div>
+
+					<div class="untrois" style="text-align: center;">
+						
+					     <form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-7" type="checkbox">
+					              <label for="n-7"><img src="inc/img/4_mifa_etageres_photo_Q-dessus.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Bravo&nbsp;! La photo se trouve bien <strong>au-dessus</strong> des livres.
+					                	<br><img src="inc/img/4QR_mifa_etageres_photo_Q-dessus-dessous.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/></a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+		    		</div>
+
+					<div class="troiscinq" style="text-align: center;">
+						
+					 		<form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-8" type="checkbox">
+					              <label for="n-8"><img src="inc/img/4_mifa_etageres_photo_Q-dessous.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Non, essaye encore :)</a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+					</div>
+
+		    	</div>
+
+		<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.4);">
+
+			<div class="onethree2">
+				<p>Maintenant qu'elle a trouvé la bonne photo, Mifa doit y découvrir une information dont elle a besoin pour sortir du labyrinthe.
+			</p>
+    		</div>
+
+    		<div class="three2">
+			<img src="inc/img/4_mifa_photo.png" alt="" style="width: 69%; margin: -1em auto;">
+			</div>
+
+		</div>
+
+		<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.2);">
+
+			<div class="one2">
+				<img src="inc/img/4-Dore_parle.png" alt="" style="width: 69%; margin: -2em auto; float: right;">
+    		</div>
+
+    		<div class="twofour2">
+    			<p>– D'après le plan, il faut identifier une statue à l'arrière-plan.
+			</p>
+			</div>
+
+		</div>
+
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.8);">
+			<div class="zero">
+			<img src="inc/img/4_cadre-photo.png" alt="" style="width: 59%; margin: auto;">
+   		</div>
+		</div>
+
+		<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.4);">
+
+			<div class="two2">
+				<p>– Mais c’est quoi, l’arrière-plan ? s’énerve Mifa.
+			</p>
+    		</div>
+
+    		<div class="three2">
+			<img src="inc/img/4_Mifa_tete-qui-fume.png" alt="" style="width: 69%; margin: -1em auto -2em -1em;">
+			</div>
+
+		</div>
+
+		<div class="wrapper voff">
+			<div class="one nomarge_bas">
+			<img src="../_voixOff.png" alt="" style="margin-top: 0.2em; width: 86%; float: right;">
+			</div>
+			<div class="twofive">
+			     <p>On distingue les objets proches ou lointains du point de vue de celui qui regarde en les situant sur des plans.
+			     </p>
+    		</div>
+			<div class="zerobis nomarge_haut">
+				<img src="inc/img/4-vo_explication-plans.png" alt="" style="width: 89%; margin: 0 auto;">
+			</div>
+    		<div class="untrois_ter nomarge_bas">
+			     <img src="inc/img/4-vo_explication-plans_illu.png" alt="" style="width: 100%; margin: 0em auto;">
+    		</div>
+			<div class="troiscinq_ter nomarge_haut">
+    		<p class="debut">Le plus proche s’appelle <strong>le premier plan</strong>, derrière lui (les objets ou personnes un peu plus éloignées) il y a <strong>le second plan</strong>, puis le plan le plus éloigné, qui s’appelle <strong>l’arrière-plan</strong>.
+			     </p>
+    		</div>
+		</div>
+
+
+		<div class="wrapper2 Q">
+
+			<div class="zero2">
+				<p class="suite blanc">Aide Mifa&nbsp;: clique sur l’image qui correspond à l'arrière-plan de cette photo.</p>
+			</div>
+
+			<div class="one2_2" style="text-align: center;">
+				
+			 		<form>
+			          <div class="tree">
+			            <div>
+			              <input id="n-9" type="checkbox">
+			              <label for="n-9"><img src="inc/img/4_photo_Q_2.png" alt="" style="width: 99%; margin-left: auto; margin-right: auto;"/>
+			              	</label>
+			              <div class="sub">
+			                <a href="#link">Non, ça c’est le second plan.
+			                <br><img src="inc/img/4_photo_QR_second.png" alt="" style="width: 99%; margin-left: auto; margin-right: auto;"/></a>
+			                  <!--<input type="reset" value="fermer">-->
+			              </div>
+			            </div>
+			          </div>
+        		</form>
+			</div>
+
+			<div class="two2_2" style="text-align: center;">
+			     <form>
+			          <div class="tree">
+			            <div>
+			              <input id="n-10" type="checkbox">
+			              <label for="n-10"><img src="inc/img/4_photo_Q_3.png" alt="" style="width: 99%; margin-left: auto; margin-right: auto;"/>
+			              	</label>
+			              <div class="sub">
+			                <a href="#link">Bravo&nbsp;! c’est bien l’arrière-plan.
+			                <br><img src="inc/img/4_photo_QR_arriere.png" alt="" style="width: 99%; margin-left: auto; margin-right: auto;"/></a>
+			                  <!--<input type="reset" value="fermer">-->
+			              </div>
+			            </div>
+			          </div>
+        		</form>
+    		</div>
+
+    		<div class="three2_2" style="text-align: center;">
+			     <form>
+			          <div class="tree">
+			            <div>
+			              <input id="n-11" type="checkbox">
+			              <label for="n-11"><img src="inc/img/4_photo_Q_1.png" alt="" style="width: 99%; margin-left: auto; margin-right: auto;"/>
+			              	</label>
+			              <div class="sub">
+			                <a href="#link">Non, ça c’est le premier plan.
+			                <br><img src="inc/img/4_photo_QR_premier.png" alt="" style="width: 99%; margin-left: auto; margin-right: auto;"/></a>
+			                  <!--<input type="reset" value="fermer">-->
+			              </div>
+			            </div>
+			          </div>
+        		</form>
+    		</div>
+    	</div>
+
+    	<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.5);">
+			<div class="onethree2">
+				<p>– Mais il y a plusieurs statues à l’arrière-plan&nbsp;! se désespère Mifa.
+			</p>
+    		</div>
+    		<div class="three2">
+			<img src="inc/img/4_Mifa_desespere.png" alt="" style="width: 69%; margin: -1em auto;">
+			</div>
+		</div>
+
+		<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.2);">
+			<div class="onethree2">
+				<img src="inc/img/4_dore-photo_arriereplan.png" alt="" style="width: 99%;">
+				
+    		</div>
+    		<div class="three2">
+			<p>– Il faut choisir celle qui est la plus proche de la fenêtre, lui dit Doré.
+			</p>
+			</div>
+		</div>
+
+		<div class="wrapper Q">
+
+			<div class="zero">
+					<p class="suite blanc">Sais-tu laquelle de ces statues est la plus proche de la fenêtre&nbsp;?
+					</p>
+					</div>
+
+					<div class="untrois" style="text-align: center;">
+						
+					     <form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-12" type="checkbox">
+					              <label for="n-12"><img src="inc/img/4_dore-photo_proche.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Bravo&nbsp;! </a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+		    		</div>
+
+					<div class="troiscinq" style="text-align: center;">
+						
+					 		<form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-13" type="checkbox">
+					              <label for="n-13"><img src="inc/img/4_dore-photo_loin.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Non, essaye encore :)</a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+					</div>
+
+		    	</div>
+
+		<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.5);">
+			<div class="onethree2">
+				<p>– D’accord, dit Mifa. C'est donc la statue du fou que je dois retrouver&nbsp;!
+			</p>
+    		</div>
+    		<div class="three2">
+			<img src="inc/img/4_statue-fou.png" alt="" style="width: 69%; margin: -1em auto;">
+			</div>
+		</div>
+
+
+    	<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.2);">
+			<div class="one2">
+				<img src="inc/img/4-Dore_parle.png" alt="" style="width: 69%; margin: -2em auto; float: right;">
+    		</div>
+    		<div class="twofour2">
+    			<p> – À présent, Mifa, tu dois descendre l’escalier… 
+				</p>
+			</div>
+		</div>
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.8);">
+			<div class="zero">
+			<img src="inc/img/5_mifa-descend-escaliers.png" alt="" style="width: 99%; margin: auto;">
+   		</div>
+		</div>
+
+		<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.1);">
+			<div class="one2">
+				<p>– Et maintenant, je vais où&nbsp;? demande Mifa. 
+					<br>Je monte devant moi&nbsp;? 
+					<br>Je descends sur le côté&nbsp;?
+				</p>
+    		</div>
+    		<div class="twofour2">
+    			<img src="inc/img/5_escaliers_x3.png" alt="" style="width: 99%; margin: auto; ">
+			</div>
+		</div>
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.3);">
+			
+    		<div class="one">
+				<img src="inc/img/5-Dore_inquiet.png" alt="" style="width: 86%;">
+			</div>
+			<div class="two">
+				<p>– Zut, dit Doré. Le plan ne précise pas quel escalier tu dois emprunter&nbsp;!
+				</p>
+    		</div>
+    		<div class="three">
+				<img src="inc/img/5_mifa_peur-perdu.png" alt="" style="width: 92%;">
+			</div>
+			<div class="four">
+				<p>– Comment faire&nbsp;? s’inquiète Mifa. Je suis perdue&nbsp;!
+				</p>
+    		</div>
+		</div>
+
+		<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.5);">
+			<div class="onethree2">
+				<img src="inc/img/5-Dore_plan-statues.png" alt="" style="width: 99%;">
+    		</div>
+    		<div class="three2">
+			<p>– Devant toi, il y a des statues&nbsp;? demande Doré.
+			</p>
+			</div>
+		</div>
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.8);">
+			<div class="zero">
+			<img src="inc/img/5_escaliers_cour_statues.png" alt="" style="width: 99%; margin: auto;">
+			<p>– Les statues sont sur le côté&nbsp;! 
+			</p>
+   		</div>
+		</div>
+
+		<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.3);">
+			<div class="two">
+				<p>– Mais de quel côté parles-tu&nbsp;?
+				</p>
+    		</div>
+    		<div class="three">
+				<img src="inc/img/5_dore_perplexe.png" alt="" style="width: 122%; margin: -2em auto;">
+			</div>
+		</div>
+
+		<div class="wrapper Q">
+
+			<div class="zero">
+					<p class="suite blanc">Peux-tu aider Mifa à se souvenir où sont sa droite et sa gauche&nbsp;?
+					</p>
+					</div>
+
+					<div class="untrois" style="text-align: center;">
+					     <form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-14" type="checkbox">
+					              <label for="n-14"><img src="inc/img/5bis_Mifa_Q-droite-gauche_faux.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Non, essaye encore :)
+					              	<br><img src="inc/img/5bis_Mifa_Q-droite-gauche_R.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/> </a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+		    		</div>
+
+					<div class="troiscinq" style="text-align: center;">
+					 		<form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-15" type="checkbox">
+					              <label for="n-15"><img src="inc/img/5bis_Mifa_Q-droite-gauche_vrai.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Bravo&nbsp;!
+					              	<br><img src="inc/img/5bis_Mifa_Q-droite-gauche_R.png" alt="" style="width: 70%; margin: 0.6em auto 0 auto;"/></a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+					</div>
+		    	</div>
+
+		    	<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.1);">
+					<div class="two">
+						<img src="inc/img/5_mifa_content.png" alt="" style="width: 100%; margin: -2em auto;">
+		    		</div>
+		    		<div class="three">
+						<p>– C’est à ma droite&nbsp;!
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.5);">
+					<div class="two2">
+						<p>– Hum… grommelle Doré. Et si tu te tournes vers la droite&nbsp;?
+					</p>
+		    		</div>
+		    		<div class="three2">
+					<img src="inc/img/6-dore-reflechi.png" alt="" style="width: 89%; margin: -2em auto;">
+					</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.2);">
+					<div class="zero">
+					<img src="inc/img/6_mifa-face_cour_statues.png" alt="" class="large">
+					<p>– Mais oui, je suis bête&nbsp;! s'écrie Mifa. 
+						<br>Si je me tourne, les statues sont devant moi&nbsp;! 
+					</p>
+		   		</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.4);">
+					<div class="two">
+						<img src="inc/img/6_dore_sourit.png" alt="" style="width: 100%; margin: -2em auto;">
+		    		</div>
+		    		<div class="three">
+						<p class="suite">– Parfait, alors rejoins-les, lui dit Doré.
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.1);">
+					<div class="onethree2">
+						<img src="inc/img/6_mifa-descend_cour.png" alt="" style="width: 99%;">
+		    		</div>
+		    		<div class="three2">
+					<p>– Les statues sont disposées comme sur la photo&nbsp;! s’écrie Mifa.
+					</p>
+					</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.6);">
+					<div class="zero">
+					<img src="inc/img/6_cour_statue_perspective.png" alt="" class="large">
+					<p>– Et la statue du fou est à l’arrière-plan&nbsp;! 
+					</p>
+		   		</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.3);">
+					<div class="two">
+						<img src="inc/img/6-1-Dore_tablette-bis.png" alt="" style="width: 100%;">
+		    		</div>
+		    		<div class="three">
+						<p>– Parfait, répond Doré. 
+							<br>Il doit y avoir une cache à l’arrière de la statue.
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.1);">
+					<div class="zero">
+					<p>– Où ça&nbsp;? demande Mifa. 
+					</p>
+					<img src="inc/img/6-1_cour_statue_mifa-contourne.png" alt="" class="large">
+		   		</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.4);">
+					<div class="one2">
+						<p>– Le plan dit qu’il y a une cachette sous la statue, répond Doré.
+						</p>
+		    		</div>
+		    		<div class="twofour2">
+		    			<img src="inc/img/6-1_dore-explique_satue-fou.png" alt="" style="width: 99%; margin: auto; ">
+					</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.2);">
+					<div class="two">
+						<img src="inc/img/6-2_cour_statue_mifa-cherche.png" alt="" style="width: 139%; margin: -2em auto auto -3em;">
+		    		</div>
+		    		<div class="three">
+						<p>– Il y a quelque chose dedans, s'écrie Mifa.
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.6);">
+					<div class="two">
+						<p>– C’est une clé&nbsp;!
+						</p>
+		    		</div>
+		    		<div class="three">
+						<img src="inc/img/6-2_cour_statue_mifa-trouve-cle.png" alt="" style="width: 122%; margin: -1em auto;">
+					</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.2);">
+					<div class="one2">
+						<img src="inc/img/6-2-Dore_parle.png" alt="" style="width: 69%; margin: -2em auto; float: right;">
+		    		</div>
+		    		<div class="twofour2">
+		    			<p>– Elle va te permettre de sortir du labyrinthe&nbsp;! dit Doré.
+						</p>
+					</div>
+				</div>
+
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.5);">
+					<div class="zero">
+					<p>– La clé doit ouvrir cette porte-là&nbsp;! s’écrie Mifa en montrant une porte près d'elle.
+					</p>
+					<img src="inc/img/6-3_mifa_cherche_porte.png" alt="" class="large">
+		   		</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.3);">
+					<div class="one2">
+						<p>– Non, tu dois d’abord retourner vers l’escalier, puis prendre le couloir qui se trouve à côté.
+						</p>
+		    		</div>
+		    		<div class="twofour2">
+		    			<img src="inc/img/6-4-Dore_guide-tablette.png" alt="" style="width: 99%;">
+					</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.1);">
+					<div class="zero">
+					<p>Mifa va dans le couloir à côté de l’escalier.
+					</p>
+					<img src="inc/img/6-5_mifa-cherche-sortie.png" alt="" class="large">
+		   		</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.5);">
+					<div class="one2">
+						<img src="inc/img/6-5-Dore_parle.png" alt="" style="width: 69%; margin: -2em auto; float: right;">
+		    		</div>
+		    		<div class="twofour2">
+		    			<p>– Tu es allée trop loin&nbsp;!! lui dit Doré. 
+		    				<br>Recule un peu.
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.2);">
+					<div class="onethree2">
+						<p>– Comment ça, reculer&nbsp;? 
+							<br>Mais dans quel sens dois-je aller&nbsp;?
+						</p>
+		    		</div>
+		    		<div class="three2">
+		    			<img src="inc/img/6-5_Mifa_pleure.png" alt="" style="width: 69%; margin: -2em auto;">
+					</div>
+				</div>
+
+		<div class="wrapper2 Q">
+
+			<div class="zero2">
+				<p class="suite blanc">Aide Mifa en cliquant sur le bouton qui donne la bonne réponse&nbsp;:</p>
+			</div>
+
+			<div class="one2_2" style="text-align: center;">
+				
+			 		<form>
+			          <div class="tree">
+			            <div>
+			              <input id="n-16" type="checkbox">
+			              <label for="n-16">reculer, 
+			              	<br>c’est avancer 
+			              	<br>en sautant à pieds joints
+			              	<br><img src="inc/img/pointdinterrogation1.png" alt="" style="width: 44%; margin-left: auto; margin-right: auto;"/>
+			              	</label>
+			              <div class="sub">
+			                <a href="#link">Non, essaye encore ^^ </a>
+			                  <!--<input type="reset" value="fermer">-->
+			              </div>
+			            </div>
+			          </div>
+        		</form>
+			</div>
+
+			<div class="two2_2" style="text-align: center;">
+			     <form>
+			          <div class="tree">
+			            <div>
+			              <input id="n-17" type="checkbox">
+			              <label for="n-17">reculer, 
+			              	<br>c’est 
+			              	<br>le contraire 
+			              	<br>d'avancer
+			              	<br><img src="inc/img/pointdinterrogation2.png" alt="" style="width: 44%; margin-left: auto; margin-right: auto;"/>
+			              	</label>
+			              <div class="sub">
+			                <a href="#link">Oui&nbsp;! 
+			                <br><img src="inc/img/6-6_mifa-recule.png" alt="" style="width: 69%; margin-left: auto; margin-right: auto;"/>
+			            </a>
+			                  <!--<input type="reset" value="fermer">-->
+			              </div>
+			            </div>
+			          </div>
+        		</form>
+    		</div>
+
+    		<div class="three2_2" style="text-align: center;">
+			     <form>
+			          <div class="tree">
+			            <div>
+			              <input id="n-18" type="checkbox">
+			              <label for="n-18">reculer, 
+			              	<br>c’est avancer 
+			              	<br>la tête en bas
+			              	<br>&nbsp;
+			              	<br><img src="inc/img/pointdinterrogation3.png" alt="" style="width: 44%; margin-left: auto; margin-right: auto;"/>
+			              	</label>
+			              <div class="sub">
+			                <a href="#link">Non, essaye encore ^^</a>
+			                  <!--<input type="reset" value="fermer">-->
+			              </div>
+			            </div>
+			          </div>
+        		</form>
+    		</div>
+    	</div>
+
+    			<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.1);">
+					<div class="one2">
+						<p>– Enfin&nbsp;! s’écrie Mifa en arrivant dans le couloir. 
+							<br>Je vois deux portes&nbsp;!
+						</p>
+		    		</div>
+		    		<div class="twofour2">
+		    			<img src="inc/img/6-6_mifa-ds-couloir.png" alt="" style="width: 99%;">
+					</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.4);">
+					<div class="one2">
+						<img src="inc/img/6-2-Dore_parle.png" alt="" style="width: 69%; margin: -2em auto; float: right;">
+		    		</div>
+		    		<div class="twofour2">
+		    			<p>– Tu dois aller vers la porte la plus éloignée de toi&nbsp;! répond Doré.
+						</p>
+					</div>
+				</div>
+
+			<div class="wrapper Q">
+
+			<div class="zero">
+					<p class="suite blanc">Peux-tu aider Mifa en cliquant sur le bouton qui désigne la porte la plus éloignée d'elle&nbsp;?
+					</p>
+					</div>
+
+					<div class="untrois" style="text-align: center;">
+					     <form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-19" type="checkbox">
+					              <label for="n-19"><img src="inc/img/6-6_mifa-ds-couloir_Q_proche.png" alt="" style="width: 90%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Non, essaye encore :) </a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+		    		</div>
+
+					<div class="troiscinq" style="text-align: center;">
+					 		<form>
+					          <div class="tree">
+					            <div>
+					              <input id="n-20" type="checkbox">
+					              <label for="n-20"><img src="inc/img/6-6_mifa-ds-couloir_Q_loin.png" alt="" style="width: 90%; margin: 0.6em auto 0 auto;"/>
+					              	</label>
+					              <div class="sub">
+					              	<a href="#link">Oui&nbsp;! Bravo&nbsp;!</a>
+					                  <!--<input type="reset" value="fermer">-->
+					              </div>
+					            </div>
+					          </div>
+		        		</form>
+					</div>
+		    	</div>
+
+		    	<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.4);">
+					<div class="one2">
+						<p>Mifa ouvre la porte avec la clé qu’elle a trouvée sous la statue.
+						</p>
+		    		</div>
+		    		<div class="twofour2">
+		    			<img src="inc/img/7_mifa_ouvre_porte.png" alt="" style="width: 99%;">
+					</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.1);">
+					<div class="onethree2">
+						<img src="inc/img/8_paysage_dehors.png" alt="" style="width: 99%;">
+		    		</div>
+		    		<div class="three2">
+		    			<p>Mifa est contente d’être enfin sortie du labyrinthe.
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.5);">
+					<div class="zero">
+					<img src="inc/img/8_mifa-devant-labyrinthe.png" alt="" class="large">
+					<p>Mais où est Doré&nbsp;?
+					</p>
+		   		</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.1);">
+					<div class="onethree2">
+						<img src="inc/img/9-Dore_est.png" alt="" style="width: 99%;">
+		    		</div>
+		    		<div class="three2">
+		    			<p>– Je suis à l’Est du labyrinthe, répond Doré.
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper voff">
+					<div class="onetwo">
+					<img src="inc/img/9-rose-des-vents_explicationVO.png" alt="" style="margin-top: 0.2em; width: 96%; float: right;">
+					</div>
+					<div class="threefive">
+					     <p>L’Est est l’un des 4 points cardinaux que l'on utilise pour se repérer dans l’espace.
+					     </p>
+		    		</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.2);">
+					<div class="onethree2">
+						<p>– On ne peut pas dire «&nbsp;à droite&nbsp;» ou «&nbsp;à gauche&nbsp;», plutôt&nbsp;? râle Mifa.
+						</p>
+		    		</div>
+		    		<div class="three2">
+						<img src="inc/img/4_Mifa_tete-qui-fume.png" alt="" style="width: 69%; margin: -1em auto -2em -1em;">
+					</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.5);">
+					<div class="one2">
+						<img src="inc/img/9-Dore_desole.png" alt="" style="width: 69%; margin: -1em auto; float: right;">
+		    		</div>
+		    		<div class="twofour2">
+						<p>– Eh bien non, je ne sais pas dans quel sens tu es tournée, répond Doré.
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.1);">
+					<div class="two">
+						<p>–  Qu’est-ce que ça change&nbsp;?
+						</p>
+		    		</div>
+		    		<div class="three">
+						<img src="inc/img/9_Mifa_rale.png" alt="" style="width: 122%; margin: -1em auto;">
+					</div>
+				</div>
+
+				<div class="wrapper voff">
+					<div class="one">
+					<img src="inc/img/vo.png" alt="" style="margin-top: 0.2em; width: 93%; float: right;">
+					</div>
+					<div class="twofive">
+					     <p>– Mifa, où le soleil se trouve-t-il&nbsp;? 
+					     	<br>À ta droite ou à ta gauche&nbsp;?
+					     </p>
+		    		</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.3);">
+					<div class="onethree2">
+						<img src="inc/img/10-explicationVO_1.png" alt="" style="width: 99%;">
+		    		</div>
+		    		<div class="three2">
+		    			<p>– Il est à ma droite&nbsp;! répond Mifa.
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper voff">
+					<div class="one">
+					<img src="inc/img/vo.png" alt="" style="margin-top: 0.2em; width: 93%; float: right;">
+					</div>
+					<div class="twofive">
+					     <p> – Maintenant, retourne-toi&nbsp;: le soleil est-il toujours à ta droite&nbsp;? 
+					     </p>
+		    		</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.3);">
+					<div class="onethree2">
+						<img src="inc/img/10-explicationVO_2.png" alt="" style="width: 99%;">
+		    		</div>
+		    		<div class="three2">
+		    			<p>– Non&nbsp;! Maintenant c’est mon ombre, qui est à droite&nbsp;!
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper voff">
+					<div class="one">
+					<img src="inc/img/vo.png" alt="" style="margin-top: 0.2em; width: 93%; float: right;">
+					</div>
+					<div class="twofive">
+					     <p>La droite et la gauche se définissent par rapport à quelque chose ou quelqu'un, et peuvent changer selon le sens dans lequel on observe la situation.
+					     </p>
+		    		</div>
+				</div>
+
+				<div class="wrapper2" style="background-color: rgba(241, 201, 133, 0.5);">
+					<div class="one2">
+						<img src="inc/img/10_Mifa_desperere.png" alt="" style="width: 69%; margin: -1em auto; float: right;">
+		    		</div>
+		    		<div class="twofour2">
+						<p>–  Bon, soupire Mifa, et comment dois-je faire pour trouver l’Est&nbsp;?
+						</p>
+					</div>
+				</div>
+
+				<div class="wrapper voff">
+					<div class="zero">
+						<p>Partout dans le monde, le soleil se lève à l’Est et se couche à l’Ouest
+					     </p>
+					<img src="inc/img/10-explicationVO_3.png" alt="" style="margin-top: 0.2em; width: 93%; float: right;">
+		    		</div>
+				</div>				
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.6);">
+					<div class="zero">
+					<img src="inc/img/11_paysage_soleil-ouest.png" alt="" class="large">
+					<p>– Haaa… On est en fin d’après-midi, donc le soleil penche du côté de l’Ouest&nbsp;! s’écrie Mifa.
+					</p>
+		   		</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.1);">
+					<div class="zero">
+					<img src="inc/img/11_mifa-marche.png" alt="" class="large">
+					<p>– Et comme Doré m’a dit qu’il était à l’Est du labyrinthe, je dois avancer en tournant le dos au soleil.
+					</p>
+		   		</div>
+				</div>
+
+				<div class="wrapper" style="background-color: rgba(241, 201, 133, 0.4);">
+					<div class="zero">
+					<img src="inc/img/11_mifa-retrouve-dore.png" alt="" class="large">
+					<p class="debut">–  Te voilà&nbsp;! s’écrie Doré.
+					</p>
+		   		</div>
+				</div>
+
+				<div class="wrapper">
+					<div class="zero">
+						<p class="suite">Tu as gagné le jeu du labyrinthe !
+						</p>
+						<img src="inc/img/12_fin-gagne.png" alt="" class="large">
+		   		</div>
+				</div>
+
+
+		
+
+            <div class="fin"></div>
+
+	</div>
+	
+</body>
+</html>

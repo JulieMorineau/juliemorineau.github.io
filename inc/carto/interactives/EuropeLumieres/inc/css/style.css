@@ -1,0 +1,408 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/*--- structure ---*/
+/*------------ cases -------------------*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  gap: 0;
+  /*grid-auto-rows: minmax(40px, auto);*/
+  grid-auto-rows: minmax(auto);
+  padding-bottom:0.8em;
+}
+/*------------- carte ---------------*/
+.deuxquatre {
+  grid-column: 2 / 5;
+  grid-row: 1;
+}
+/*------------- cases légendes ---------------*/
+.un {
+  grid-column: 1;
+  grid-row: 1;
+  padding-right:0.6em;
+}
+
+
+/*------------ typographie -------------------*/
+
+b, strong {bold: bold;}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+p {
+  margin: 0.4em auto;
+  font-size: 0.7rem;
+  line-height: 1rem;
+}
+
+h1 {
+/*font-family: "Lobster", sans-serif;*/
+text-align: left;
+  margin: 0.1em auto 0.5em 0;
+  font-size: 1.8rem;
+  color: #FFF;
+  background-color:#A25248;
+  padding: 0.3em 0.3em 0.1em 0.7em;
+  line-height: 2rem;
+  border: rgba(251,191,0,0.9) solid 2px;
+  -webkit-text-stroke: 0.9px;
+  -webkit-text-stroke-color: rgba(251,191,0,0.6);
+}
+
+h2 {
+  font-size: 1.1rem;
+  color:rgba(128,24,16,0.9);
+  line-height: 1.3rem;
+  margin: 0.3em auto;
+}
+.margeTop {
+  margin-top:0.7em;;
+}
+
+/*-------------- éléments ------------------*/
+
+.carte {
+  width:100%;
+  padding:0;
+  margin:auto;
+}
+.cadre {
+  border: rgba(251,191,0,0.9) solid 2px;
+}
+
+.legende_bis {
+  margin-bottom:1em;
+}
+.legende {
+  height: 1.3em;
+  vertical-align: middle;
+  float:left;
+  margin-right:0.3em;
+  background-color: #FCFCFC;
+}
+
+/*-------------- button -------------*/
+
+.hide{display: none;}
+
+button {
+  font-family: 'CleverJul', sans-serif;  
+  font-size: 0.85rem;
+  line-height: 1rem;
+  padding: 0.3em;
+  /*box-shadow: 1px 1px 0px rgba(171,146,18,0.9);*/
+  border-radius: 0.2em;
+  text-align: left;
+  color: #2C0C32;
+  background-color: #FCFCFC;
+  margin: 0.3em auto auto 0;
+  border: rgba(191,97,88,0.5) solid 0.5px;
+  width:auto;
+}
+
+.active-button {
+  background-color: rgba(251,191,0,0.2);
+  border: rgba(251,191,0,0.5) solid 1px;
+  font-weight:bold;
+  color:rgba(88,29,69,0.9);
+}
+button:hover {
+  border: #5D6324 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+}
+/*
+#togg1 {
+  clear:both;
+}
+#togg1:hover {
+  border: #5D6324 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+
+#d1 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg2:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d2 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+
+#togg3:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d3 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+
+#togg4:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d4 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg5 {
+  width:111%;
+}
+#togg5:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d5 {
+  position: relative;
+  width: 100%;
+}
+
+#togg6 {
+  width:120%;
+}
+#togg6:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d6 {
+  position: relative;
+  width: 100%;
+}
+
+#togg7:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d7 {
+  position: relative;
+  width: 100%;
+}
+
+#togg8:hover {		
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d8 {
+  position: relative;
+  width: 100%;
+}
+
+#togg9:hover {
+  border: #c50f56 solid 1px;
+  color: #FFFFFF;
+  background-color: #521B47;
+  font-weight:bold;
+}
+#d9 {
+  position: relative;
+  width: 100%;
+}
+  */
+
+
+@media only screen and (max-width: 700px) and (min-width: 640px) {
+  
+  p {
+    margin: 0.2em auto 0.2em 0.9em;
+    font-size: 0.7rem;
+    line-height: 0.75rem;
+  }
+  .bis {
+      margin-top: 0.2em;
+    }
+  h1 {
+      margin: 0 auto 0.3em 0;
+      font-size: 2rem;
+      line-height: 1.9rem;
+      padding: 0.3em;
+    }
+  h2 {
+    margin: 0.4em auto 0 auto;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+  .colorGestion {
+      padding: 0.1em 0.3em;
+      margin-top:0;
+  }
+  .colornature {
+      padding: 0.1em 0.3em;
+  }
+  .colortechno {
+      padding: 0.1em 0.3em;
+  width: 111%;
+  margin-top: 1em;
+  }
+  
+  .margetop {
+    margin-top: 0.9em;
+  }
+  .legende_bis {
+    width:70%;
+    margin-left:0;
+    position:relative;
+  }
+  .indice {
+    margin: 0.7em auto 0.1em auto;
+  }
+  .legende {
+      height: 1.1em;
+      vertical-align: text-top;
+      margin-right:0.3em;
+      background-color: #FCFCFC;
+      margin-top:0;
+    border-radius: 0.2em;
+  }  
+    button {
+      font-size: 0.7rem;
+      line-height: 0.9rem;
+      padding: 0.3em 0.3em 0.1em 0.3em;
+      margin: 0.5em auto auto auto;
+  } 
+  #togg5 {
+    width:100%;
+  }
+  #togg9 {
+    width:90%;
+  }
+  #togg1 {
+    margin-top:0em;
+  }
+  
+  
+}
+
+
+
+
+@media only screen and (max-width: 639px) {
+  
+  p {
+    margin: 0.2em auto 0.2em 0.9em;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+  }
+  .bis {
+      margin-top: 0.2em;
+    }
+  h1 {
+      margin: 0 auto 0.3em 0;
+      font-size: 1.5rem;
+      line-height: 1.6rem;
+      padding: 0.3em;
+    }
+  h2 {
+    margin: 0.4em auto 0 auto;
+    font-size: 0.7rem;
+    line-height: 0.75rem;
+  }
+  .colorGestion {
+      padding: 0.1em 0.3em;
+      margin-top:0;
+  }
+  .colornature {
+      padding: 0.1em 0.3em;
+  margin-top: 1.2em;
+}
+  .colortechno {
+      padding: 0.1em 0.3em;
+  width: 111%;
+  margin-top: 1.2em;
+  margin-top: 1.2em;
+  }
+  
+  .margetop {
+    margin-top: 0.9em;
+  }
+  .legende_bis {
+    /*width:80%;*/
+    top: -0.2em;
+    position:relative;
+    margin-left:0;
+  }
+  .indice {
+    margin: 0.5em auto 0.2em auto;
+  }
+  .legende {
+      height: 1em;
+      vertical-align: text-top;
+      margin-right:0.3em;
+      background-color: #FCFCFC;
+      margin-top:0;
+    border-radius: 0.2em;
+  }  
+    button {
+      font-size: 0.6rem;
+      line-height: 0.7rem;
+      padding: 0.3em;
+      margin: 0.5em auto 0em auto;
+  } 
+
+  #togg5 {
+    width:100%;
+  }
+  #togg9 {
+    width:90%;
+  }
+  #togg1 {
+    margin-top:-0.5em;
+  }
+  
+  
+}  
+
+  
+  

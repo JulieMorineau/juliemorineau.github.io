@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Sansita:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+
+body {
+  font-family: 'CleverJul', sans-serif;
+  /*background-color: #FCFCFC;*/
+  background-color: rgba(255,255,255,0.1);
+  color: rgba(44,12,50,0.96);
+  font-size: 17px;
+  line-height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+
+/*------------ typographie -------------------*/
+b, strong {bold: bold;}
+sup, sub {
+vertical-align: baseline;
+font-size:.6em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  width: 98%;
+}
+.decalGche {
+  margin-left:1.1em;
+}
+.suite {
+  margin-top: 0.2em;
+}
+.small {
+  margin-top: 0.4em;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  width: 90%;
+}
+.intro {
+  font-family: 'Sansita', sans-serif;
+  font-size: 3.6rem;
+  font-weight:bold;
+}
+
+h1 {
+  margin: 0.3em auto;
+  font-size: 1.6rem;
+  line-height: 0.7rem;
+}
+.suiteH1 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 2rem;
+}
+.article {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.chapo {
+  margin: 0.9em 0 0.2em 0;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  width: 98%;
+}
+.chiffre {
+  font-size: 1.3rem;
+  font-weight:bold;
+}
+.text {
+  font-family: 'Quattrocento', serif;
+  margin: 0.8em 5%;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  width:90%;
+}
+h2 {
+  font-size: 1.7rem;
+  margin: 0.4em 0;
+  color: #4E5292;
+  font-style: italic;
+}
+.qualite {
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.7rem;
+  line-height: 1.4rem;
+  font-weight:bold;
+  color: rgba(40,9,44,0.8);
+  text-align: center;
+}
+.triangle {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  font-weight: bold;
+  color: #DA9C26;
+}
+.triangleBis {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  font-weight: bold;
+  color: #B8C128;
+}
+.quattro {
+    font-family: 'Quattrocento', serif;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+/*------- calage -------*/
+.large {
+  width: 100%;
+}
+.largeReduc {
+  width: 76%;
+}
+.margePlus {
+  margin: 1.6em auto 1.9em auto;
+}
+.largeBis {
+  width: 95%;
+  margin: 0 auto 0 auto;
+}
+.picto {
+  width: 2.6em;
+}
+.jauge {
+  width: 96%;
+}
+.carte {
+  border: #4E5292 1px solid;
+}
+
+.marge {
+  margin: auto 0.5em;
+}
+.minimarge {
+  margin: auto 0.2em;
+}
+.margeGche {
+  margin-left: 0.5em;
+}
+.margeDte {
+  margin-right: 0.5em;
+}
+.margeHt {
+  margin-top: 0.5em;
+}
+.margeBas {
+  margin-bottom: 0.5em;
+}
+.nomargeTop {
+  margin-top:-0.4em;
+}
+.calageHaut {
+  margin-top:-1em;
+}
+.margeTop {
+  margin-top: 3.9em;
+}
+.margetop {
+  margin-top: 1.1em;
+}
+.decalTop {
+    margin-top: 50%;
+}
+.end {
+  padding-bottom: 1.1em;
+}
+
+/*------ tableau --------------*/
+table {
+  margin: 0 auto;
+  padding: 0;
+  width:70%;
+border-collapse: collapse;
+text-align: center;
+}
+tr, td {
+border: none;
+}
+
+/*------ flexbox --------------*/
+.box {
+  width:99%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.element {
+  margin: 0 auto;
+  width:30%;
+}
+
+
+
+@media only screen and (max-width: 860px) and (min-width: 799px) {
+
+body {
+  font-size: 17px;
+  line-height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}  
+ .intro {
+  font-size: 3.4rem;
+  line-height: 1.3rem;
+}
+ .chapo {
+  margin: 0.9em 0 0.2em 0;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+}
+    
+@media only screen and (max-width: 798px) and (min-width: 699px) {
+
+body {
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  /*max-width: 900px;*/
+}  
+ .intro {
+  font-size: 3.4rem;
+  line-height: 1.3rem;
+}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.5rem;
+  line-height: 1.3rem;
+  width: 98%;
+}
+ .chapo {
+  margin: 0.9em 0 0.2em 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+    
+
+}
+
+
+
+@media only screen and (max-width: 698px) {
+
+body {
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  width: 680px;
+}  
+ .intro {
+  font-size: 2.9rem;
+  line-height: 2.7rem;
+}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  width: 98%;
+}
+ .chapo {
+  margin: 0.9em 0 0.2em 0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+h1 {
+  margin: 0.3em auto;
+  font-size: 1.4rem;
+  line-height: 0.9rem;
+}
+.suiteH1 {
+  font-size: 1.7rem;
+}
+.article {
+  font-size: 1rem;
+  line-height: 0.9rem;
+}
+ 
+
+}
+
+
+

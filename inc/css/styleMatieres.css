@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------- button -------------*/
+
+.hide{display: none;}
+
+button {
+  font-family: 'CleverJul', sans-serif;  
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  padding: 0.4em;
+  /*box-shadow: 1px 1px 0px rgba(40,9,44,0.7);*/
+  border-radius: 0.1em;
+  text-align: center;
+  width:90%;
+  min-height:3em;
+  border: rgba(120,87,116,0.3) solid 1px;
+  background-color: rgba(252,252,252,0.85);
+  color: rgba(44,12,50,0.8);
+  margin: 0.3em 0;
+}
+.small {
+  font-size:0.7rem;
+  line-height: 0.9rem;
+  font-weight: normal;
+  color: rgba(44,12,50,0.7);
+}
+
+#togg1 {
+  border:#5E1B61 solid 1px;
+  color: #5E1B61;
+}
+#togg1:hover {
+  font-weight: bold;
+  border: 2px;
+}
+  #togg1.active-button {
+  border: 1px;
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.1);
+}
+#d1 {
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+#togg2 {
+  border:#00807F solid 1px; 
+  color: #00807F;
+}
+#togg2:hover {
+  font-weight: bold;
+  border: 2px;
+}
+#togg2.active-button {
+  border: #00807F solid 1px;
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.1);
+}
+#d2 {
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+#togg3 {
+  border:#58125D solid 1px;
+  color: #58125D;
+}
+#togg3:hover {
+  font-weight: bold;
+  border: 2px;
+}
+#togg3.active-button {
+  border: 1px;
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.1);
+}
+#d3 {
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+#togg4 {
+  border:#437072 solid 1px;
+  color: #437072;
+}
+#togg4:hover {
+  font-weight: bold;
+  border: 2px;
+}
+#togg4.active-button {
+  border: 1px;
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.1);
+}
+#d4 {
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+
+button {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  padding: 0.4em;
+  min-height:3em;
+  border: rgba(120,87,116,0.3) solid 1px;
+  background-color: rgba(252,252,252,0.85);
+  margin: 0.2em 0;
+}
+.small {
+  font-size:0.6rem;
+  line-height: 0.8rem;
+}
+
+
+}
+
+
+

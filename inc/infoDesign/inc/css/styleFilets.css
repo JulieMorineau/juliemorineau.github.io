@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*------------ border --------------------*/
+.moitie {
+  width:50%;
+  height:100%;
+}
+.milieu {
+  width:99%;
+  height:50%;
+}
+.dte {
+  border-right: rgba(44,12,50,0.7) 1.5px solid;
+}
+.gche {
+  border-left: rgba(44,12,50,0.7) 1.5px solid;
+}
+.haut {
+  border-top: rgba(44,12,50,0.7) 1.5px solid;
+}
+.bas {
+  border-bottom: rgba(44,12,50,0.7) 1.5px solid;
+}
+.dte_dot {
+  border-right: rgba(44,12,50,0.7) 2px dotted;
+}
+.gche_dot {
+  border-left: rgba(44,12,50,0.7) 2px dotted;
+}
+.haut_dot {
+  border-top: rgba(44,12,50,0.7) 2px dotted;
+}
+.bas_dot {
+  border-bottom: rgba(44,12,50,0.7) 2px dotted;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  border-top: 0.7em solid rgba(44,12,50,0.8);
+  margin-left: -0.35em;
+  margin-top:-0.3em;
+}
+.calebas {
+  margin-top: 99%;
+}
+.decalfleche {
+  margin-left:46%;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  border-top: 0.7em solid rgba(44,12,50,0.8);
+  float:right;
+  margin-top: -0.35em;
+ transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  border-top: 0.7em solid rgba(44,12,50,0.8);
+  margin-top: -0.35em;
+ transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+  border-top: 0.7em solid rgba(44,12,50,0.8);
+  margin-top: 0.35em;
+ transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.lien {
+  background-color: #FCFCFC;
+  /*border: rgba(44,12,50,0.8) solid 1px;*/
+  margin-top:1em;
+  font-size: 0.7rem;
+  line-height: 0.85rem;
+  color: rgba(44,12,50,0.8);
+  width: 48%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0.7em auto;
+  font-style: italic;
+}
+
+.arrow-down_large {
+  width: 0;
+  height: 0;
+  border-right: 0.7em solid transparent;
+  border-left: 0.7em solid transparent;
+  border-top: 0.7em solid rgba(44,12,50,0.8);
+  margin: 0.1em auto;
+}
+
+
+
+
+

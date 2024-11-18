@@ -1,0 +1,1355 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&family=Quattrocento:wght@400;700&family=Sansita:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 17px;
+  line-height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+background: url('img/atome_seul.png') no-repeat;
+background-size:60%;
+background-position:50% 0;
+}
+
+/*------------ typographie -------------------*/
+
+b, strong {bold: bold;}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+p {
+  margin: 0.4em auto;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.formule {
+  font-family: 'Times', serif;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+.chapo {
+  margin: 0.5em auto;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-weight: bold;
+color:rgba(44,12,50,0.9);
+}
+h1 {
+  text-align: left;
+  margin: 0.2em auto;
+  font-size: 2.6rem;
+  line-height: 2.6rem;
+  color:rgba(44,12,50,0.8);
+}
+h2 {
+  font-size: 1.8rem;
+  margin-top:0.6em;
+  line-height: 2.4rem;
+}
+h3 {
+  font-size: 1.6rem;
+  margin: 0.4em 0 0 2em;
+  color: #FFF;
+  line-height: 1.8rem;
+  padding:0.2em;
+  }
+h4 {
+  margin: 18px auto 0  auto;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  color: #5F497A;
+  max-width: 92%;
+}
+h5 {
+  margin: 1.4em auto 0em auto;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #66246d;
+  border-left: #FAD780 solid 1em;
+  padding: 0 0 0 0.9em;
+  font-weight: normal;
+  max-width: 82%;
+}
+
+.calage {
+  margin-left:0.5em;
+}
+.pad {
+  padding: 6px 2px 1px 1.5em;
+}
+.pad0 {
+  padding: 6px 2px 1px 2px;
+}
+
+.vertdeau {
+    font-family: 'Sansita', sans-serif;
+    font-weight:normal;
+    color: #2c0c32;
+    background-color: #cfce4c;
+    border-radius:2em;
+  padding:0 0.8em 0.2em 0.8em;
+box-shadow: 4px 6px 0px #2e0d33;
+}
+
+
+
+/*-------------- éléments ------------------*/
+.pucedate {
+  width:1.9em;
+  height:1.9em;
+  border-radius:50%;
+  background-color: rgba(44,12,50,1);
+  float: left;
+  margin:0.7em 1em auto -2.2em;
+  position:relative;
+  z-index:999;
+}
+.date {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-top:0.2em;
+}
+.minidate {
+  font-weight: normal;
+  font-size: 1.9rem;
+  line-height:1.9rem;
+}
+ul {
+  margin: 0.4em auto;
+  font-size:1.2rem;
+  line-height: 1.7rem;
+  width: 89%;
+}
+li {
+  margin: 0.2em auto;
+}
+
+/*-------------- arrow ---------------*/
+.arrow-down {
+  width: 0;
+  height: 0;  
+  border-right: 1.5em solid transparent;
+  border-left: 1.5em solid transparent;  
+  border-top: 1.9em solid rgba(44,12,50,0.8);
+  margin-left:18%;
+}
+
+/*-------------- encadre ---------------*/
+
+.expRutherford {
+  width: 79%; 
+  margin: -0.3em 1em 0.3em 1.6em;
+}
+.modRutherford {
+  width: 96%; 
+  margin: -1.2em 0.6em 0.2em 0.9em;
+}
+
+.element {
+    height: 1em;
+    vertical-align: text-top;
+}
+
+.modBohr {
+  width: 96%; 
+  margin: -1.2em 0.6em 0.2em 0.9em;
+}
+.modThompson {
+      width: 98%; 
+      margin: 0.4em auto auto 1.3em;
+    }  
+
+.modChadwick {
+  width: 96%; 
+  margin: -1.2em 0.6em 0.2em 0.9em;
+}
+
+.modSchrodinger {
+  width: 96%; 
+  margin: -1.2em 0.6em 0.2em 0.9em;
+}
+
+
+
+/*-------------- button -------------*/
+
+.hide{display: none;}
+
+button {
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.6rem;
+  line-height:1.9rem;
+  padding: 0.4em 0.6em;
+  margin:auto;
+  box-shadow: 4px 6px 0px #2e0d33;
+  border-radius: 2em;
+}
+
+#togg1 {
+    font-weight:bold;
+    padding:0 0.8em 0.2em 0.8em;
+    box-shadow: 4px 6px 0px #2e0d33;
+    margin: 0.4em;
+}
+#togg1:hover {
+color: #2c0c32;
+background-color: #cfce4c;
+border:#cfce4c solid 2px;
+}
+#d1 {
+  position: relative;
+  width: 83%;
+  padding: 0.9em;
+  font-size:1.2rem;
+  line-height: 1.7rem;
+}
+
+#togg2 {
+  font-weight:bold;
+  padding:0 0.8em 0.2em 0.8em;
+  box-shadow: 4px 6px 0px #2e0d33;
+}
+#togg2:hover {
+  color: #2c0c32;
+  background-color: #cfce4c;
+  border:#cfce4c solid 2px;
+}
+#d2 {
+  position: relative;
+    width: 83%;
+    padding: 0.9em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+}
+
+#togg3 {
+  font-weight:bold;
+  padding:0 0.8em 0.2em 0.8em;
+  box-shadow: 4px 6px 0px #2e0d33;
+margin-left:0.9em;
+}
+#togg3:hover {
+  color: #2c0c32;
+  background-color: #cfce4c;
+  border:#cfce4c solid 2px;
+}
+#d3 {
+  position: relative;
+  /*z-index: 999;*/
+    width: 99%;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    margin: 0.9em auto auto 1.9em;
+}
+
+#togg4 {
+  font-weight:bold;
+  padding:0 0.8em 0.2em 0.8em;
+  box-shadow: 4px 6px 0px #2e0d33;
+  margin-top:-0.9em;
+margin-left:0.9em;
+}
+#togg4:hover {
+  color: #2c0c32;
+  background-color: #cfce4c;
+  border: #cfce4c solid 2px;
+}
+#d4 {
+  position: relative;
+    width: 83%;
+    padding: 0.6em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+}
+
+#togg5 {
+  font-weight:bold;
+  padding:0 0.8em 0.2em 0.8em;
+  box-shadow: 4px 6px 0px #2e0d33;
+  margin-top:-1em;
+margin-left:0.9em;
+}
+#togg5:hover {
+  color: #2c0c32;
+  background-color: #cfce4c;
+  border: #cfce4c solid 2px;
+}
+#d5 {
+  position: relative;
+    width: 83%;
+    padding: 0.6em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+  margin-left:1.1em;
+}
+
+#togg6 {
+  font-weight:bold;
+  padding:0 0.8em 0.2em 0.8em;
+  box-shadow: 4px 6px 0px #2e0d33;
+    margin-top:-1em;
+    margin-left:1.6em;
+}
+#togg6:hover {
+  color: #2c0c32;
+  background-color: #cfce4c;
+  border: #cfce4c solid 2px;
+}
+#d6 {
+  position: relative;
+    width: 83%;
+    padding: 0.6em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+margin-left:2.3em;
+}
+
+#togg7 {
+  font-weight:bold;
+  padding:0 0.8em 0.2em 0.8em;
+  box-shadow: 4px 6px 0px #2e0d33;
+  margin-top:-1em;
+margin-left:1.6em;
+}
+#togg7:hover {
+  color: #2c0c32;
+  background-color: #cfce4c;
+  border: #cfce4c solid 2px;
+}
+#d7 {
+  position: relative;
+    width: 83%;
+    padding: 0.6em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+margin-left:2.6em;
+}
+
+#togg8 {
+  font-weight:bold;
+  padding:0 0.4em 0.2em 0.4em;
+  box-shadow: 4px 6px 0px #2e0d33;
+margin-left:0.9em;
+margin-top:-1em;
+max-width:95%;
+}
+#togg8:hover {
+  color: #2c0c32;
+  background-color: #cfce4c;
+  border: #cfce4c solid 2px;
+}
+#d8 {
+  position: relative;
+    width: 83%;
+    padding: 0.6em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+  margin-left:2.6em;
+  margin-top:1.6em;
+}
+
+
+@media only screen and (max-width: 700px) and (min-width: 640px) {
+  
+  body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  
+  .granule {
+    max-width: 680px;
+    padding:0.6em;
+  }
+  
+  p {
+    margin: 0.4em auto;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  ul {
+    margin: 0.4em auto;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+  }
+  li {
+    margin: 0.2em auto;
+  }
+  
+  .formule {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+  
+  h1 {
+    margin: 0.4em auto 0.2em 0;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    margin-top:0.8em;
+    line-height: 2rem;
+  }
+  .calage {
+    margin-left:0.5em;
+  }
+  .pad {
+    padding: 6px 2px 1px 1.6em;
+  }
+  .pad0 {
+    padding: 6px 2px 1px 2px;
+  }
+  
+  .pucedate {
+    width:1.9em;
+    height:1.9em;
+    margin:0.7em 1em auto -2.2em;
+  }
+  
+  .date {
+    font-size: 2.8rem;
+    line-height: 2.6rem;
+    margin-top:0.35em;
+  }
+  .datenomarge {
+    margin-top:0;
+  }
+  
+  .minidate {
+    font-size: 1.7rem;
+    line-height:1.7rem;  
+  }
+  
+  /*-------------- arrow ---------------*/
+  
+  .arrow-down {
+    width: 0;
+    height: 0;  
+    border-right: 1.5em solid transparent;
+    border-left: 1.5em solid transparent;  
+    border-top: 1.9em solid rgba(44,12,50,0.8);
+    margin-left:18%;
+  }
+  
+  .element {
+      height: 0.7em;
+      vertical-align: baseline;
+  }
+  
+  .expRutherford {
+    width: 79%; 
+    margin: -0.3em 1em 0.3em 1.6em;
+  }
+  .modRutherford {
+    width: 96%; 
+    margin: -0.1em 0.6em 0.2em 0.9em;
+  }
+  
+  
+  /*-------------- button ---------------*/
+  
+button {
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.5rem;
+  line-height:1.9rem;
+  padding: 0.4em 0.6em;
+  border-radius: 2em;
+}
+  
+#togg1 {
+    padding:0 0.8em 0.2em 0.8em;
+    /*margin: 0.4em;*/
+}
+#d1 {
+  width: 83%;
+  padding: 0.9em;
+  font-size:1.2rem;
+  line-height: 1.7rem;
+}
+  
+#togg2 {
+  padding:0 0.8em 0.2em 0.8em;
+  box-shadow: 4px 6px 0px #2e0d33;
+}
+#d2 {
+    width: 83%;
+    padding: 0.9em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+}
+  
+#togg3 {
+  padding:0 0.8em 0.2em 0.8em;
+margin-left:0.9em;
+}
+#d3 {
+  width: 89%;
+  font-size:1.2rem;
+  line-height: 1.7rem;
+  margin: 0.9em auto auto 1.9em;
+}
+  
+#togg4 {
+  padding:0 0.8em 0.2em 0.8em;
+  margin-top:-0.9em;
+margin-left:0.9em;
+}
+#d4 {
+    width: 83%;
+    padding: 0.6em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+}
+  
+#togg5 {
+  padding:0 0.8em 0.2em 0.8em;
+  margin-top:-0.3em;
+margin-left:0.9em;
+}
+#d5 {
+    width: 83%;
+    padding: 0.6em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    margin-left:1.1em;
+}
+  
+#togg6 {
+  padding:0 0.8em 0.2em 0.8em;
+  margin-top:-1em;
+  margin-left:1.6em;
+}
+#d6 {
+    width: 83%;
+    padding: 0.6em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    margin-left:2.3em;
+}
+  
+#togg7 {
+  padding:0 0.8em 0.2em 0.8em;
+  margin-top:-1em;
+margin-left:1.6em;
+}
+#d7 {
+    width:99%;
+    padding: 0.6em 0.3em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    margin-left:0.5em;
+}
+  
+#togg8 {
+  padding:0 0.4em 0.2em 0.4em;
+  margin-top:-1em;
+  margin-left:0.9em;
+  max-width:95%;
+  margin-top:1.1em;
+}
+#d8 {
+    width: 83%;
+    padding: 0.6em;
+    font-size:1.2rem;
+    line-height: 1.7rem;
+    margin-left:2.6em;
+}
+  
+}  
+  
+  
+
+
+@media only screen and (max-width: 589px) and (min-width: 520px) {
+  
+  body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  
+  .granule {
+    max-width: 540px;
+    padding:0.9em;
+  }
+  
+  p {
+    margin: 0.4em 1em 0.9em 1.5em;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+  ul {
+    margin: 0.4em auto;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+  li {
+    margin: 0.2em auto;
+  }
+  
+  .formule {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  
+  h1 {
+    margin: 1em auto 0.2em 0;
+    font-size: 2.6rem;
+    line-height: 2.7rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-top:0.8em;
+    line-height: 1.9rem;
+  }
+  .calage {
+    margin-left:0.5em;
+  }
+  .pad {
+    padding: 5px 2px 1px 1.2em;
+  }
+  .pad0 {
+    padding: 6px 2px 1px 2px;
+  }
+  .margegaucheplus {
+    margin-left:0.8em;
+    width:111%;
+  }
+  .spaceBottom_bis {
+    width:111%;
+  }
+  .pucedate {
+    width:1.6em;
+    height:1.6em;
+    margin:0.7em 1em auto -2.2em;
+  }
+  
+  .date {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    margin-top:0.5em;
+  }
+  .datenomarge {
+    margin-top:0;
+  }
+  
+  .minidate {
+    font-size: 1.4rem;
+    line-height:1.7rem;  
+  }
+  
+  /*-------------- arrow ---------------*/
+  
+  .arrow-down {
+    width: 0;
+    height: 0;  
+    border-right: 1.5em solid transparent;
+    border-left: 1.5em solid transparent;  
+    border-top: 1.9em solid rgba(44,12,50,0.8);
+    margin-left:18%;
+  }
+  
+  .element {
+      height: 1em;
+      vertical-align: text-top;
+  }
+  
+  .expRutherford {
+    width: 89%; 
+    margin: -0.3em 1em 0.3em 0.9em;
+  }
+  
+.modRutherford {
+  width: 96%; 
+  margin: auto 0.6em 0.2em 0.5em;
+}
+  .modBohr {width: 96%; 
+    margin: -0.2em 0.6em 0.2em 0.9em;
+  }
+  
+  
+  /*-------------- button ---------------*/
+  
+button {
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.3rem;
+  line-height:1.6rem;
+  transform: scaleX(0.9);
+  padding: 0.4em 0.3em;
+  border-radius: 2em;
+}
+  
+#togg1 {
+    padding:0 0.8em 0.2em 0.8em;
+    /*margin: 0.4em;*/
+}
+#d1 {
+  width: 83%;
+  padding: 0.9em;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+  
+#togg2 {
+  padding:0 0.8em 0.2em 0.8em;
+  box-shadow: 4px 6px 0px #2e0d33;
+}
+#d2 {
+    width: 83%;
+    padding: 0.9em;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+  
+#togg3 {
+  padding:0 0.8em 0.2em 0.8em;
+margin-left:0.9em;
+}
+#d3 {
+  width: 89%;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  margin: 0.9em auto auto 1.9em;
+}
+  
+#togg4 {
+  padding:0 0.8em 0.2em 0.8em;
+  margin-top:-0.9em;
+margin-left:0.9em;
+}
+#d4 {
+    width: 99%;
+    padding: 0.5em 0;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+  
+#togg5 {
+  padding:0 0.8em 0.2em 0.8em;
+  margin-top:-1em;
+margin-left:0.9em;
+}
+#d5 {
+    width: 83%;
+    padding: 0.6em;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-left:1.1em;
+}
+  
+#togg6 {
+  padding:0 0.8em 0.2em 0.8em;
+  margin-top:-1em;
+  margin-left:1.6em;
+}
+#d6 {
+    width: 83%;
+    padding: 0.6em;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-left:2.3em;
+}
+  
+#togg7 {
+  padding:0 0.8em 0.2em 0.8em;
+  margin-top:-1em;
+margin-left:1.6em;
+}
+#d7 {
+    width: 99%;
+    padding: 0.2em;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-left:0.5em;
+}
+  
+#togg8 {
+  padding:0 0.1em 0.2em 0.1em;
+  margin-left:0.2em;
+  max-width:100%;
+}
+#d8 {
+    width: 97%;
+    padding: 0.6em;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-left:0.6em;
+}
+  
+}  
+
+    
+  
+  @media only screen and (max-width: 519px) and (min-width: 460px) {
+    
+    body {
+      font-size: 13px;
+      line-height: 19px;
+    }
+    
+    .granule {
+      max-width: 480px;
+      padding:0.9em;
+    }
+    
+    p {
+      margin: 0.3em 0.6em 0.6em 1.2em;
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+    ul {
+      margin: 0.4em auto;
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+    li {
+      margin: 0.2em auto;
+    }
+    
+    .formule {
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+    }
+    
+    .chapo {
+      margin: 0.5em auto;
+      font-size: 1.1rem;
+      line-height: 1.4rem;
+    }
+    
+    h1 {
+      margin: auto auto 0.2em 0;
+      font-size: 2rem;
+      line-height: 2.2rem;
+    }
+    
+    h2 {
+      font-size: 1.3rem;
+      margin-top:0.8em;
+      line-height: 1.9rem;
+    }
+    .calage {
+      margin-left:0.5em;
+    }
+    .pad {
+      padding: 6px 2px 1px 1.1em;
+    }
+    .pad0 {
+      padding: 6px 2px 1px 2px;
+    }
+    .margegaucheplus {
+      margin-left:0.8em;
+      width:111%;
+    }
+    .spaceBottom_bis {
+      width:111%;
+    }
+    .pucedate {
+      width:1.6em;
+      height:1.6em;
+      margin:0.8em 1em auto -2.2em;
+    }
+    
+    .date {
+      font-size: 2rem;
+      line-height: 2rem;
+      margin-top:0.5em;
+    }
+    .datenomarge {
+      margin-top:0;
+    }
+    
+    .minidate {
+      font-size: 1.4rem;
+      line-height:1.7rem;  
+    }
+    
+    /*-------------- arrow ---------------*/
+    
+    .arrow-down {
+      width: 0;
+      height: 0;  
+      border-right: 1.5em solid transparent;
+      border-left: 1.5em solid transparent;  
+      border-top: 1.9em solid rgba(44,12,50,0.8);
+      margin-left:18%;
+    }
+    
+    .element {
+        height: 1em;
+        vertical-align: text-top;
+    }
+    
+    .expRutherford {
+      width: 89%; 
+      margin: -0.9em 1em 0.3em 0.9em;
+    }
+    
+  .modRutherford {
+    width: 96%; 
+    margin: auto 0.6em 0.2em -0.1em;
+  }
+    .modBohr {width: 96%; 
+      margin: -0.2em 0.6em 0.2em 0.9em;
+    }
+
+.modThompson {
+      width: 87%; 
+      margin: 1em auto auto 1.3em;
+    }  
+    
+    /*-------------- button ---------------*/
+    
+  button {
+    font-family: 'Sansita', sans-serif;
+    font-size: 1.2rem;
+    line-height:1.4rem;
+    transform: scaleX(0.9);
+    padding: 0.4em 0.3em;
+    border-radius: 2em;
+  }
+    
+  #togg1 {
+      padding:0 0.8em 0.2em 0.8em;
+      /*margin: 0.4em;*/
+  }
+  #d1 {
+    width: 83%;
+    padding: 0.9em;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+    
+  #togg2 {
+    padding:0 0.8em 0.2em 0.8em;
+    box-shadow: 4px 6px 0px #2e0d33;
+  }
+  #d2 {
+      width: 99%;
+      padding: 0.5em;
+      font-size: 1rem;
+      line-height: 1.4rem;
+  }
+    
+  #togg3 {
+    padding:0 0.8em 0.2em 0.8em;
+  margin-left:0.9em;
+  }
+  #d3 {
+    width: 99%;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  margin-left:0.9em;
+  }
+    
+  #togg4 {
+    padding:0 0.8em 0.2em 0.8em;
+    margin-top:0.1em;
+  margin-left:0.9em;
+  }
+  #d4 {
+      width: 99%;
+      padding: 0.5em 0;
+      font-size: 1rem;
+      line-height: 1.4rem;
+  }
+    
+  #togg5 {
+    padding:0 0.3em 0.2em 0.3em;
+  margin-left:0.4em;
+  margin-top:0.2em;
+  }
+  #d5 {
+      width: 83%;
+      padding: 0.6em;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      margin-left:1.1em;
+  }
+    
+  #togg6 {
+    padding:0 0.8em 0.2em 0.8em;
+    margin-top:-1em;
+    margin-left:1.6em;
+  }
+  #d6 {
+      width: 99%;
+      padding: 0.6em;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      margin-left:0.3em;
+  }
+    
+  #togg7 {
+    padding:0 0.3em 0.2em 0.3em;
+    margin-top:-1em;
+  margin-left:0.6em;
+  }
+  #d7 {
+      width: 99%;
+      padding: 0.2em;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      margin-left:0.5em;
+      margin-top:0.9em;
+  }
+    
+  #togg8 {
+    padding:0 0.1em 0.2em 0.1em;
+    margin-left:0.2em;
+    max-width:99%;
+  margin-top:0.2em;
+  }
+  #d8 {
+      width: 97%;
+      padding: 0.6em;
+      font-size: 1rem;
+      line-height: 1.4rem;
+      margin-left:0.6em;
+}
+    
+  }  
+
+  
+    
+    
+  
+  
+  
+  @media only screen and (max-width: 459px) {
+    
+    body {
+      font-size: 12px;
+      line-height: 17px;
+    }
+    
+    .granule {
+      max-width: 402px;
+      padding:0.9em;
+    }
+    
+    p {
+      margin: 0.3em 0.6em 0.6em 1.2em;
+      font-size: 0.95rem;
+      line-height: 1.35rem;
+    }
+    ul {
+      margin: 0.4em auto 0.4em 0;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+      width:auto;
+    }
+    li {
+      margin: 0.2em auto;
+    }
+    
+    .formule {
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+    }
+    
+    .chapo {
+      margin: 0.5em auto;
+      font-size: 1.05rem;
+      line-height: 1.4rem;
+    }
+    
+    h1 {
+      margin: auto auto 0.2em 0;
+      font-size: 2rem;
+      line-height: 2.2rem;
+    }
+    
+    h2 {
+      font-size: 1.2rem;
+      margin-top:0.8em;
+      line-height: 1.7rem;
+    }
+    .calage {
+      margin-left:0.5em;
+    }
+    .pad {
+      padding: 3px 2px 1px 1.1em;
+    }
+    .pad0 {
+      padding: 3px 2px 1px 2px;
+    }
+    .margegaucheplus {
+      margin-left:0.8em;
+      width:111%;
+    }
+    .spaceBottom_bis {
+      width:111%;
+    }
+    .pucedate {
+      width:1.7em;
+      height:1.7em;
+      margin: 1.2em 1em auto -1.8em;
+    }
+    
+    .date {
+      font-size: 1.7rem;
+      line-height: 1.7rem;
+      margin-top:0.6em;
+    }
+    .datenomarge {
+      margin-top:0;
+    }
+    
+    .minidate {
+      font-size: 1.1rem;
+      line-height:1.2rem;  
+    }
+  
+  /*------------ colors -------------------*/
+    
+  .pucedate_bis {
+    border:#E22051 solid 0.3em;
+  }
+
+  .pucedate2_bis {
+    border:#AC1760 solid 0.3em;
+  }
+
+  .pucedate3_bis {
+    border:#861771 solid 0.3em;
+  }
+
+  .pucedate4_bis {
+    border:#5A4878 solid 0.3em;
+  }
+
+  .pucedate5_bis {
+    border:#5D7FBD solid 0.3em;
+  }
+
+  .pucedate6_bis {
+    border:#167597 solid 0.3em;
+  }
+
+  .pucedate7_bis {
+    border:#2C0C32 solid 0.3em;
+  }
+    
+    
+    /*-------------- arrow ---------------*/
+    
+    .arrow-down {
+      width: 0;
+      height: 0;  
+      border-right: 1.5em solid transparent;
+      border-left: 1.5em solid transparent;  
+      border-top: 1.9em solid rgba(44,12,50,0.8);
+      margin-left:18%;
+    }
+    
+.element {
+        height: 1em;
+        vertical-align: text-top;
+    }
+        
+.expRutherford {
+      width: 89%; 
+      margin: -0.9em 1em 0.3em 0.9em;
+    }
+    
+.modRutherford {
+    width: 96%; 
+    margin: auto 0.6em 0.2em -0.1em;
+  }
+.modBohr {
+      width: 86%; 
+      margin: -0.2em 0.6em 0.2em 0.5em;
+    }
+    
+.modThompson {
+      width: 87%; 
+      margin: 1em auto auto 1.3em;
+    }  
+.modChadwick {
+      width: 90%; 
+      margin: -0.6em 0.6em 0.2em 0.3em;
+    }
+.modSchrodinger {
+      width: 90%; 
+      margin: auto 0.6em 0.2em 0.2em;
+    }
+    
+    
+    /*-------------- button ---------------*/
+    
+  button {
+    font-family: 'Sansita', sans-serif;
+    font-size: 1.1rem;
+    line-height:1.2rem;
+    transform: scaleX(0.9);
+    padding: 0.4em 0.3em;
+    border-radius: 2em;
+  }
+    
+  #togg1 {
+      padding:0 0.8em 0.2em 0.8em;
+      /*margin: 0.4em;*/
+  }
+  #d1 {
+    width: 99%;
+    padding: 1.2em 0.4em;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+#d1 p {
+      margin: 0.3em 0.6em 0.6em 0.7em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+    
+  #togg2 {
+    padding:0 0.8em 0.2em 0.8em;
+    box-shadow: 4px 6px 0px #2e0d33;
+  }
+  #d2 {
+      width: 99%;
+      padding: 0.5em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+  }
+#d2 p {
+      margin: 0.3em 0.6em 0.6em 0.7em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+    
+  #togg3 {
+    padding:0 0.8em 0.2em 0.8em;
+  margin-left:0.9em;
+  }
+  #d3 {
+    width: 99%;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  margin-left:0.9em;
+  }
+    #d3 p {
+      margin: 0.3em 0.6em 0.6em 0.7em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+
+  #togg4 {
+    padding:0 0.8em 0.2em 0.8em;
+    margin-top:0.1em;
+  margin-left:0.9em;
+  }
+  #d4 {
+      width: 99%;
+      padding: 0.9em 0.5em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+  }
+    #d4 p {
+      margin: 0.3em 0.6em 0.6em 0.7em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+
+  #togg5 {
+    padding:0 0.3em 0.2em 0.3em;
+  margin-left:0.4em;
+  margin-top:0.2em;
+  }
+  #d5 {
+      width: 83%;
+      padding: 0.6em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+      margin-left:1.1em;
+  }
+    #d5 p {
+      margin: 0.3em 0.6em 0.6em 0.7em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+
+    
+  #togg6 {
+    padding:0 0.8em 0.2em 0.8em;
+    margin-top:-1em;
+    margin-left:1.6em;
+  }
+  #d6 {
+      width: 99%;
+      padding: 0.6em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+      margin-left:0.3em;
+  }
+    #d6 p {
+      margin: 0.3em 0.6em 0.6em 0.7em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+
+  #togg7 {
+    padding:0 0.3em 0.2em 0.3em;
+    margin-top:-1em;
+  margin-left:0.6em;
+  }
+  #d7 {
+      width: 99%;
+      padding: 0.2em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+      margin-left:0.5em;
+      margin-top:0.9em;
+  }
+    #d7 p {
+      margin: 0.3em 0.6em 0.6em 0.7em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+
+  #togg8 {
+    padding:0 0.1em 0.2em 0.1em;
+    margin-left:0.2em;
+    max-width:99%;
+  margin-top:0.2em;
+  }
+  #d8 {
+      width: 97%;
+      padding: 0.9em 0.6em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+      margin-left:0.6em;
+  }
+    #d8 p {
+      margin: 0.3em 0.6em 0.6em 0.7em;
+      font-size: 0.9rem;
+      line-height: 1.2rem;
+    }
+
+    
+}  
+
+
+  
+  

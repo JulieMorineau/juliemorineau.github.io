@@ -1,0 +1,57 @@
+{
+  "_id": "static:lentillesoptiques",
+  "_type": "scolomfr",
+  "_source": {
+    "catalog": "",
+    "language": "fr",
+    "title": "Test – lentilles convergentes et lentilles divergentes",
+    "description": "Test – lentilles convergentes et lentilles divergentes",
+    "subtitles": "Test – lentilles convergentes et lentilles divergentes",
+    "indexation": "Test – lentilles convergentes et lentilles divergentes",
+    "indexedTitle": "Test – lentilles convergentes et lentilles divergentes",
+    "indexedSubtitles": "Test – lentilles convergentes et lentilles divergentes",
+    "indexedDescription": "Test – lentilles convergentes et lentilles divergentes",
+    "playerUrl": "https://static.dev.educlever.io/filer1/poc-capsules/lentillesoptiques/index.html",
+    "learningResourceType": "http://educlever.io/xapi/activities/cours",
+    "typology": "http://educlever.io/xapi/activities/cours",
+    "intendedEndUserRoles": [
+      "_all_"
+    ],
+    "cycleEducationalLevel": [
+      "_all_"
+    ],
+    "educationalLevel": [
+      "1pro"
+    ],
+    "schoolSubject": [
+      "phc"
+    ],
+    "difficulty": "moyen",
+    "typicalLearningTime": null,
+    "activity": null,
+    "documentType": [
+      "texte",
+      "ressource interactive"
+    ],
+    "europeanLevel": [],
+    "languageActivity": [],
+    "editable": false,
+    "sequenceable": true,
+    "validated": true,
+    "validationCandidate": false,
+    "publishedTo": [
+      "corpus:poc-capsules"
+    ],
+    "status": "published",
+    "corpus": "static",
+    "authoring": "official",
+    "authorUuid": null,
+    "externalId": "lentillesoptiques",
+    "thumbnail": "https://static.dev.educlever.io/filer1/poc-capsules/lentillesoptiques/thumbnail.jpg",
+    "date": "2023-09-15T10:58:52+02:00",
+    "time": "10:58:52",
+    "contributions": [],
+    "classifications": [],
+    "sharing": []
+  }
+}

@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+/*------- checkbox objectif -----------*/
+.reBkg {
+  background-color: rgba(200, 190, 45, 0.6);
+}
+.reBkg_bis {
+  background-color: rgba(200, 190, 45, 0.3);
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.tree {
+  padding: 0.3em 0;
+}
+.tree::after {
+  content: '';
+  display: block;
+  /*clear: left;*/
+}
+.tree div {
+  clear: left;
+}
+input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+form {
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  position: relative;
+  width: 99%;
+  clear:both;
+  margin-left:2px;
+}
+label.reponse {
+  display: block;
+  position: relative;
+  color: #321230;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.4em 0.2em 0.2em 0.9em;
+}
+label.reponse:hover {
+  font-weight: bold;
+  padding: 0.4em 0.2em 0.2em 0.9em;
+}
+input:focus + label.reponse, a:focus {
+  outline: none;
+  /*background-color: rgba(51, 19, 49, 0.4);*/
+}
+.sub {
+  display: none;
+  width: 100%;
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+  padding:0.5em;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.sub a {
+  color: #331331;
+  text-decoration: none;
+}
+input:checked ~ .sub {
+  display: block;
+}
+input[type="reset"] {
+  display: block;
+  width: 70%;
+  padding: 2px;
+  border: none;
+  color: #321230;
+  margin-top: 0.9em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(241, 201, 133, 0.6);
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="reset"]:hover {
+  font-weight: bold;
+}
+input[type="reset"]:focus {
+  outline: none;
+  /*box-shadow: 0 0 0 4px #b9c3c9;*/
+}
+.reBkg {
+  background-color: rgba(200, 190, 45, 0.6);
+}
+.reBkg_bis {
+  background-color: rgba(200, 190, 45, 0.2);
+}
+
+/*--------- chevron ---------*/
+.chevron {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11px 11px 0 11px;
+  border-color: #000 transparent transparent transparent;
+  transition: transform 0.3s;
+}
+.item.active .chevron {
+  transform: translateY(-50%) rotate(180deg);
+}
+.item.active .accordion-content {
+  display: block;
+}
+
+
+
+
+
+@media only screen and (max-width: 789px) and (min-width: 699px) {
+  form {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+  .sub {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 698px) and (min-width: 560px) {
+  form {
+    font-size: 1rem;
+    line-height: 1.35rem;
+  }
+  .sub {
+    font-size: 1rem;
+    line-height: 1.35rem;
+  }
+}
+
+@media only screen and (max-width: 559px) {
+  form {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+  .sub {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+}

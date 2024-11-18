@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quattrocento:wght@400;700&display=swap');
+
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 740px;
+  padding:0;
+}
+
+/*------------ typographie -------------------*/
+
+b, strong {bold: bold;
+  color:rgba(44,12,50,0.76)}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+p {
+  margin: 0.2em auto;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+ul {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  margin: 0.2em auto;
+}
+
+h1 {
+  text-align: left;
+  margin: 0 auto 0.2em 0;
+  font-size: 1.6rem;
+  color: rgba(44,12,50,1);
+  line-height: 2rem;
+}
+
+/*-------------- mots ------------------*/
+
+.mots {
+  font-family: 'Quattrocento', serif;  
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-weight:bold;
+}
+.det {
+  color: #3B6C6C;
+}
+.nom {
+  color: #4B7798;
+}
+.verbe {
+  color: #C8492B;
+}
+.prep {
+  color: #7F2789;
+}
+.adj {
+  color: #C7255B;
+}
+.adv {
+  color: #6EAF40;
+}
+.pronom {
+  color: #2D367C;
+}
+.Q {
+  color: #785774;
+  font-style: italic;
+}
+.termin {
+  color: #785774;
+}
+
+/*-------------- éléments ------------------*/
+.carte {
+  width:99%;
+  padding:0;
+  margin:auto;
+}
+/*-------------- button -------------*/
+
+.hide{display: none;}
+
+button {
+  font-family: 'Quattrocento', serif;  
+  font-size: 1.35rem;
+  line-height: 1.3rem;
+  padding: 0.6em;
+  box-shadow: 1px 1px 0px rgba(171,146,18,0.9);
+  border-radius: 0.3em;
+  text-align: left;
+  background-color: #FCFCFC;
+  margin: 0.2em;
+  float:left;
+  cursor: pointer;
+}
+
+.active-button {
+  font-weight:bold;
+  background-color: rgba(232,197,46,0.6);
+}
+.det.active-button {
+  font-weight:bold;
+  background-color: #3B6C6C;
+  color:#FFFFFF;
+}
+
+
+#togg1 {
+  border: #3B6C6C solid 1px;
+}
+#togg1:hover {
+  background-color: #3B6C6C;
+  border: #3B6C6C solid 1px;
+  font-weight:bold;
+color:#FFFFFF;
+}
+#d1 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg2 {
+  border: #4B7798 solid 1px;
+}
+#togg2:hover {		
+  background-color: #4B7798;
+  border: #4B7798 solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d2 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg3 {
+  border: #C8492B solid 1px;
+}
+#togg3:hover {
+  background-color: #C8492B;
+  border: #C8492B solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d3 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg4 {
+  border: #7F2789 solid 1px;
+}
+#togg4:hover {
+  background-color: #7F2789;
+  border: #7F2789 solid 1px;
+  font-weight:bold;
+color:#FFFFFF;
+}
+#d4 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg5 {
+  border: #3B6C6C solid 1px;
+}
+#togg5:hover {		
+  background-color: #3B6C6C;
+  border: #3B6C6C solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d5 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg6 {
+  border: #4B7798 solid 1px;
+}
+#togg6:hover {
+  background-color: #4B7798;
+  border: #4B7798 solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d6 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg7 {
+  border: #C7255B solid 1px;
+}
+#togg7:hover {
+  background-color: #C7255B;
+  border: #C7255B solid 1px;
+  font-weight:bold;
+color:#FFFFFF;
+}
+#d7 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#no {
+  box-shadow: none;
+  border:none;
+padding: 0.6em 0;
+margin-left:0;
+}
+
+#togg8 {
+  border: #A51B29 solid 1px;
+}
+#togg8:hover {
+  background-color: #A51B29;
+  border: #A51B29 solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d8 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg9 {
+  border: #C8492B solid 1px;
+}
+#togg9:hover {
+  background-color: #C8492B;
+  border: #C8492B solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d9 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg10 {
+  border: #7F2789 solid 1px;
+}
+#togg10:hover {
+  background-color: #7F2789;
+  border: #7F2789 solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d10 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg11 {
+  border: #4B7798 solid 1px;
+}
+#togg11:hover {
+  background-color: #4B7798;
+  border: #4B7798 solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d11 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#no2 {
+  box-shadow: none;
+  border:none;
+padding: 0.6em 0;
+margin-left:0;
+}
+
+
+
+
+
+@media only screen and (max-width: 740px) and (min-width: 699px) {
+  
+  body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  
+  .granule {
+    max-width: 720px;
+    padding:0.2em;
+  }
+  
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 698px) and (min-width: 590px) {
+  
+  body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .granule {
+    max-width: 680px;
+    padding:0.6em;
+  }
+  
+  
+}  
+  
+  
+
+
+
+
+
+
+
+@media only screen and (max-width: 589px) and (min-width: 520px) {
+  
+  body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  
+  .granule {
+    max-width: 540px;
+    padding:0.9em;
+  }
+  
+
+
+}  
+
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 519px) and (min-width: 460px) {
+    
+    body {
+      font-size: 13px;
+      line-height: 19px;
+    }
+    
+    .granule {
+      max-width: 480px;
+      padding:0.9em;
+    }
+
+  
+    
+  }  
+
+  
+    
+    
+
+
+  
+    
+    
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+
+  

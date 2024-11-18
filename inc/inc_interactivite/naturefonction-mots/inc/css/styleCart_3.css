@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&family=Quattrocento:wght@400;700&family=Sansita:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 740px;
+  padding:0;
+}
+
+/*------------ typographie -------------------*/
+
+b, strong {bold: bold;}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+p {
+  margin: 0.2em auto 0.2em 1em;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.l1 {
+  color:#4B7798;
+}
+.l2{
+  margin-top: 2.2em;
+  color:#7F2789;
+}
+.cadre {
+    border: rgba(40,9,44,0.7) solid 2px;
+    border-radius:0.7em;
+    margin: 0.2em auto;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+h1 {
+  text-align: left;
+  margin: 0 auto 0.2em 0;
+  font-size: 1.8rem;
+  color: rgba(44,12,50,1);
+  border-bottom: rgba(44,12,50,0.8) solid 2px;
+  /*padding: 0.3em;*/
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+  /*margin-top:0.6em;*/
+  line-height: 1.3rem;
+  margin: 1.5em auto 0.3em auto;
+}
+
+
+/*-------------- éléments ------------------*/
+
+.carte {
+  width:99%;
+  padding:0;
+  margin:auto;
+}
+
+
+/*-------------- button -------------*/
+
+.hide{display: none;}
+
+button {
+  font-family: 'CleverJul', sans-serif;  
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  padding: 0.6em;
+  box-shadow: 1px 1px 0px rgba(171,146,18,0.9);
+  border-radius: 1.9em;
+  text-align: center;
+  background-color: #FCFCFC;
+  margin: 0.5em auto;
+}
+.cale {
+  float:left;
+}
+
+.nature.active-button {
+  border: #E8C52E solid 1px;
+  background-color: #E8C52E;
+  font-weight:bold;
+}
+.accord.active-button {
+  font-weight:bold;
+  border: #E8C52E solid 1px;
+  background-color: #E8C52E;
+}
+.fonction.active-button {
+    font-weight:bold;
+  border: #E8C52E solid 1px;
+  background-color: #E8C52E;
+}
+
+#togg1 {
+  border: #4B7798 solid 1px;
+  color: #4B7798;
+}
+#togg1:hover {
+  background-color: #4B7798;
+  border: #E8C52E solid 1px;
+  font-weight:bold;
+color:#FFFFFF;
+}
+#d1 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg2 {
+  border: #7F2789 solid 1px;
+  color: #7F2789;
+}
+#togg2:hover {		
+  background-color: #7F2789;
+  border: #E8C52E solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d2 {
+  position: relative;
+  /* z-index: 999;*/
+  width: 100%;
+  padding: 0;
+}
+
+#togg3 {
+  color: #A51B29;
+  border: #A51B29 solid 1px;
+}
+#togg3:hover {
+  background-color: #A51B29;
+  border: #E8C52E solid 1px;
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#d3 {
+  position: relative;
+  /*z-index: 999;*/
+  width: 100%;
+  padding: 0;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 740px) and (min-width: 699px) {
+  
+  body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  
+  .granule {
+    max-width: 720px;
+    padding:0.2em;
+  }
+  
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 698px) and (min-width: 590px) {
+  
+  body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .granule {
+    max-width: 680px;
+    padding:0.6em;
+  }
+  
+  
+}  
+  
+  
+
+
+
+
+
+
+
+@media only screen and (max-width: 589px) and (min-width: 520px) {
+  
+  body {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  
+  .granule {
+    max-width: 540px;
+    padding:0.9em;
+  }
+  
+
+
+}  
+
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 519px) and (min-width: 460px) {
+    
+    body {
+      font-size: 13px;
+      line-height: 19px;
+    }
+    
+    .granule {
+      max-width: 480px;
+      padding:0.9em;
+    }
+
+  
+    
+  }  
+
+  
+    
+    
+
+
+  
+    
+    
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+
+  

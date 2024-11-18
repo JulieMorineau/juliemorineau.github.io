@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+	<meta name="viewport" content="width=device-width">
+
+	<title>test</title>
+	
+	<link href="inc/css/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="inc/css/grid.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="inc/css/style_slider.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="inc/css/checkbox_objectifs.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<script src='inc/js/action.js' async></script>
+
+	
+		
+</head>
+
+<body>
+	<div class="granule">
+		<h1>
+			Test – lentilles convergentes et lentilles divergentes
+		</h1>
+		<article id="slider">
+			
+			<!-- Slider Setup -->	
+			<input checked type=radio name=slider class="step-slide" id="slide1"/>
+			<input type=radio name=slider class="step-slide" id="slide2" />
+			<input type=radio name=slider class="step-slide" id="slide3" />
+			<input type=radio name=slider class="step-slide" id="slide4" />
+			<input type=radio name=slider class="step-slide" id="slide5" />			
+			
+			<!-- The Slider -->
+			
+			<div id="slides">
+				
+				<div id="overflow">
+					
+					<div class="inner">
+						
+						
+<!-- slide de titre (1) -->
+	<article>
+		<div class="contenu" id="s1">
+			<p>Une lentille est un objet transparent, qui peut dévier la trajectoire des rayons lumineux par réfraction. 
+			</p>
+			<p>Si on observe un objet à travers une lentille, on le voit différemment (plus gros ou plus petit) selon la courbure des faces de la lentille.
+			</p>
+			<h2>Sauras-tu différencier une&nbsp;lentille convergente d'une&nbsp;lentille divergente&nbsp;?</h2>	
+			<img src="inc/img/sauterelles.png" class="margetop large" />
+			
+		<div class="margeTop">
+			<form>
+				<div class="tree">
+					<div>
+					<input id="n-1" type="checkbox">
+						<label class="reponse reBkg" for="n-1">Objectifs <span class="chevron rotate"></span>
+						</label>
+						<div class="sub reBkg_bis">
+						<a href="#link">&rarr; différencier l'action des lentilles convergentes et divergentes
+							<br>&rarr; reconnaître les lentilles convergentes et divergentes
+						</a>
+						<!--<input type="reset" value="fermer">-->
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+								
+	</div>
+</article>
+					
+<!-- slide 2 -->
+	<article>
+		<div class="contenu" id="s2">
+			<div class="wrapper">
+				<div class="zero">
+				<p>D'après toi, quelle lentille permet de grossir cette image comme une loupe&nbsp;?
+				</p>
+				</div>
+				<div class="undeux2">
+				<button id="togg1" class="no"	onclick="emitAnswered(incorrect({raw:0,min:0,max:1}))">
+					&nbsp;lentille <strong>divergente</strong>&nbsp;
+				</button>
+				</div>
+				<div class="troisquatre2">
+				<button id="togg2" class="yes"	onclick="emitAnswered(correct({raw:1,min:0,max:1}))">
+					&nbsp;lentille <strong>convergente</strong>&nbsp;
+				</button>
+				</div>
+				
+				<div class="zero3">
+					<img src="inc/img/visuel_ecran_pions_.png" class="large" />	
+				</div>
+				
+			<!---- affichage infos -------------->
+				<div class="zero3">
+					<div id="d1" class="hide">
+						<img src="inc/img/visuel_ecran_pions_div.png" class="large"/>
+					</div>
+				</div>
+				
+				<div class="zero3">
+					<div id="d2" class="hide">
+						<img src="inc/img/visuel_ecran_pions_conv.png" class="large"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>		
+						
+						
+<!-- slide 3 -->
+	<article>
+		<div class="contenu" id="s4">
+			<div class="wrapper">
+				<div class="zero">
+					<p>Donc pour voir l'objet en plus petit, il faut utiliser une lentille divergente.
+						<br>Sais-tu laquelle de ces deux lentilles est divergente&nbsp;?
+					</p>
+				</div>
+				<div class="deux2">
+					<button id="togg3" class="no"	onclick="emitAnswered(incorrect({raw:0,min:0,max:1}))">
+						<img src="inc/img/imgButtons_lentilleConv.png" class="small" />
+					</button>
+				</div>
+				<div class="trois2">
+					<button id="togg4" class="yes"	onclick="emitAnswered(correct({raw:1,min:0,max:1}))">
+						<img src="inc/img/imgButtons_lentilleDiv.png" class="small" />
+					</button>
+				</div>
+				
+				<div class="zero3">
+					<img src="inc/img/visuel_ecran_fouChevalier_.png" class="large" />	
+				</div>
+				
+				<!---- affichage infos -------------->
+				<div class="zero3">
+					<div id="d3" class="hide">
+						<img src="inc/img/visuel_ecran_fouChevalier_conv.png" class="large"/>
+					</div>
+				</div>
+				
+				<div class="zero3">
+					<div id="d4" class="hide">
+						<img src="inc/img/visuel_ecran_fouChevalier_div.png" class="large"/>
+					</div>
+				</div>
+			</div>
+	</div>
+</article>
+			
+<!-- slide 4 -->
+	<article>
+		<div class="contenu" id="s4">
+			<div class="wrapper">
+				<div class="zero">
+					<p>À quel schéma correspond l'action d'une lentille divergente&nbsp;?
+					</p>
+				</div>
+				<div class="undeux2">
+					<button id="togg5" class="no"	onclick="emitAnswered(incorrect({raw:0,min:0,max:1}))">
+						<img src="inc/img/imgButtons_faisceauConv.png" class="large" />
+					</button>
+				</div>
+				<div class="troisquatre2">
+					<button id="togg6" class="yes"	onclick="emitAnswered(correct({raw:1,min:0,max:1}))">
+						<img src="inc/img/imgButtons_faisceauDiv.png" class="large" />
+					</button>
+				</div>
+				
+				<div class="zero3">
+					<img src="inc/img/visuel_ecran_tourReine_.png" class="large" />	
+				</div>
+				
+				<!---- affichage infos -------------->
+				<div class="zero3">
+					<div id="d5" class="hide">
+						<img src="inc/img/visuel_ecran_tourReine_conv.png" class="large"/>
+					</div>
+				</div>
+				
+				<div class="zero3">
+					<div id="d6" class="hide">
+						<img src="inc/img/visuel_ecran_tourReine_div.png" class="large"/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+						
+<!-- slide 5 -->
+			<article>
+				<div class="contenu" id="s5">
+					<div class="wrapper filetBottom">
+						<div class="zero filetBottom">
+							<p>Pour résumer…
+							</p>
+						</div>
+						<div class="un2">
+							<p>
+								Lentille convergente
+							</p>
+						</div>
+						<div class="deux2 reduit">
+							<img src="inc/img/imgButtons_lentilleConv.png" class="small" />
+						</div>
+						<div class="trois2 augmente">
+							<img src="inc/img/imgButtons_faisceauConv.png" class="large" />
+						</div>
+						<div class="quatre2">
+							<img src="inc/img/visuel_fin_conv.png" class="large" />
+						</div>
+					</div>
+						
+					<div class="wrapper filetBottom">
+						<div class="un">
+							<p>
+								Lentille divergente
+							</p>
+						</div>
+						<div class="deux reduit">
+							<img src="inc/img/imgButtons_lentilleDiv.png" class="small" />
+						</div>
+						<div class="trois augmente">
+							<img src="inc/img/imgButtons_faisceauDiv.png" class="large" />
+						</div>
+						<div class="quatre">
+							<img src="inc/img/visuel_fin_div.png" class="large" />
+						</div>
+					</div>
+				</div>
+			</article>
+			
+
+
+
+
+
+		
+						
+						
+		</div> <!-- .inner -->
+		
+	</div> <!-- #overflow -->
+	
+</div> <!-- #slides -->
+			
+			
+			
+		</article>
+		<!-- sommaire -->	   
+		<div id="volet_clos">
+			<div id="volet">
+				<ul>
+					<li data-index="0" class="lien1"><label for=slide1 id="label1">introduction</label>
+					</li>
+					<li data-index="1" class="lien2"><label for=slide2 id="label2">étape 1</label>
+					</li>
+					<li data-index="2" class="lien3"><label for=slide3 id="label3">étape 2
+						</label>
+						</li>
+					<li data-index="3" class="lien4"><label for=slide4 id="label4">étape 3</label>
+					</li>
+					<li data-index="4" class="lien5"><label for=slide5 id="label5">pour résumer</label>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		<!-- fin sommaire -->	
+		
+	</div>
+	
+	
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			const liElements = document.querySelectorAll("#volet li");
+			// Par défaut, on rend le premier li actif
+			liElements[0].classList.add("active");
+			
+			// Ajoutez un écouteur d'événements click à chaque li
+			liElements.forEach((li, index) => {
+				li.addEventListener("click", () => {
+					// Avant de rendre le li actif, enlevez la classe "actif" de tous les autres li
+					liElements.forEach((otherLi) => {
+						if (otherLi !== li) {
+							otherLi.classList.remove("active");
+						}
+					});
+					
+					// Ajoutez la classe "actif" au li cliqué
+					li.classList.add("active");
+				});
+			});
+		});
+		
+		
+		var steps = document.querySelectorAll('.step-slide');
+		for (var i = 0; i < steps.length; i++) {
+			steps[i].addEventListener('change', function (event) {
+				var el = event.target || event.srcElement;
+				var labels = document.querySelectorAll('#volet label');
+				
+				for (var y = 0; y < labels.length; y++) {
+					labels[y].parentNode.classList.remove('active');
+					
+					if (el.id === labels[y].getAttribute('for')) {
+						var li = labels[y].parentNode;
+						li.classList.add('active');
+						
+						var parent = li.parentNode.parentNode;
+						if (parent.nodeName === 'LI') {
+							parent.classList.add('active');
+							
+							var parent_2 = parent.parentNode.parentNode;
+							if (parent_2.nodeName === 'LI') {
+								parent_2.classList.add('active');
+								
+								var parent_3 = parent_2.parentNode.parentNode;
+								if (parent_3.nodeName === 'LI') {
+									parent_3.classList.add('active');
+								}
+							}
+						}
+					}
+				}
+			});
+		}
+	</script>
+	
+	<script src="inc/js/helpers.js"></script>
+	
+</body>
+</html>

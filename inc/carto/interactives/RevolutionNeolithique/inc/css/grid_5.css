@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--- grille sur 4 colonnes ---*/
+
+/*------------ cases -------------------*/
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  gap: 0;
+  /*grid-auto-rows: minmax(40px, auto);*/
+  grid-auto-rows: minmax(auto);
+  padding-bottom:0.3em;
+  border-bottom: #008A77 solid 1px;
+}
+.bis {
+    margin-top: 0.2em;
+  }
+  
+/*------------- carte ---------------*/
+.deuxcinq2 {
+  grid-column: 2 / 6;
+  grid-row: 2;
+  width: 100%;
+  /*margin-left: -11%;*/
+}
+.deuxcinq2sur4 {
+  grid-column: 2 / 6;
+  grid-row: 2 / 5;
+  width: 100%;
+  /*margin-left: -11%;*/
+}
+
+/*------------- cases légendes ---------------*/
+.zero {
+  grid-column: 1 / 6;
+  grid-row: 1;
+  background: url('../img/0_fleche_chrono.png') no-repeat;
+  background-size: 100%;
+}
+.zero2 {
+  grid-column: 1 / 6;
+  grid-row: 2;
+}
+.zero2_4 {
+  grid-column: 1 / 6;
+  grid-row: 2 / 5;
+}
+.zero5 {
+  grid-column: 1 / 6;
+  grid-row: 5;
+border-top: #008A77 solid 1px;
+margin-top:1.1em;
+}
+
+.un2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.deux2 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.trois2 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.quatre2 {
+  grid-column: 4;
+  grid-row: 2;
+}
+.quatrecinq2 {
+  grid-column: 4 / 6;
+  grid-row: 2;
+}
+.un3 {
+  grid-column: 1;
+  grid-row: 3;
+  padding:0.6em;
+  border: #008A77 solid 1px;
+}
+.un3sur4 {
+  grid-column: 1;
+  grid-row: 3 / 4;
+}
+
+
+@media only screen and (max-width: 549px) and (min-width: 450px) {
+  
+  .zero4 {
+    margin-top:0.5em;
+  }  
+}
+
+@media only screen and (max-width: 449px) {
+  
+  .zero4 {
+    margin-top:0.5em;
+  }
+  .un3 {
+    grid-column: 2;
+    grid-row: 3;
+  margin-top:-3em;
+  }
+  .deux3 {
+    grid-column: 3;
+    grid-row: 3;
+  margin-top:-3em;
+  }
+  .troisquatre3 {
+    grid-column: 4;
+    grid-row: 3;
+  margin-top:-3em;
+  }
+  
+  
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  

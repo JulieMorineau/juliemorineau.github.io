@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+	<meta name="viewport" content="width=device-width">
+
+	<title>carte risques dans le monde</title>
+
+	<!-- CSS -->
+
+	<link href="inc/css/grid_4.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<link href="inc/css/styleCart_4.css" media="screen, projection" rel="stylesheet" type="text/css" />
+	<script src='inc/js/action.js' async></script>
+
+</head>
+
+<body>
+	<div class="granule">
+
+	<h1>Les risques et leur gestion dans le monde</h1>
+
+<div class="wrapper">
+	
+	<div class="zero">
+		<p class="indice">Indice d'efficacité de la <span class="gestion">gestion des risques</span> par pays&nbsp;:
+		</p>
+		<img src="inc/img/legendes/elementsLegendes_indiceGestionRisques.png" class="legende_bis"/>
+		</div>
+		
+	<div class="deuxquatre2">
+		<img src="inc/img/Bkg_carteMonde_Risques.png" class="carte"/>
+		</div>
+	
+<!-------------- affichage carto-figurés -------------->
+	
+	<div class="deuxquatre2">
+		<div id="d6" class="hide">
+			<img src="inc/img/paysCentralNucleaire_carteMonde_Risques.png" class="carte"/>
+			</div>
+		</div>
+	
+	<div class="deuxquatre2">
+		<div id="d10" class="hide">
+			<img src="inc/img/sismiq_carteMonde_Risques.png" class="carte"/>
+			</div>
+		</div>
+	
+	<div class="deuxquatre2">
+		<div id="d11" class="hide">
+			<img src="inc/img/inondations_carteMonde_Risques.png" class="carte"/>
+			</div>
+		</div>
+		
+	<div class="deuxquatre2">
+		<div id="d1" class="hide">
+			<img src="inc/img/transportPetrol_carteMonde_Risques.png" class="carte"/>
+		</div>
+	</div>
+	
+	<div class="deuxquatre2">
+		<div id="d2" class="hide">
+			<img src="inc/img/mareesNoires_carteMonde_Risques.png" class="carte"/>
+		</div>
+	</div>
+	
+	<div class="deuxquatre2">
+		<div id="d3" class="hide">
+			<img src="inc/img/exploitationPetrol_carteMonde_Risques.png" class="carte"/>
+		</div>
+	</div>
+	
+	<div class="deuxquatre2">
+		<div id="d4" class="hide">
+			<img src="inc/img/regionsRisquesndusTech_carteMonde_Risques.png" class="carte"/>
+		</div>
+	</div>
+	
+	<div class="deuxquatre2">
+		<div id="d5" class="hide">
+			<img src="inc/img/accidentTech_carteMonde_Risques.png" class="carte"/>
+		</div>
+	</div>	
+	
+	<div class="deuxquatre2">
+		<div id="d7" class="hide">
+			<img src="inc/img/accidentsNucleaires_carteMonde_Risques.png" class="carte"/>
+		</div>
+	</div>
+	
+	<div class="deuxquatre2">
+		<div id="d8" class="hide">
+			<img src="inc/img/volcans_carteMonde_Risques.png" class="carte"/>
+		</div>
+	</div>
+	
+	<div class="deuxquatre2">
+		<div id="d9" class="hide">
+			<img src="inc/img/cyclones_carteMonde_Risques.png" class="carte"/>
+		</div>
+	</div>
+	
+<!-- boutons ----------------->
+	
+	<div class="un2"> 
+		<h2><span class="colortechno">Les risques&nbsp;<br>&nbsp;technologiques
+		</span>
+		</h2>
+		<button id="togg1" class="techno" onclick="emitCompleted()"> 
+			<img src="inc/img/legendes/elementsLegendes_transportsPetrole.png" class="legende_big"/>axes majeurs de&nbsp;transport pétrolier
+		</button> 
+		
+		<button id="togg2" class="techno" onclick="emitCompleted()">
+			<img src="inc/img/legendes/elementsLegendes_mareenoire.png" class="legende"/>marée noire
+		</button>
+		<button id="togg3" class="techno" onclick="emitCompleted()">
+			<img src="inc/img/legendes/elementsLegendes_exploitationsPetrole.png" class="legende"/>exploitation pétrolière en&nbsp;mer
+		</button> 
+		
+		<button id="togg4" class="techno" onclick="emitCompleted()">
+			<img src="inc/img/legendes/elementsLegendes_regionsRisquesIndusTech.png" class="legende"/>risques industriels et technologiques majeurs
+		</button> 
+		
+		<button id="togg5" class="techno" onclick="emitCompleted()">
+			<img src="inc/img/legendes/elementsLegendes_accidentsTechno.png" class="legende"/>accident technologique
+		</button> 
+		
+		<button id="togg6" class="techno" onclick="emitCompleted()">
+			<img src="inc/img/legendes/elementsLegendes_paysCentraleNucleaire.png" class="legende_big"/>pays possédant des&nbsp;centrales nucléaires
+		</button> 
+		<button id="togg7" class="techno" onclick="emitCompleted()">
+			<img src="inc/img/legendes/elementsLegendes_accidentNucleaire.png" class="legende"/>accident nucléaire
+		</button> 
+	</div>	
+	
+	
+	<div class="un3">
+		<h2>
+			<span class="colornature">Les risques naturels
+			</span>
+		</h2> 
+	</div>	
+	
+	<div class="deux3">
+		<button id="togg8" class="nature"><img src="inc/img/legendes/elementsLegendes_volcans.png" class="legende"/>volcanisme actif
+		</button>
+		<button id="togg10" class="nature"><img src="inc/img/legendes/elementsLegendes_seismes.png" class="legende"/>risque sismique
+		</button> 
+	</div>	
+	
+	<div class="troisquatre3">
+		<button id="togg9" class="nature"><img src="inc/img/legendes/elementsLegendes_cyclones.png" class="legende"/>trajectoires des&nbsp;cyclones
+		</button>
+		<button id="togg11" class="nature"><img src="inc/img/legendes/elementsLegendes_inondations.png" class="legende"/>risques d'inondations catastrophiques
+		</button>
+	</div>
+	
+</div>
+
+</div>
+		
+	<script src="inc/js/helpers.js"></script>
+
+</body>
+</html>

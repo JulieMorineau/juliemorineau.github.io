@@ -1,0 +1,537 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("./checkbox.css");
+@import url("./grid.css");
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+
+/*--------couleurs
+#715969 > rgba(113, 89, 105, 1)
+#604a7b > rgba(96, 74; 123, 1)
+#651c5a > rgba(101, 28, 90, 1)
+#979246 > rgba(151, 146, 70, 1)
+#f1c985 > rgba(241, 201, 133, 1)
+#805471 > rgba(128, 84, 113, 1)
+#d9544b > rgba(217, 84, 75, 1)
+#babc0b > rgba(186, 188, 11, 1)
+#00acb2 > rgba(0, 172, 178, 1)
+#604a7b > rgba(96, 74, 123, 1)
+#321230 > rgba(50, 18, 48, 1)
+#fbbf00 > rgba(251, 191, 0, 1)
+fin couleurs-----*/
+
+/*--- base ---*/
+
+body {
+	font-family: 'CleverJul', helvetica, sans-serif;
+    /*background-color: rgba(251, 191, 0, 0.26);*/
+    color: rgba(31, 1, 28, 0.96);
+    font-size: 17px;
+	line-height: 26px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
+
+b, strong {bold: bold;}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+/*------*/
+
+.fin {
+    padding: 6px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #805471;
+    clear: both;
+    text-align: center;
+    border-bottom: #805471 18px solid;
+}
+
+.intro {
+    background-color: rgba(241, 201, 133, 0.3);
+}
+
+/*------------ images -------------------*/
+img {
+	margin: 0;
+	width: 99%;
+}
+.large {
+	width: 96%;
+	margin: 0.4em auto;
+}
+.xlarge {
+	width: 102%;
+	margin: 0.4em auto;
+}
+img.moitie {
+	float: left;	
+	margin: 0.2em 1em;
+	width: 44%;
+}
+img.moitieplus {
+	float: left;	
+	margin: 0.2em 1em;
+	width: 59%;
+}
+img.moitiebis {
+	float: right;	
+	margin: 0.2em 1em;
+	width: 44%;
+}
+img.deuxtiers {
+	float: left;	
+	margin: 0.4em 2em;
+	width: 60%;
+}
+img.deuxtiersbis {
+	float: right;	
+	margin: 0.4em auto 0.4em 2em;
+	width: 60%;
+}
+img.recadre {
+	padding: 1em;
+}
+img.untiers {
+	float: left;	
+	margin: -1em 2em -0.5em auto;
+	width: 34%;
+}
+img.icones {
+	float: left; 
+	margin: -1em 1em -0.5em auto; 
+}
+img.iconeBis {
+	float: right; 
+	margin: auto 1em; 
+	width: 24%;
+}
+img.untiers2 {
+	float: left;	
+	margin: auto 1em;
+	width: 44%;
+}
+img.untiersbis {
+	float: right;	
+	margin: 0.4em 1em 0.4em 1.5em;
+	width: 34%;
+}
+img.small {
+	float: left;	
+	margin: 0.4em 1.6em;
+	width: 20%;
+}
+img.smalldroite {
+	float: right;	
+	margin: 0.4em 2em;
+	width: 20%;
+}
+img.smalldroite2 {
+	float: right;	
+	margin: 0.4em 2em;
+	width: 16%;
+}
+img.petit {
+	float: left;	
+	margin: 0.4em auto;
+	width: 9%;
+}
+img.petitBis {
+	float: left;	
+	margin: 0.4em 1em;
+	width: 9%;
+}
+img.haut {
+	margin-top: -2.6em;
+}
+img.bas {
+	margin-bottom: -2.6em;
+}
+img.decalhautbas {
+	margin-top: -1.6em;
+	margin-bottom: -1.6em;
+}
+img.margedroite {
+	margin: 6em;
+}
+img.smallhaut {
+	margin-top: -1.1em;
+}
+img.smallbas {
+	margin-bottom: -1.1em;
+}
+img.smallhautbas {
+	margin-top: -1.1em;
+	margin-bottom: -1.1em;
+}
+img.decalhaut_bis {
+	margin-top: -2em;
+}
+
+img.inter {
+	margin-top: -3.6em;
+	margin-bottom: 2em;
+}
+img.interbis {
+	width: 63%;
+	float: left;
+}
+img.bord {
+	border: 4px #babc0b solid;
+}
+
+
+/*------------ typographie -------------------*/
+
+p {
+	margin: 0.6em;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	width: 98%;
+}
+
+sup, sub {
+    vertical-align: baseline;
+    font-size: .75em;
+    position: relative;
+}
+
+sup {
+    top: -0.75em;
+}
+sub {
+    bottom: -0.25em;
+}
+
+ul {
+	margin: 0.6em;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	width: 98%;
+}
+li {
+	margin: 0.4em;
+	}
+
+.gauche {
+margin-left: -0.5em;
+}
+
+.etiquette {
+	background-color: rgba(96, 74, 123, 0.8);
+	color: #FFF;
+}
+
+.blanc {
+	color: #FCFCFC;
+}
+.debut {
+	margin: 0.5em auto 0.2em auto;
+}
+.suite {
+	margin: 0.2em auto;
+}
+.droite {
+	text-align: right;
+}
+.decalbas {
+	margin: 3em auto 0 0.6em;
+}
+.decalbas2 {
+	margin: 2em auto 0 0.6em;
+}
+.margehaut {
+	margin-top: 1.1em;
+}
+.margehaut2 {
+	margin-top: 2em;
+}
+.nobas {
+	margin-bottom: 0;
+}
+.decalgauche {
+	margin-left: 2em;
+	padding-right: 1em;
+}
+.sousligne {
+	text-decoration: underline;
+}
+
+
+h1 {
+	margin: 0.3em 0.6em 0.6em 4.5em;
+	font-size: 2.2em;
+	padding-bottom: 1em;
+	color: #712958;
+	line-height: 1em;
+}
+
+
+h2 {
+	font-size: 1.8em;
+	margin: 44px auto 20px 10%;
+	color: #66246d;
+	line-height: 1.3em;
+	width: 75%;
+}
+
+h3 {
+	color: #66246d ;
+	font-size: 1.6em;
+	margin: 22px auto;
+	line-height: 1.3em;
+	width: 70%;
+	text-align: center;
+}
+
+/*-----questions-reponses --------------*/
+
+.Q {
+	background-color: #197497;
+	margin: 0.6em 0 0.6em 0;
+}
+
+/*----- vo --------------*/
+
+.vo {
+	margin-top: 0.2em; 
+	width: 40%; 
+	float: left;
+}
+
+.voff {
+	/*background-color: rgba(241, 201, 133, 0.05);*/
+	color: #075A70;
+	border: #04adb2 solid 2px;
+	margin: 0.9em auto;
+	width: 99%;
+}
+
+.voff p .legende {
+	text-align: right;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+/*------ responsivite --------------*/
+
+@media only screen and (max-width: 730px) and (min-width: 600px) {
+
+body {
+    font-size: 14.5px;
+	line-height: 23px;
+}
+
+p {
+	margin: 0.4em;
+}
+.debut {
+	margin: 0.3em auto 0.1em auto;
+}
+.suite {
+	margin: 0.1em auto;
+}
+.decalgauche {
+	margin-left: 1em;
+}
+.vo {
+	margin-top: 0.2em; 
+	width: 35%; 
+	float: left;
+}
+.decalbas {
+	margin: 2.8em auto 0 auto;
+}
+
+img.smallhaut {
+	margin-top: 0em;
+}
+img.smallbas {
+	margin-bottom: 0em;
+}
+img.haut {
+	margin-top: -1.6em;
+}
+img.bas {
+	margin-bottom: -1.6em;
+}
+img.deuxtiers {
+	float: left;	
+	margin: 0.4em 1em 1.4em auto;
+	width: 56%;
+}
+img.deuxtiersbis {
+	float: right;	
+	margin: 0.4em auto 0.4em 1em;
+	width: 56%;
+}
+
+}
+
+@media only screen and (max-width: 599px) and (min-width: 500px) {
+
+body {
+    font-size: 13.5px;
+	line-height: 19px;
+}
+
+p {
+	margin: 0.3em auto;
+}
+.debut {
+	margin: 0.2em auto 0em auto;
+}
+.suite {
+	margin: 0.1em auto;
+}
+.decalgauche {
+	margin-left: 0.6em;
+}
+.vo {
+	margin-top: 0.2em; 
+	width: 30%; 
+	float: left;
+}
+.decalbas {
+	margin: 2em auto 0 auto;
+}
+.margehaut {
+	margin-top: 0.6em;
+}
+
+img.smallhaut {
+	margin-top: 0em;
+}
+img.smallbas {
+	margin-bottom: 0em;
+}
+img.haut {
+	margin-top: -1em;
+}
+img.bas {
+	margin-bottom: -1em;
+}
+
+}
+
+@media only screen and (max-width: 499px) and (min-width: 400px) {
+
+body {
+    font-size: 12px;
+	line-height: 18px;
+}
+
+p {
+	margin: 0.2em auto;
+}
+.debut {
+	margin: 0.2em auto 0em auto;
+}
+.suite {
+	margin: 0.1em auto;
+}
+.decalgauche {
+	margin-left: 0.6em;
+}
+.vo {
+	margin-top: 0.2em; 
+	width: 30%; 
+	float: left;
+}
+.decalbas {
+	margin: 1.5em auto 0 auto;
+}
+.margehaut {
+	margin-top: 0.4em;
+}
+
+img.smallhaut {
+	margin-top: 0em;
+}
+img.smallbas {
+	margin-bottom: 0em;
+}
+img.haut {
+	margin-top: -0.6em;
+}
+img.bas {
+	margin-bottom: -0.6em;
+}
+}
+
+@media only screen and (max-width: 399px) {
+
+body {
+    font-size: 11px;
+	line-height: 16px;
+}
+
+p {
+	margin: 0.1em auto;
+}
+.debut {
+	margin: 0.1em auto 0em auto;
+}
+.suite {
+	margin: 01em auto;
+}
+.decalgauche {
+	margin-left: 0.6em;
+}
+.vo {
+	margin-top: 0.2em; 
+	width: 25%; 
+	float: left;
+}
+.decalbas {
+	margin: 1em auto 0 auto;
+}
+.margehaut {
+	margin-top: 0.3em;
+}
+
+img.smallhaut {
+	margin-top: 0em;
+}
+img.smallbas {
+	margin-bottom: 0em;
+}
+img.haut {
+	margin-top: 0em;
+}
+img.bas {
+	margin-bottom: 0em;
+}
+img.deuxtiers {
+	float: left;	
+	margin: 0.4em auto;
+	width: 99%;
+}
+img.deuxtiersbis {
+	float: right;	
+	margin: 0.4em auto;
+	width: 99%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

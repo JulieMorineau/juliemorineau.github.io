@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&family=Quattrocento:wght@400;700&family=Sansita:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 15px;
+  line-height: 23px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+}
+
+/*------------ typographie -------------------*/
+b, strong {
+  bold: bold;
+  font-size: 102%;
+}
+sup, sub {
+vertical-align: baseline;
+font-size: .6em;
+position: relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  width: 98%;
+}
+.suite {
+  margin-top: 0.2em;
+}
+.small {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  color: rgba(44,12,50,0.9);
+  margin: 0.4em auto;
+}
+h1 {
+  margin: 0.3em 0;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  width: 80%;
+}
+.bkg {
+  background-color: rgba(44,12,50,0.86);
+  color:#FFFFFF;
+  padding:0.1em;
+}
+.local {
+  font-family: 'Sansita', sans-serif;
+  font-weight: bold;
+  color: rgba(44,12,50,0.86);
+  font-size: 1.6rem;
+  word-spacing: 0.1em;}
+h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: rgba(44,12,50,0.76);
+  font-style: italic;
+}
+.bkg_dino {
+  background-color: rgba(161,61,59,1);
+  color: #FFFFFF;
+  padding: 0.2em 0.4em;
+}
+.bkg_dinoOiseau {
+  background: linear-gradient(to bottom right, #A13D3B 55%, #42949A 45%);
+  color: #FFFFFF;
+padding: 0.2em 0.4em;
+}
+.bkg_oiseau {
+  background-color: rgba(66,148,154,1);
+  color: #FFFFFF;
+padding: 0.2em 0.3em;
+}
+h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  color: rgba(44,12,50,0.76);
+  font-style: italic;
+}
+/*------------ img --------------------*/
+.large {
+  width: 100%;
+}
+.deuxtiers {
+  width: 60%;
+  margin-left:18%;
+}
+.demi {
+  width:50%;
+  margin-bottom:0.3em;
+  float:right;
+  margin-right:2em;
+}
+.color {
+  width: 2em;
+  height: 1em;
+  float: left;
+}
+
+/*------ flexbox --------------*/
+.box {
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  margin: -1em auto 0 auto;
+}
+.element {
+  margin: 0 auto;
+}
+.element_tiers {
+  margin: 0 auto;
+  width:30%;
+}
+
+/*-------------- button -------------*/
+.hide{display: none;}
+button {
+  font-family: 'CleverJul', sans-serif;  
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  padding: 0.2em 0.7em;
+  box-shadow: 1px 2px 0px rgba(40,9,44,0.9);
+  text-align: center;
+  background-color: #FCFCFC;
+  margin: auto;
+  cursor: pointer;
+  border-radius:0.9em;
+  background-color: rgba(40,9,44,0.9);
+  border: #E8C52E solid 2px;
+  color: #FFFFFF;
+}
+.active-button {
+  border: #E8C52E solid 2px;
+  background-color: rgba(76,31,69,1);
+  font-weight: bold;
+color: #F9DC4B;
+}
+button:hover {
+  background-color: #E8C52E;
+  font-weight: bold;
+  color: #2E142F;
+  border: none;
+}
+
+
+@media only screen and (max-width: 698px) and (min-width: 590px) {
+  
+body {
+    font-size: 14.5px;
+    line-height: 22px;
+  }
+.granule {
+    width: 640px;
+}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.small {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+h1 {
+  margin: 1em auto 0.3em 0;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  width: 90%;
+}
+.local {
+  font-size: 1.7rem;
+}
+h2 {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  padding: 0.2em;
+}
+  button {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    padding: 0.1em;
+  }
+
+  
+  
+}
+
+
+
+@media only screen and (max-width: 589px) and (min-width: 500px) {
+  
+  body {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  
+.granule {
+    width: 540px;
+}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.small {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+h1 {
+  margin: 1em auto 0.3em 0;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  width: 90%;
+}
+.local {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  padding: 0.2em;
+}
+  button {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    padding: 0.1em;
+  }
+  
+  
+}
+
+
+
+
+
+
+@media only screen and (max-width: 499px) {
+  
+  body {
+    font-size: 10px;
+    line-height: 15px;
+  }
+.granule {
+    width: 470px;
+}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.small {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+h1 {
+  margin: 1em auto 0.3em 0;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  width: 90%;
+}
+.local {
+  font-size: 1.4rem;
+}
+h2 {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  padding: 0.2em;
+}
+  button {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding: 0.1em;
+  }
+
+  
+  
+}
+
+
+
+

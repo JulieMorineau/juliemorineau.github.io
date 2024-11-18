@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*------------ checkbox --------------------*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.tree {
+  padding: 0.1em 0;
+}
+
+.tree::after {
+  content: '';
+  display: block;
+}
+
+.tree div {
+  clear: left;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+form {
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  position: relative;
+  width: 33%;
+  margin: 2em auto;
+}
+
+label.reponse {
+  display: block;
+  position: relative;
+    color: #321230;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.4em 0.2em 0.2em 0.9em;
+  }
+
+label.reponse:hover {
+  font-weight: bold;
+padding: 0.4em 0.2em 0.2em 0.9em;
+}
+
+input:focus + label.reponse, a:focus {
+  outline: none;
+}
+
+.sub {
+display: none;
+/*width: auto;*/
+padding: 1.1em;
+font-size: 1rem;
+line-height: 1.4rem;
+}
+.sub a {
+  color: #331331;
+  text-decoration: none;
+}
+
+input:checked ~ .sub {
+  display: block;
+}
+
+input[type="reset"] {
+  display: block;
+  width: auto;
+  padding: 2px;
+  border: none;
+  color: #321230;
+  margin-top: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+background-color: rgba(241, 201, 133, 0.6);
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="reset"]:hover {
+  font-weight: bold;
+}
+
+input[type="reset"]:focus {
+  outline: none;
+}
+
+ul {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: rgba(44,12,50,0.9);
+  margin: 0em auto 0.2em -1em;
+}
+li {
+  margin: 0.2em auto 0.2em -1em;
+}
+
+.Bkg1 {
+  background-color: rgba(251,191,0,0.3);
+  border: #FBBF00 solid 1px;
+  box-shadow: 1px 2px 0px rgba(171,146,18,0.9);
+}
+.Bkg1_bis {
+  background-color: rgba(251,191,0,0.1);
+}
+.Bkg2 {
+  background-color: rgba(251,191,0,0.2);
+  border: #ECD066 solid 1px;
+  box-shadow: 1px 2px 0px rgba(171,146,18,0.9);
+}
+.Bkg2_bis {
+  background-color: rgba(251,191,0,0.1);
+}
+.Bkg3 {
+  background-color: rgba(251,191,0,0.3);
+  border: #FFDD00 solid 1px;
+  box-shadow: 1px 2px 0px rgba(171,146,18,0.9);
+}
+.Bkg3_bis {
+  background-color: rgba(251,191,0,0.1);
+}
+
+.Bkg1:hover {
+  background-color: rgba(251,191,0,0.5);
+}
+.Bkg2:hover {
+  background-color: rgba(251,191,0,0.5);
+}
+.Bkg3:hover {
+  background-color: rgba(251,191,0,0.5);
+}
+
+/*----------- chevron ---------*/
+i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 0.8em;
+  right: 10px;
+}
+i:before, i:after {
+  content: "";
+  position: absolute;
+  background-color: #321230;
+  width: 3px;
+  height: 9px;
+}
+i:before {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+i:after {
+  transform: translate(2px, 0) rotate(45deg);
+}
+
+input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(-45deg);
+}
+input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(45deg);
+}

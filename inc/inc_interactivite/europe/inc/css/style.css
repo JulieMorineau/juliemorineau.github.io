@@ -1,0 +1,637 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+/*@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&family=Quattrocento:wght@400;700&family=Sansita:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 17px;
+  line-height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 740px;
+}
+
+/*------------ typographie -------------------*/
+
+b, strong {
+  bold: bold;
+  font-size: 102%;
+}
+
+sup, sub {
+vertical-align: baseline;
+font-size: .6em;
+position: relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  width: 98%;
+}
+.suite {
+  margin-top: 0.2em;
+}
+.small {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  color: rgba(44,12,50,0.9);
+}
+.infosBig {
+  color: #4E5292;
+  font-weight:bold;
+}
+h1 {
+  margin: 1em auto 0.3em 0;
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+  width: 80%;
+}
+.bkg {
+  background-color: rgba(44,12,50,0.86);
+  color:#FFFFFF;
+}
+.local {
+  font-family: 'Sansita', sans-serif;
+  font-weight: bold;
+  color: rgba(44,12,50,0.86);
+  font-size: 1.9rem;
+}
+h2 {
+  font-family: 'Quattrocento', serif;
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  background-color: #344BA1;
+  color:#FFFFFF;
+  text-align:center;
+  clear:both;
+  padding: 0.2em;
+}
+.etroit {
+  width:76%;
+}
+.elargi {
+  width:120%;
+}
+.sstitre2 {
+  font-family: 'CleverJul', sans-serif;  
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-weight: normal;
+}
+.grd {
+  width:150%;
+  margin-left:-50%;
+}
+.text {
+  color: rgba(52,75,161,1);
+}
+.lieu {
+  font-family: 'Sansita', sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  color: #AA0B5E;
+  border: #DA9C26 solid 1px;
+}
+.compo {
+  color: #810C6D;
+  background-color: rgba(252,252,252,1);
+}
+.role {
+  color:#880D4F;
+background-color: rgba(252,252,252,1);
+}
+.judic {
+  color:#A35045;
+  font-weight: bold;
+}
+.exec {
+  color:#C8492B;;
+  font-weight: bold;
+}
+.legisl {
+  color:#BF5D54;;
+  font-weight: bold;
+}
+.cadre {
+  border: rgba(136,13,79,0.7) solid 1px;
+  margin-top: 0.5em;
+}
+/*------------ img --------------------*/
+.large {
+  width: 100%;
+}
+.largePlus {
+  width: 103%;
+}
+.margeTop {
+  margin-top: 3.9em;
+}
+.largeBis {
+  width: 95%;
+  margin: 0.6em auto -0.5em 2.5%;
+}
+.pictoButton {
+  width: 1.8em;
+}
+.picto {
+  height: 1.1em;
+}
+.cale {
+  margin: 0 auto;
+}
+.calemoins {
+  margin: -0.2em auto;
+}
+.caleJudic {
+  margin: 0.2em auto;
+}
+.alignBis {
+  align-self: baseline;
+}
+.align {
+  float:left;
+  margin-right:0.6em;}
+.deuxtiers {
+  width: 58%;
+  float:right;
+margin-bottom:0.3em;
+}
+.demi {
+  width:50%;
+  float:right;
+  margin-bottom:0.3em;
+}
+.demiPlus {
+  width:53%;
+  float:right;
+  margin-bottom:0.3em;
+}
+
+
+/*-------------- button -------------*/
+.hide{display: none;}
+button {
+  font-family: 'CleverJul', sans-serif;  
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  padding: 0.1em;
+  box-shadow: 1px 2px 0px rgba(40,9,44,0.7);
+  border-radius: 0.2em;
+  text-align: center;
+  background-color: #FCFCFC;
+  margin: auto;
+  cursor: pointer;
+}
+.cale {
+  float:left;
+}
+.active-button {
+  border: #E8C52E solid 1px;
+  background-color: #E8C52E;
+  font-weight:bold;
+}
+
+#togg1 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  margin-left:0.6em;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg1:hover {
+  background-color: rgba(232,197,46,0.4);
+}
+#d1 {
+  position: relative;
+  width: 80%;
+  float:right;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+
+#togg2 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  margin-left:0.6em;
+  margin-top:0.6em;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg2:hover {		
+  background-color: rgba(232,197,46,0.4);
+}
+#d2 {
+  position: relative;
+  width: 80%;
+  float:right;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+
+#togg3 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg3:hover {
+  background-color: rgba(232,197,46,0.4);
+}
+#d3 {
+  position: relative;
+  width: 85%;
+  float:right;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+
+#togg4 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  margin-top:0.6em;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg4:hover {
+  background-color: rgba(232,197,46,0.4);
+}
+#d4 {
+  position: relative;
+  width: 85%;
+  float:right;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+
+#togg5 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg5:hover {
+  background-color: rgba(232,197,46,0.4);
+}
+#d5 {
+  position: relative;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  margin-top:0.4em;
+  width:70%;
+}
+
+#togg6 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  margin-left:0.6em;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg6:hover {
+  background-color: rgba(232,197,46,0.4);
+}
+#d6 {
+  position: relative;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  margin-top:0.4em;
+  width:65%;
+}
+
+#togg7 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg7:hover {
+  background-color: rgba(232,197,46,0.4);
+}
+#d7 {
+  position: relative;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  margin-top:0.4em;
+  width: 95%;
+  margin-left:5%;
+}
+
+#togg8 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  margin-left:0.6em;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg8:hover {
+  background-color: rgba(232,197,46,0.4);
+}
+#d8 {
+  position: relative;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  margin-top:0.4em;
+  width: 95%;
+  margin-left:5%;
+}
+
+#togg9 {
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  color: rgba(88,18,93,0.9);
+  padding: 0.2em 0.7em;
+  margin-top: 1em;
+  font-weight: bold;
+}
+#togg9:hover {
+  background-color: rgba(88,18,93,1);
+border: rgba(232,197,46,0.9) solid 1.5px;
+color:rgba(232,197,46,1);
+  font-weight: bold;
+}
+#d9 {
+  position: relative;
+  padding: 0.2em 0.5em;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  width:95%;
+  border: rgba(88,18,93,0.6) solid 1px;
+  color: #344BA1;
+  background-color: rgba(252,252,252,0.9);
+}
+#d10 {
+  position: relative;
+  margin-top:-0.2em;
+}
+#d17 {
+  position: relative;
+  margin-bottom:-1em;
+}
+
+#togg10 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg10:hover {
+  background-color: rgba(232,197,46,0.4);
+}
+#d14 {
+  position: relative;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  margin-top:0.4em;
+}
+
+#togg11 {
+  background-color: rgba(232,197,46,0.1);
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  margin-left:0.6em;
+  border-radius:1.6em;
+  width: 2.6em;
+}
+#togg11:hover {
+  background-color: rgba(232,197,46,0.4);
+}
+#d15 {
+  position: relative;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  margin-top:0.4em;
+}
+
+#togg12 {
+  border: rgba(232,197,46,0.9) solid 1.5px;
+  color: rgba(88,18,93,0.9);
+  padding: 0.2em 0.7em;
+  margin-top: 2em;
+  font-weight: bold;
+}
+#togg12:hover {
+  background-color: rgba(88,18,93,1);
+border: rgba(232,197,46,0.9) solid 1.5px;
+color:rgba(232,197,46,1);
+  font-weight: bold;
+}
+#d16 {
+  position: relative;
+  padding: 0;
+}
+
+/*------ responsivite --------------*/
+
+@media only screen and (max-width: 760px) and (min-width: 700px) {
+
+body {
+    font-size: 15px;
+    line-height: 23px;
+}
+.granule {
+    width: 720px;
+}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+.small {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+h1 {
+  margin: 1em auto 0.3em 0;
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+  width: 80%;
+}
+.local {
+  font-size: 1.9rem;
+}
+h2 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  padding: 0.2em;
+}
+  button {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    padding: 0.1em;
+  }
+  #togg12 {
+    margin-top: 0;
+  }
+  
+  
+}
+
+
+
+@media only screen and (max-width: 698px) and (min-width: 590px) {
+  
+body {
+    font-size: 14.5px;
+    line-height: 22px;
+  }
+.granule {
+    width: 640px;
+}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.small {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+h1 {
+  margin: 1em auto 0.3em 0;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  width: 90%;
+}
+.local {
+  font-size: 1.7rem;
+}
+h2 {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  padding: 0.2em;
+}
+  button {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    padding: 0.1em;
+  }
+  #togg12 {
+    margin-top: 0;
+  }
+  
+  
+}
+
+
+
+@media only screen and (max-width: 589px) and (min-width: 500px) {
+  
+  body {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  
+.granule {
+    width: 540px;
+}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.small {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+h1 {
+  margin: 1em auto 0.3em 0;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  width: 90%;
+}
+.local {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  padding: 0.2em;
+}
+  button {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    padding: 0.1em;
+  }
+  #togg12 {
+    margin-top: 0;
+  }
+  
+  
+  
+}
+
+
+
+
+
+
+@media only screen and (max-width: 499px) {
+  
+  body {
+    font-size: 10px;
+    line-height: 15px;
+  }
+.granule {
+    width: 470px;
+}
+p {
+  margin: 0.4em 0 0.2em 0;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.small {
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+h1 {
+  margin: 1em auto 0.3em 0;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  width: 90%;
+}
+.local {
+  font-size: 1.4rem;
+}
+h2 {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  padding: 0.2em;
+}
+  button {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding: 0.1em;
+  }
+  #togg12 {
+    margin-top: -3em;
+  }
+  
+  
+  
+}
+
+
+
+

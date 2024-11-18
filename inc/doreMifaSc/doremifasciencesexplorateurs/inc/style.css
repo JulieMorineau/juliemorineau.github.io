@@ -1,0 +1,587 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("./checkbox.css");
+@import url("./grid.css");
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+
+
+/*--------couleurs
+#715969 > rgba(113, 89, 105, 1)
+#604a7b > rgba(96, 74; 123, 1)
+#651c5a > rgba(101, 28, 90, 1)
+#979246 > rgba(151, 146, 70, 1)
+#f1c985 > rgba(241, 201, 133, 1)
+#805471 > rgba(128, 84, 113, 1)
+#d9544b > rgba(217, 84, 75, 1)
+#babc0b > rgba(186, 188, 11, 1)
+#00acb2 > rgba(0, 172, 178, 1)
+#604a7b > rgba(96, 74, 123, 1)
+#321230 > rgba(50, 18, 48, 1)
+#fbbf00 > rgba(251, 191, 0, 1)
+fin couleurs-----*/
+
+/*--- base ---*/
+
+body {
+	font-family: 'CleverJul', helvetica, sans-serif;
+    /*background-color: rgba(251, 191, 0, 0.26);*/
+    color: rgba(31, 1, 28, 0.96);
+    font-size: 17px;
+	line-height: 26px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
+
+b, strong {bold: bold;}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+/*------*/
+
+.fin {
+    padding: 6px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #805471;
+    clear: both;
+    text-align: center;
+    border-bottom: #805471 18px solid;
+}
+
+.intro {
+    background-color: rgba(241, 201, 133, 0.3);
+}
+
+/*------------ images -------------------*/
+img {
+	margin: 0.2em;
+	width: 99%;
+}
+.large {
+	width: 76%;
+	float: left;
+	margin: 0.4em;
+}
+img.deuxtiers {
+	float: left;	
+	margin: 0.4em;
+	width: 60%;
+}
+img.deuxtiersbis {
+	float: right;	
+	margin: 0.4em auto 0.4em 2em;
+	width: 60%;
+}
+img.recadre {
+	padding: 1em;
+}
+img.untiers {
+	float: left;	
+	margin: -0.5em 2em auto auto;
+	width: 34%;
+}
+img.untiers2 {
+	float: left;	
+	margin: auto 1em;
+	width: 44%;
+}
+img.untiersbis {
+	float: right;	
+	margin: 0.4em 1em 0.4em 1.5em;
+	width: 34%;
+}
+img.untiersbis2 {
+	float: right;	
+	margin: 0.4em 1em 0.4em 1.5em;
+	width: 44%;
+}
+img.tiers {
+	float: left;	
+	margin: -0.5em 1em -0.5em -6em;
+	width: 49%;
+}
+img.small {
+	float: left;	
+	margin: 0.4em 1.6em;
+	width: 20%;
+}
+img.small2 {
+	float: left;	
+	margin: -3em 1em;
+	width: 16%;
+}
+img.smalldroite {
+	float: right;	
+	margin: 0.4em 2em;
+	width: 20%;
+}
+img.smalldroite2 {
+	float: right;	
+	margin: 0.4em 2em;
+	width: 16%;
+}
+img.petit {
+	float: left;	
+	margin: 0.4em auto;
+	width: 9%;
+}
+img.petitBis {
+	float: left;	
+	margin: 0.4em 1em;
+	width: 9%;
+}
+img.haut {
+	margin-top: -2.6em;
+}
+img.bas {
+	margin-bottom: -2.6em;
+}
+img.decalhautbas {
+	margin-top: -1.6em;
+	margin-bottom: -1.6em;
+}
+img.margedroite {
+	margin-right: 6em;
+}
+img.smallhaut {
+	margin-top: -1.1em;
+}
+img.smallbas {
+	margin-bottom: -1.1em;
+}
+img.smallhautbas {
+	margin-top: -1.1em;
+	margin-bottom: -1.1em;
+}
+img.decalhaut_bis {
+	margin-top: -2em;
+}
+img.nomarge {
+	margin-left: 0;
+	margin-right: 0;
+}
+img.inter {
+	margin-top: -3.6em;
+	margin-bottom: 2em;
+}
+img.interbis {
+	width: 63%;
+	float: left;
+}
+img.bord {
+	border: 4px #babc0b solid;
+}
+
+
+/*------------ typographie -------------------*/
+
+
+p {
+	margin: 0.6em;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	width: 98%;
+}
+
+.etiquette {
+	background-color: rgba(96, 74, 123, 0.8);
+	color: #FFF;
+}
+
+.blanc {
+	color: #FCFCFC;
+	margin-bottom: 0;
+}
+.debut {
+	margin: 0.5em auto 0.2em auto;
+}
+.suite {
+	margin: 0.2em auto 0.2em 0.6em;
+}
+.droite {
+	text-align: right;
+}
+.paddroite {
+	padding-right: 1em;
+}
+.decalbas {
+	margin-top: 3em;
+}
+.decalbas2 {
+	margin-top: 2em;
+}
+.margehaut {
+	margin-top: 1.1em;
+}
+.decalgauche {
+	margin-left: -2em;
+	padding-right:0;
+}
+.gauche {
+	margin-left: 0;
+	padding-right: 0.3em;
+}
+.sousligne {
+	text-decoration: underline;
+}
+.nomargehaut {
+	margin-top: -1em;
+	padding-right: 1em;
+}
+.lexique {
+	font-size: 1.5em;
+}
+
+
+/*----- trames cases --------------*/
+
+.trame1 {
+	background-color: rgba(241, 201, 133, 0.1);
+}
+.trame2 {
+	background-color: rgba(241, 201, 133, 0.2);
+}
+.trame3 {
+	background-color: rgba(241, 201, 133, 0.3);
+}
+.trame4 {
+	background-color: rgba(241, 201, 133, 0.4);
+}
+.trame5 {
+	background-color: rgba(241, 201, 133, 0.5);
+}
+.trame6 {
+	background-color: rgba(241, 201, 133, 0.6);
+}
+.trame7 {
+	background-color: rgba(241, 201, 133, 0.7);
+}
+.trame8 {
+	background-color: rgba(241, 201, 133, 0.8);
+}
+.trame9 {
+	background-color: rgba(241, 201, 133, 0.9);
+}
+
+
+.trameBis1 {
+	background-color: rgba(251, 191, 0, 0.1);
+}
+.trameBis2 {
+	background-color: rgba(251, 191, 0, 0.2);
+}
+.trameBis3 {
+	background-color: rgba(251, 191, 0, 0.3);
+}
+.trameBis4 {
+	background-color: rgba(251, 191, 0, 0.4);
+}
+.trameBis5 {
+	background-color: rgba(251, 191, 0, 0.5);
+}
+.trameBis6 {
+	background-color: rgba(251, 191, 0, 0.6);
+}
+.trameBis7 {
+	background-color: rgba(251, 191, 0, 0.7);
+}
+.trameBis8 {
+	background-color: rgba(251, 191, 0, 0.8);
+}
+
+
+/*----- titraille etc --------------*/
+
+h1 {
+	margin: 0.3em 0.6em 0.6em 4.5em;
+	font-size: 2.2em;
+	padding-bottom: 1em;
+	color: #712958;
+	line-height: 1.1em;
+}
+
+
+h2 {
+	font-size: 1.8em;
+	margin: 44px auto 20px 10%;
+	color: #66246d;
+	line-height: 1.3em;
+	width: 75%;
+}
+
+h3 {
+	color: #66246d ;
+	font-size: 1.6em;
+	margin: 38px auto 16px 14%;
+	line-height: 1.3em;
+	width: 70%;
+}
+
+/*-----questions-reponses --------------*/
+
+.Q {
+	background-color: #197497;
+	margin: 0.6em 0 0.6em 0;
+}
+
+/*----- vo --------------*/
+
+.vo {
+	margin-top: 0.2em; 
+	width: 40%; 
+	float: left;
+}
+
+.voff {
+	/*background-color: rgba(241, 201, 133, 0.05);*/
+	color: #075A70;
+	border: #04adb2 solid 2px;
+	margin: 0.9em auto;
+	width: 99%;
+}
+
+.voff p {
+	margin-left: 0;
+}
+
+.voff p .legende {
+	text-align: right;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+/*------ responsivite --------------*/
+
+@media only screen and (max-width: 730px) and (min-width: 600px) {
+
+body {
+    font-size: 14.5px;
+	line-height: 23px;
+}
+
+p {
+	margin: 0.4em;
+}
+.debut {
+	margin: 0.3em auto 0.1em auto;
+}
+.suite {
+	margin: 0.1em auto;
+}
+
+.vo {
+	margin-top: 0.2em; 
+	width: 35%; 
+	float: left;
+}
+
+}
+
+@media only screen and (max-width: 599px) and (min-width: 500px) {
+
+body {
+    font-size: 13.5px;
+	line-height: 19px;
+}
+
+p {
+	margin: 0.3em auto;
+}
+.debut {
+	margin: 0.2em auto 0em auto;
+}
+.suite {
+	margin: 0.1em auto;
+}
+.vo {
+	margin-top: 0.2em; 
+	width: 30%; 
+	float: left;
+}
+.gauche {
+	margin-left: -0.5;
+	padding-right: 0.5em;
+}
+
+img.decalhautbas {
+	margin-top: -1em;
+	margin-bottom: -1em;
+}
+.paddroite {
+	padding-right: 0.7em;
+}
+.decalbas {
+	margin-top: 2em;
+}
+.decalbas2 {
+	margin-top: 1.3em;
+}
+.margehaut {
+	margin-top: 0.8em;
+}
+
+.decalgauche {
+	margin-left: -1.5em;
+}
+.lexique {
+	font-size: 1.3em;
+}
+img.small2 {
+	float: left;	
+	margin: -2.3em 1em;
+	width: 16%;
+}
+img.smallhautbas {
+	margin-top: -1.1em;
+	margin-bottom: -1.1em;
+}
+
+}
+
+@media only screen and (max-width: 499px) and (min-width: 400px) {
+
+body {
+    font-size: 11px;
+	line-height: 16px;
+}
+
+p {
+	margin: 0.2em auto;
+}
+.debut {
+	margin: 0.2em auto 0em auto;
+}
+.suite {
+	margin: 0.1em auto;
+}
+
+.vo {
+	margin-top: 0.2em; 
+	width: 30%; 
+	float: left;
+}
+.gauche {
+	margin-left: -0.8em;
+	padding-right: 0em;
+}
+
+img.decalhautbas {
+	margin-top: -1em;
+	margin-bottom: -1em;
+}
+.paddroite {
+	padding-right: 0.5em;
+}
+.decalbas {
+	margin-top: 1.1em;
+}
+.decalbas2 {
+	margin-top: 0.3em;
+}
+.margehaut {
+	margin-top: 0.6em;
+}
+.decalgauche {
+	margin-left: -1.7em;
+}
+.lexique {
+	font-size: 1.2em;
+}
+img.small2 {
+	float: left;	
+	margin: -2em 1em auto;
+	width: 16%;
+}
+img.smallhautbas {
+	margin-top: -0.6em;
+	margin-bottom: -0.6em;
+}
+}
+
+@media only screen and (max-width: 399px) {
+
+body {
+    font-size: 10px;
+	line-height: 13.6px;
+}
+
+p {
+	margin: 0.1em auto;
+	-webkit-hyphens: manual;
+ -moz-hyphens: manual;
+ -ms-hyphens: manual;
+ -o-hyphens: manual;
+ hyphens: manual;
+ word-spacing: -0.05em;
+	/*word-wrap: break-word;*/
+}
+.debut {
+	margin: 0.1em auto 0em auto;
+}
+.suite {
+	margin: 01em auto;
+}
+
+.vo {
+	margin-top: 0.2em; 
+	width: 25%; 
+	float: left;
+}
+.gauche {
+	margin-left: -0.8;
+	padding-right: 0.5em;
+}
+
+img.decalhautbas {
+	margin-top: -0.4em;
+	margin-bottom: -0.4em;
+}
+.paddroite {
+	padding-right: 0.5em;
+}
+.decalbas {
+	margin-top: 0.8em;
+}
+.decalbas2 {
+	margin-top: 0.6em;
+}
+.margehaut {
+	margin-top: 0.6em;
+}
+.decalgauche {
+	margin-left: -2em;
+}
+.lexique {
+	font-size: 1.1em;
+}
+img.small2 {
+	float: left;	
+	margin: -1.7em 1em auto;
+	width: 16%;
+}
+img.smallhautbas {
+	margin-top: -0.4em;
+	margin-bottom: -0.4em;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

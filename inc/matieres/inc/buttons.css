@@ -1,0 +1,771 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------- button -------------*/
+
+.hide{display: none;}
+
+button {
+  font-family: 'CleverJul', sans-serif;  
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  padding: 0.3em 0.4em;
+  box-shadow: 1px 1px 0px rgba(58,36,89,0.7);
+  border-radius: 0.4em;
+  text-align: left;
+  width:auto;
+  border: #4E5292 solid 1px;
+  background-color: rgba(252,252,252,0.85);
+  color: #4E5292;
+  margin: 0.3em 0;
+}
+.smallButton {
+  font-size:1rem;
+  line-height: 1.3rem;
+  font-weight: normal;
+  color: rgba(58,36,89,0.9);
+}
+
+button:hover {
+background-color: rgba(78,82,146,0.7);
+  color:#FFFFFF;
+  font-weight:bold;
+}
+/*.active-button {
+  border: rgba(120,87,116,0.3) solid 2px;
+  color: rgba(252,252,252,0.9);
+  font-weight:bold;
+  background-color: rgba(78,82,146,0.3);
+}*/
+
+#d1 {
+  position: relative;
+  width: 111%;
+  margin:1.1em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+}
+
+#d2 {
+  position: relative;
+  width: 111%;
+  margin:1.1em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+}
+
+#d3 {
+  position: relative;
+  width: 111%;
+  margin:1.1em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+}
+
+#d4 {
+  position: relative;
+  width: 111%;
+  margin:1.1em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+}
+
+#d5 {
+  position: relative;
+  width: 111%;
+  margin:1.1em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+}
+
+#d6 {
+  position: relative;
+  width: 111%;
+  margin:1.1em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+}
+
+#d7 {
+  position: relative;
+  width: 111%;
+  margin:1.1em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+}
+
+#d8 {
+  position: relative;
+  width: 111%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+#d9 {
+  position: relative;
+  width: 111%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+#d10 {
+  position: relative;
+  width: 111%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+#d11 {
+  position: relative;
+  width: 111%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+#d12 {
+  position: relative;
+  width: 111%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+#d13 {
+  position: relative;
+  width: 111%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+#d14 {
+  position: relative;
+  width: 111%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+#d15 {
+  position: relative;
+  width: 111%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+#d16 {
+  position: relative;
+  width: 111%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+
+#togg17 {
+  display: inline-block;
+  vertical-align: top;
+}
+#d17 {
+  position: relative;
+  width: 100%;
+  margin:0.8em auto auto auto;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+
+#d18 {
+  position: relative;
+  width: 100%;
+  margin:0.8em auto auto auto;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+
+#d19 {
+  position: relative;
+  width: 100%;
+  margin:0.8em auto auto auto;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+#d20 {
+  position: relative;
+  width: 100%;
+  margin:0.8em auto auto auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color:#4E5292;
+  padding: 0;
+  text-align: left;
+  clear:both;
+}
+
+
+/* asterisques */
+
+#togg21 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg21:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg21.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d21 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg22 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg22:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg22.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d22 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg23 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg23:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg23.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d23 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg24 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg24:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg24.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d24 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg25 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg25:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg25.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d25 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg26 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg26:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg26.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d26 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg27 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg27:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg27.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d27 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg28 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg28:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg28.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d28 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg29 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg29:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg29.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d29 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg30 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg30:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg30.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d30 {
+  position: relative;
+  width: auto;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: -1em;
+}
+
+#togg31 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg31:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg31.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d31 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(229,185,46,0.95);
+  border: rgba(252,252,252,0.9) solid 4px;
+  margin-top: 6em;
+}
+
+#togg32 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg32:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg32.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d32 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(229,185,46,0.95);
+  border: rgba(252,252,252,0.9) solid 4px;
+  margin-top: 6em;
+}
+
+#togg33 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg33:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg33.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d33 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(229,185,46,0.95);
+  border: rgba(252,252,252,0.9) solid 4px;
+  margin-top: 6em;
+}
+
+#togg34 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg34:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg34.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d34 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(229,185,46,0.95);
+  border: rgba(252,252,252,0.9) solid 4px;
+  margin-top: 6em;
+}
+
+#togg35 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg35:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg35.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d35 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(229,185,46,0.95);
+  border: rgba(252,252,252,0.9) solid 4px;
+  margin-top: 6em;
+}
+
+#togg36 {
+  padding: 0;
+  background-image: url("ArthurBear/extras/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg36:hover {
+  background-image: url("ArthurBear/extras/asterisqueHover.png");
+}
+#togg36.active-button {
+  background-image: url("ArthurBear/extras/asterisqueOn.png");
+}
+#d36 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(229,185,46,0.95);
+  border: rgba(252,252,252,0.9) solid 4px;
+  margin-top: 6em;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 720px) {
+
+button {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  padding: 0.4em;
+  min-height:3em;
+  border: rgba(120,87,116,0.3) solid 1px;
+  background-color: rgba(252,252,252,0.85);
+  margin: 0.2em 0;
+}
+.small {
+  font-size:0.6rem;
+  line-height: 0.8rem;
+}
+
+
+}
+

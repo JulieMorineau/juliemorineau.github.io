@@ -1,0 +1,497 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+
+
+/*--- base ---*/
+
+body {
+	font-family: 'CleverJul', serif;
+    /*background-color: rgba(31, 1, 28, 0.1);*/
+	background-color: #FCFCFC;
+    color: rgba(31,1,28,0.96);
+	font-size: 17px;
+}
+/* pour la page de test seulement */
+.page {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+	counter-reset: paragraph; /*ça c'est utile pour le ol>li apparemment*/
+}
+
+b, strong {bold: 700;}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+/*------*/
+
+figure {
+	/*border-bottom: 1px solid rgba(113,89,105,0.4);*/
+	width:99%;
+	margin:0.1em;
+}
+img {
+	width:99%;
+}
+.large {
+	width:93%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.moyenLarge {
+	width:63%;
+}
+.LettreLou {
+	/*height:3em;*/
+	border:none;
+	width:60%;
+	}
+.montages {
+	height:5em;
+	width:auto;
+	margin:0.3em auto;
+	border:none;
+}
+.montagesDsFiche {
+	height:3.4em;
+	width:auto;
+	margin-bottom:-0.8em;
+}
+.montagesPrez {
+	height:3.4em;
+	width:auto;
+	margin-bottom:0.8em;
+}
+
+.cadre {
+	border:rgba(94,27,97,0.9) solid 2px;
+	margin:2.3em auto;
+	padding:0.9em;
+	color:#3a2459;
+}
+.gche {
+	width:32%;
+	float:left;
+	margin-right:1.1em;
+	margin-bottom:0.8em;
+}
+.gcheReduit {
+	width:18%;
+	float:left;
+	margin-right:1.1em;
+	margin-bottom:1.8em;
+}
+.smallgche {
+	width:9%;
+	float:left;
+	margin-right:1.1em;
+}
+.dte {
+	width:32%;
+	float:right;
+	margin-left:1.1em;
+	margin-bottom:1.1em;
+}
+.smalldte {
+	width:12%;
+	float:right;
+	margin-left:1.1em;
+	margin-bottom:1.1em;
+}
+.smallSolo {
+	width:23%;
+}
+.asterisque {
+	height: 24px;
+	width:24px;
+	vertical-align: top;
+	border: rgba(31,1,28,0.96) solid 1px;
+	border-radius: 12px;
+	box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+.motsVisuels {
+	height: 1.6em;
+	width:auto;
+	vertical-align: middle;
+}
+.motsVisuelsBis {
+	height: 2.2em;
+	width:auto;
+	vertical-align: middle;
+}
+.gcheLarge {
+	width:60%;
+	float:left;
+	margin-right:1.1em;
+	margin-bottom:0.8em;
+}
+.gcheXLarge {
+	width:80%;
+	float:left;
+	margin-right:1.1em;
+	margin-bottom:0.8em;
+}
+.reponseLarge {
+	width:70%;
+}
+.perso_intro {
+	width:24%;
+}
+.perso_exemple {
+	width:14%;
+}
+.left {
+	float:left;
+}
+.perso_exemple_large {
+	width:22%;
+}
+.perso_cote {
+	width:32%;
+}
+
+figcaption {
+	color: rgba(55, 17, 40, 0.8);
+	font-size: 0.7rem;
+	line-height: 1rem;
+ 	padding-top: 0px;
+ 	text-align: left;
+}
+.fin {
+    padding: 6px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #805471;
+    clear: both;
+    text-align: center;
+    border-bottom: #805471 8px solid;
+}
+.imagier {
+	width:99%;
+	padding:0;
+}
+
+/*------------ typographie -------------------*/
+
+p {
+	margin: 0.8em auto 0.3em 0;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+.code {
+	font-family: 'Courier new', serif;
+	font-size: 1.3rem;
+	line-height: 1.6rem;
+	font-weight: bold;
+}
+.BlouColor {
+	color:rgba(94,27,97,0.9);
+	margin-top:1.9em;
+	margin-left:1.5em;
+}
+.roboColor {
+	color:rgba(0,128,127,1);
+}
+.BlouColorNomarge {
+	color:rgba(94,27,97,0.8);
+}
+.test {
+	color: #4E5292;
+}
+.definition {
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+	color: rgba(45,13,50,0.8);
+	margin: 0.3em auto 0.3em 0;
+}
+.english {
+	font-size: 1.6rem;
+	line-height: 1.9rem;
+	color: rgba(45,13,50,0.9);
+}
+.small {
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+}
+.alaligne {
+	clear: both;
+	/*padding-top:0.9em;*/
+}
+h1 {
+	margin: 0.9em 0;
+	font-size: 2.3rem;
+	line-height: 2.5rem;
+	color: #712958;
+}
+.nomarge {
+	margin-top: 0.3em;
+}
+.margeTop {
+	margin-top:2.2em;
+}
+.marge_top {
+	margin-top:1.1em;
+}
+h2 {
+	font-size: 2rem;
+	margin: 1.4em auto 0 0;
+	color: #66246d;
+	line-height: 2rem;
+}
+.sstitre {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	font-weight: normal;
+}
+.lienExterne {
+	text-decoration: underline;
+	font-style: italic;
+}
+h3 {
+	color: #66246d ;
+	font-size: 1.5rem;
+	margin: 1.2em auto 0 0;
+	line-height: 1.5rem;
+}
+
+/*---------- table ------------*/
+
+table {
+    border-collapse: collapse;
+    margin: 11px 0;
+}
+
+td {
+    border: 1px solid rgba(113,89,105,0.4);
+    padding: 0.3em 0.6em;
+	font-size: 0.9rem;
+	line-height: 1rem;
+	border:none;
+}
+.bigText {
+	font-size: 1.5rem;
+	line-height: 1.9rem;
+	padding: 0.6em 1.1em;
+}
+.noborder {
+	border:none;
+}
+.chronoDebut {
+	top:0;
+	margin: 0 auto 11em 0;
+}
+.chronoFin {
+	margin: 11em auto 0 0;
+	bottom:0;
+}
+
+/*----- listes ------*/
+
+ul {
+	width: 90%;
+	margin: 6px auto 23px auto;
+}
+
+ul li {
+	margin: 8px auto 0 auto;
+}
+
+ol {
+	width: 90%;
+margin: 18px auto 23px auto;
+	margin: 18px auto;
+	font-size: 16.8px;
+	line-height: 26px;
+	list-style: none;
+	/*border-bottom: #526da3 solid 1px;*/
+	padding-bottom: 16px;
+}
+
+ol li {
+  counter-increment: my-awesome-counter;
+  margin: 16px auto auto 0;
+	display: list-item;
+	list-style-position: outside;
+	width: 90%;
+}
+
+ol li::before {
+  content: counter(my-awesome-counter);
+  background: #526da3;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+	line-height: 24px;
+  color: #fff;
+  text-align: center;
+  margin-right: 11px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+ol li ul li::before {
+	content:none;
+	list-style: circle;
+}
+/*------------ structure cases -------------------*/
+.conteneur {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+	align-items: flex-start;
+	width: 100%;
+	margin: 1.6em auto;
+	border-bottom: 3px solid rgba(95,72,122,0.7);
+}
+.flexDsFiche {
+	border:none;
+}
+.element {
+	width: 15%;
+	margin: 0.2em;
+	/*display:flex;*/
+	padding:0;
+}
+.decalDte {
+	margin-left:1.5em;
+}
+.element_imagier {
+	width: 20%;
+	margin: 0.2em 1.5em;
+	/*display:flex;*/
+	padding:0;
+}
+.elementSmall {
+	width: 16%;
+	margin: 0.2em;
+	/*display:flex;*/
+	padding:0;
+}
+.elementMoitie {
+	width: 45%;
+	margin: 0.2em auto 0.9em 0;
+	padding:0;
+}
+.elementGdeMoitie {
+	width: 50%;
+	margin: 0.2em auto 0.9em 0;
+	padding:0;
+}
+.elementSmallMoitie {
+	width: 40%;
+	margin: 0.2em 0.9em;
+	padding:0;
+}
+.dsFiche {
+	margin: 0.2em 0.9em;
+}
+.elementLarge {
+	width: 63%;
+	margin: 0.2em;
+	padding:0;
+}
+.elementXLarge {
+	width: 73%;
+	margin: 0.2em;
+	padding:0;
+}
+.elementiers {
+	width: 26%;
+	margin: 0.2em;
+	padding:0;
+}
+.elemen3tiers {
+	width: 31%;
+	margin: 0.2em;
+	padding:0;
+}
+.nomarge {
+	margin-top: 0.3em;
+}
+/*------------ blocs Learno  -------------------*/
+
+pre {
+	font-family: "Courier New", monospace;
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: normal;
+	color: #331331;
+	background-color: rgba(113, 90, 106, 0.06);
+	padding: 0.8em;
+	margin: 16px auto;
+	text-align: left;
+	white-space: pre-line;
+	letter-spacing: normal; /*important*/
+}
+
+.lrn-well {
+	margin: 22px auto;
+	padding: 2px 11px 11px 11px;
+	color: #3e1e4b;
+	background-color: rgba(242, 202, 134, 0.85);
+	padding: 0.7em 1em 1em 1em;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+
+.line {
+	text-decoration: line-through;
+	text-decoration-color: #451e54;
+}
+
+
+/*--------- ajout si possible ---------------*/
+
+/* paragraphe */
+.theme-formule {
+	font-family: 'Times New Roman', Times, serif;
+	letter-spacing: 0.03em; 
+	font-size: 19px;
+	line-height: 26px;
+}
+
+/* inline */
+.formule {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 19.6px;
+	line-height: 26px;
+	letter-spacing: 0.03em; 
+}
+
+/*-------------- telechargements ---------------------*/
+.lien {
+	width:76%;
+	margin: 2.7em auto 1.7em auto;
+	background-color: #FCFCFC;
+	border-top: rgba(31,1,28,0.1) 6px solid;
+	border-right: rgba(31,1,28,0.5) 6px solid;
+	border-bottom: rgba(31,1,28,0.7) 6px solid;
+	border-left: rgba(31,1,28,0.2) 6px solid;
+	border-radius: 1.5em;
+	padding: 0.5em 2em;
+	text-align: center;
+	color: rgba(31,1,28,0.96);
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+}
+.RoboColor {
+	color: rgba(31,1,28,0.86);
+}
+.lien a {
+	text-decoration: none;
+}
+.lien a:hover {
+	font-weight: bold;
+	
+}
+
+

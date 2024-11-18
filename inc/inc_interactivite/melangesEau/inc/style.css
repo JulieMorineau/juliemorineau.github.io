@@ -1,0 +1,1019 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  font-family: 'CleverJul', sans-serif;  
+  color: rgba(44,12,50,0.96);
+  font-size: 17px;
+  line-height: 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.granule {
+  margin-left: auto;
+  margin-right: auto;
+  /*max-width: 60em;*/
+  max-width: 720px;
+  padding:0 0.6rem;
+}
+
+/*------------ typographie -------------------*/
+
+b, strong {bold: bold;}
+
+sup, sub {
+vertical-align: baseline;
+font-size:.75em;
+position:relative;
+}
+sup {top: -0.75em;}
+sub {bottom: -0.25em;}
+
+p {
+  margin: 0.4em auto;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  width: 98%;
+}
+.suite {
+  margin:0.5em auto;
+}
+.small {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  width: 90%;
+margin: 1em auto;
+}
+.carre {
+  height: 0.5em;
+  width: 0.5em;
+  /*background: #5f497a;*/
+  background: rgba(95,73,122,0.7);
+  -ms-transform: rotate(45deg); /* Internet Explorer */
+  -moz-transform: rotate(45deg); /* Firefox */
+  -webkit-transform: rotate(45deg); /* Safari et Chrome */
+  -o-transform: rotate(45deg); /* Opera */
+}
+.carredstext {
+  vertical-align: middle;
+  float:left;
+  margin: 0.2em 0.6em auto auto;
+}
+.cercle {
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 0.2em;
+  background: rgba(95,73,122,0.4);
+  vertical-align: middle;
+  float:left;
+  margin: 0.2em 0.3em auto auto;
+}
+.emoji {
+    height: 29px;
+    display:inline;
+    vertical-align: middle;
+}
+
+.chapo {
+  font-family: 'Quattrocento', serif;
+  margin: 0.6em auto;
+  font-size: 1.35rem;
+  line-height: 1.75rem;
+  max-width: 99%;
+}
+.lexique {
+  background-color: rgba(242,202,134,0.3);
+  font-weight:bold;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.9rem;
+  color: #66246d;
+  line-height: 2.5rem;
+  border-bottom: #66246d solid 4px;
+  /*padding-bottom: 0.3em;*/
+}
+.intro {
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2.2rem;
+  color: #497597;
+  line-height: 2.4rem;
+  font-weight:bold;
+}
+.centre {
+  margin-left:auto;
+  margin-right:auto;
+  width: 86%;
+  margin-top:-2.2em;
+}
+.centreBis {
+  margin-left:auto;
+  margin-right:auto;
+  width: 86%;
+margin-top:-0.2em;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin: 0.1em auto;
+  /*color: #5f497a;*/
+  color:#66246d;
+}
+.bkg {
+  background-color: #F2CA86;
+  padding: 6px 18px;
+}
+.fil {
+  margin: 0.2em auto 0 auto;
+  color: #DDA372;
+}
+
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #66246d;
+  margin: 1.1em auto;
+}
+
+.borderTop {
+  border-top: #F2CA86 dotted 3px; 
+  padding-top:0.9em;
+}
+
+/*------------ img --------------------*/
+
+.margetop {
+  margin-top:1em;
+}
+.smallmargetop {
+  margin-top:0.6em;
+}
+.nomargetop {
+  margin-top: 0;
+}
+.right {
+  float:right;
+  margin-left:0.9em;
+  width: 50%;
+}
+.smallright {
+  float:right;
+  margin-left:0.9em;
+  width: 40%;
+}
+.left {
+  float:left;
+  margin-right:0.9em;
+  width: 50%;
+}
+.debordeLeft {
+  margin-left:-2em;
+}
+
+.tiers {
+  width:35%;
+}
+.troisquart {
+  width: 80%;
+  margin-left:0;
+}
+.large {
+  width:99%;
+}
+.milarge {
+  width:89%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.robotleft {
+  width:23%;
+  float:left;
+  margin-right:1.6em;
+}
+.robotleft_bis {
+  width:16%;
+  float:left;
+  margin-right:0.9em;
+}
+.robot_pastille {
+  width:20%;
+  float:right;
+  margin: -1em auto 0.9em 0.9em ;
+}
+
+/*------------ checkbox --------------------*/
+
+.reBkg {
+  background-color: rgba(200, 190, 45, 0.6);
+}
+.reBkg_bis {
+  background-color: rgba(200, 190, 45, 0.3);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.tree {
+  padding: 0.3em 0;
+}
+
+.tree::after {
+  content: '';
+  display: block;
+}
+
+.tree div {
+  clear: left;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+form {
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  position: relative;
+  width: 98%;
+  /*clear:both;*/
+  margin-left:2px;
+}
+
+label.reponse {
+  display: block;
+  position: relative;
+    color: #321230;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.4em 0.2em 0.2em 0.7em;
+  }
+
+label.reponse:hover {
+  font-weight: bold;
+padding: 0.4em 0.2em 0.2em 0.9em;
+}
+
+input:focus + label.reponse, a:focus {
+  outline: none;
+}
+
+.sub {
+display: none;
+width: 100%;
+padding:0.5em;
+font-size: 1.1rem;
+line-height: 1.5rem;
+}
+.sub a {
+  color: #331331;
+  text-decoration: none;
+}
+
+input:checked ~ .sub {
+  display: block;
+}
+
+input[type="reset"] {
+  display: block;
+  width: 70%;
+  padding: 2px;
+  border: none;
+  color: #321230;
+  margin-top: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+background-color: rgba(241, 201, 133, 0.6);
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="reset"]:hover {
+  font-weight: bold;
+}
+
+input[type="reset"]:focus {
+  outline: none;
+  /*box-shadow: 0 0 0 4px #b9c3c9;*/
+}
+
+.reBkg {
+  background-color: rgba(200, 190, 45, 0.6);
+}
+.reBkg_bis {
+  background-color: rgba(200, 190, 45, 0.2);
+}
+
+
+.Q {
+  border: rgba(227,32,82,0.8) solid 2px;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q2 {
+  border: rgba(173,22,96,0.8) solid 2px;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q3 {
+  border: rgba(134,22,113,0.8) solid 2px;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q4 {
+  border: rgba(99,78,130,0.8) solid 2px;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q5 {
+  border: rgba(93,127,188,0.8) solid 2px;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q6 {
+  border: rgba(24,117,150,0.8) solid 2px;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q7 {
+  border: rgba(32,58,119,0.8) solid 2px;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+
+
+.Q:hover {
+  background-color: rgba(227,32,82,1);
+  color: #FFF;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q2:hover {
+  background-color: rgba(173,22,96,1);
+  color: #FFF;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q3:hover {
+  background-color: rgba(134,22,113,1);
+  color: #FFF;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q4:hover {
+  background-color: rgba(99,78,130,1);
+  color: #FFF;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q5:hover {
+  background-color: rgba(93,127,188,1);
+  color: #FFF;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q6:hover {
+  background-color: rgba(24,117,150,1);
+  color: #FFF;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+.Q7:hover {
+  background-color: rgba(32,58,119,1);
+  color: #FFF;
+  border-radius:2em;
+  border-radius:2em;
+  padding-left:1.3em;
+}
+
+.Qbis {
+  background-color: rgba(227,32,82,0.1);
+  width:94%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.Q2bis {
+  background-color: rgba(173,22,96,0.1);
+  width:94%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.Q3bis {
+  background-color: rgba(134,22,113,0.1);
+  width:94%;
+  margin: -3px auto auto auto;
+  
+}
+.Q4bis {
+  background-color: rgba(99,78,130,0.1);
+  width:94%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.Q5bis {
+  background-color: rgba(93,127,188,0.1);
+  width:94%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.Q6bis {
+  background-color: rgba(24,117,150,0.1);
+  width:94%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.Q7bis {
+  background-color: rgba(32,58,119,0.1);
+  width:94%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.chevron {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 11px 11px 0 11px;
+  border-color: #000 transparent transparent transparent;
+  transition: transform 0.3s;
+}
+
+.item.active .chevron {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.item.active .accordion-content {
+  display: block;
+}
+
+/*--------------- pdf -----------------*/
+.lien {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #66246d;
+  margin: 1.9em auto;
+  border: #66246d solid 1px;
+  padding:0.3em;
+  background-color: rgba(242,202,134,0.3);
+  text-align: center;
+  align-item:center;
+}
+.margeTop {
+  margin:2em auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+}
+.lien:hover {
+    font-weight: bold;
+    background-color: #66246d;
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width: 698px) and (min-width: 590px) {
+  
+  body {
+    font-size: 14.5px;
+    line-height: 22px;
+  }
+  
+  .granule {
+    width: 640px;
+    padding:0rem;
+  }
+  
+#slider {
+  height: 500px;
+}
+  
+  /*------------ typographie -------------------*/
+  
+  p {
+    margin: 1em auto 0.4em auto;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width: 98%;
+  }
+  .carre {
+    height: 0.5em;
+    width: 0.5em;
+  }
+  .carredstext {
+    margin: 0.2em 0.5em auto auto;
+  }
+  .cercle {
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 0.2em;
+    margin: 0.2em 0.3em auto auto;
+  }
+  .emoji {
+      height: 29px;  }
+  
+  .chapo {
+    margin: 0.5em auto;
+    font-size: 1.15rem;
+    line-height: 1.55rem;
+  }
+  .margetop {
+    margin-top:0.7em;
+  }
+  h1 {
+    margin: 0.3em auto 0 auto;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    /*padding-bottom: 0.3em;*/
+  }
+  
+  h2 {
+    transform: scaleX(0.97);
+    font-size: 1.3rem;
+    margin: 0 auto;
+  width: 98%;
+  }
+  .bkg {
+    padding: 4px 8px 2px 8px;
+  }
+  .fil {
+    margin: 0.2em auto 0.2em auto;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin: 0.9em auto 0.5em auto;
+  }  
+  
+  h4 {
+    margin: 1.1em auto 0.6em auto;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  .margeTop {
+    margin-top:1.9em;
+  }
+  
+  h5 {
+    margin: 0.6em auto;
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+  
+  .borderTop {
+    border-top: #F2CA86 dotted 3px; 
+    padding-top:0.9em;
+  }
+  
+  .lexique {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+  
+/*------------ cases QR -------------------*/
+  
+  .tree {
+    padding: 0.3em 0;
+  }
+  
+  form {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-left:2px;
+  }
+  
+  label.reponse {
+    padding: 0.3em 0.2em 0.2em 0.9em;
+    }
+  
+  label.reponse:hover {
+  padding: 0.3em 0.2em 0.2em 0.9em;
+  }
+  
+  .sub {
+  padding:0.5em;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  }  
+  
+}
+
+
+@media only screen and (max-width: 589px) and (min-width: 500px) {  
+  body {
+    font-size: 12px;
+    line-height: 17px;
+  }
+    .granule {
+    width: 540px;
+    padding:0rem;
+  }
+  
+#slider {
+  height: 490px;
+}
+  
+  /*------------ typographie -------------------*/
+  
+  p {
+    margin: 0.8em auto 0.4em auto;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    width: 96%;
+  }
+  .carre {
+    height: 0.5em;
+    width: 0.5em;
+  }
+  .carredstext {
+    margin: 0.2em 0.5em auto auto;
+  }
+  .cercle {
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 0.2em;
+    margin: 0.2em 0.3em auto auto;
+  }
+  .emoji {
+      height: 23px;  }
+  
+  .chapo {
+    margin: 0.5em auto;
+    font-size: 1.15rem;
+    line-height: 1.55rem;
+  }
+  .margetop {
+    margin-top:0.7em;
+  }
+  h1 {
+    margin: 0.3em auto 0 auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  h2 {
+    transform: scaleX(0.97);
+    font-size: 1.1rem;
+    margin: 0 auto;
+  width: 99%;
+  }
+  .bkg {
+    padding: 7px 8px 2px 8px;
+  }
+  .fil {
+    margin: 0.2em auto 0.2em auto;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin: 0.9em auto 0.5em auto;
+  }
+  
+  
+  h4 {
+    margin: 1.1em auto 0.6em auto;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  .margeTop {
+    margin-top:1.9em;
+  }
+  
+  h5 {
+    margin: 0.6em auto;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+  
+  .borderTop {
+    border-top: #F2CA86 dotted 3px; 
+    padding-top:0.9em;
+  }
+  
+  .lexique {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+  
+/*------------ cases QR -------------------*/
+  
+  .tree {
+    padding: 0.3em 0;
+  }
+  
+  form {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-left:2px;
+  }
+  
+  label.reponse {
+    padding: 0.3em 0.2em 0.2em 0.9em;
+    }
+  
+  label.reponse:hover {
+  padding: 0.3em 0.2em 0.2em 0.9em;
+  }
+  
+  .sub {
+  padding:0.5em;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  }
+  
+  
+}
+
+
+
+
+
+
+@media only screen and (max-width: 499px) and (min-width: 400px) {
+  
+  body {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  
+  .granule {
+    max-width: 480px;
+    padding:0rem;
+  }
+  
+#slider {
+  height: 890px;
+}
+  
+  /*------------ typographie -------------------*/
+  
+  p {
+    margin: 0.6em auto 0.4em auto;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    width: 96%;
+  }
+  .carre {
+    height: 0.5em;
+    width: 0.5em;
+  }
+  .carredstext {
+    margin: 0.2em 0.5em auto auto;
+  }
+  .cercle {
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 0.2em;
+    margin: 0.2em 0.3em auto auto;
+  }
+  .emoji {
+      height: 23px;  }
+  
+  .chapo {
+    margin: 0.5em auto;
+    font-size: 1.15rem;
+    line-height: 1.55rem;
+  }
+  .margetop {
+    margin-top:0.7em;
+  }
+  h1 {
+    margin: 0.3em auto 0 auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  h2 {
+    transform: scaleX(0.97);
+    font-size: 1rem;
+    line-height: 1.1rem;
+    margin: 0 auto;
+  width: 99%;
+  }
+  .bkg {
+    padding: 3px 8px 2px 8px;
+  }
+  .fil {
+    margin: 0.2em auto 0.2em auto;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin: 0.9em auto 0.5em auto;
+  }
+  
+  
+  h4 {
+    margin: 1.1em auto 0.6em auto;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  .margeTop {
+    margin-top:1.9em;
+  }
+  
+  h5 {
+    margin: 0.6em auto;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+  
+  .borderTop {
+    border-top: #F2CA86 dotted 3px; 
+    padding-top:0.9em;
+  }
+  
+  .lexique {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+  
+/*------------ cases QR -------------------*/
+  
+  .tree {
+    padding: 0.3em 0;
+  }
+  
+  form {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    margin-left:2px;
+  }
+  
+  label.reponse {
+    padding: 0.3em 0.2em 0.2em 0.9em;
+    }
+  
+  label.reponse:hover {
+  padding: 0.3em 0.2em 0.2em 0.9em;
+  }
+  
+  .sub {
+  padding:0.5em;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  }
+  
+  
+}
+
+
+
+
+
+
+@media only screen and (max-width: 399px) {
+  
+  body {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  
+  .granule {
+    max-width: 360px;
+    padding:0rem;
+  }
+  
+#slider {
+  height: 690px;
+}
+  
+  /*------------ typographie -------------------*/
+  
+  p {
+    margin: 0.6em auto 0.4em auto;
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    width: 96%;
+  }
+  .carre {
+    height: 0.5em;
+    width: 0.5em;
+  }
+  .carredstext {
+    margin: 0.2em 0.5em auto auto;
+  }
+  .cercle {
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 0.2em;
+    margin: 0.2em 0.3em auto auto;
+  }
+  .emoji {
+      height: 23px;  }
+  
+  .chapo {
+    margin: 0.5em 1%;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  .margetop {
+    margin-top:0.7em;
+  }
+  h1 {
+    margin: 0.3em auto 0 auto;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  
+  h2 {
+    transform: scaleX(0.97);
+    font-size: 1rem;
+    line-height: 1.1rem;
+    margin: 0 auto;
+  width: 99%;
+  }
+  .bkg {
+    padding: 3px 8px 2px 8px;
+  }
+  .fil {
+    margin: 0.2em auto 0.2em auto;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin: 0.9em auto 0.5em auto;
+  }
+  
+  
+  h4 {
+    margin: 1.1em auto 0.6em auto;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  .margeTop {
+    margin-top:1.9em;
+  }
+  
+  h5 {
+    margin: 0.6em auto;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+  
+  .borderTop {
+    border-top: #F2CA86 dotted 3px; 
+    padding-top:0.9em;
+  }
+  
+  .lexique {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  
+/*------------ cases QR -------------------*/
+  
+  .tree {
+    padding: 0.3em 0;
+  }
+  
+  form {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    margin-left:2px;
+  }
+  
+  label.reponse {
+    padding: 0.3em 0.2em 0.2em 0.9em;
+    }
+  
+  label.reponse:hover {
+  padding: 0.3em 0.2em 0.2em 0.9em;
+  }
+  
+  .sub {
+  padding:0.5em;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  }
+  
+  
+  
+}
+
+
+
+

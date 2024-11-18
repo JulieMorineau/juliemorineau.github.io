@@ -1,0 +1,732 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,700&family=Quattrocento:wght@400;700&family=Sansita:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+/*--- base ---*/
+
+
+#slider {
+  text-align: center;
+  padding-top: 0px;
+  margin: -3em auto auto auto;
+  overflow-x: hidden;
+  float: right;
+  width: 89%;
+}
+
+article {
+  display: block;
+  width: 99%;
+  text-align: left;
+}
+
+article img {
+  display: block;
+  text-align: center;
+  max-width: 100%;
+  /*margin: 4% auto;*/
+}
+.info {
+  margin: 0.3em auto;
+}
+.infoBis {
+  margin: 0.2em auto 0.6em auto;
+  width:82%;
+}
+
+.contenu {
+  width: 96%;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: -0.2em auto auto auto;
+  text-align: left;
+}
+
+
+
+/*------------------- Slider Setup -------------------*/
+
+#slide1:checked ~ #slides .inner {
+  margin-left: 0;
+}
+
+#slide2:checked ~ #slides .inner {
+  margin-left: -100%;
+}
+
+#slide3:checked ~ #slides .inner {
+  margin-left: -200%;
+}
+
+#slide4:checked ~ #slides .inner {
+  margin-left: -300%;
+}
+
+#slide5:checked ~ #slides .inner {
+  margin-left: -400%;
+}
+
+#slide6:checked ~ #slides .inner {
+  margin-left: -500%;
+}
+
+#slide7:checked ~ #slides .inner {
+  margin-left: -600%;
+}
+
+#slide8:checked ~ #slides .inner {
+  margin-left: -700%;
+}
+
+#slide9:checked ~ #slides .inner {
+  margin-left: -800%;
+}
+
+#slide10:checked ~ #slides .inner {
+  margin-left: -900%;
+}
+
+#slide11:checked ~ #slides .inner {
+  margin-left: -1000%;
+}
+
+#slide12:checked ~ #slides .inner {
+  margin-left: -1100%;
+}
+
+#slide13:checked ~ #slides .inner {
+  margin-left: -1200%;
+}
+
+#slide14:checked ~ #slides .inner {
+  margin-left: -1300%;
+}
+
+#slide15:checked ~ #slides .inner {
+  margin-left: -1400%;
+}
+
+#slide16:checked ~ #slides .inner {
+  margin-left: -1500%;
+}
+
+#slide17:checked ~ #slides .inner {
+  margin-left: -1600%;
+}
+
+#slide18:checked ~ #slides .inner {
+  margin-left: -1700%;
+}
+
+#overflow {
+  width: 84%;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+}
+
+#slides .inner {
+  width: 1800%;
+}
+
+#slides article {
+  width: 5.5555%;
+  float: left;
+}
+
+#slides {
+  margin-top: 0px;
+}
+
+/*------------------ Control Setup (navigation fleches) ------------------*/
+
+#controls {
+  position: fixed;
+  top: 1.8em;
+  right: 0;
+  width: 100%;
+  text-align:center
+}
+
+#controls label {
+  display: none;
+  width: 8%;
+  height: 4.3em;
+  opacity: 0.3;
+}
+
+#controls label:hover {
+  opacity: 1;
+}
+
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(5),
+#slide5:checked ~ #controls label:nth-child(6),
+#slide6:checked ~ #controls label:nth-child(7),
+#slide7:checked ~ #controls label:nth-child(8),
+#slide8:checked ~ #controls label:nth-child(9),
+#slide9:checked ~ #controls label:nth-child(10),
+#slide10:checked ~ #controls label:nth-child(11),
+#slide11:checked ~ #controls label:nth-child(12),
+#slide12:checked ~ #controls label:nth-child(13),
+#slide13:checked ~ #controls label:nth-child(14),
+#slide14:checked ~ #controls label:nth-child(15),
+#slide15:checked ~ #controls label:nth-child(16),
+#slide16:checked ~ #controls label:nth-child(17),
+#slide17:checked ~ #controls label:nth-child(18),
+#slide18:checked ~ #controls label:nth-child(1) {
+  background: url('img/flecheMauveDte.png') no-repeat;
+  background-size: 79%;
+float: right;
+  margin: 1.5em auto;
+  display: block;
+}
+
+#slide1:checked ~ #controls label:nth-child(18),
+#slide2:checked ~ #controls label:nth-child(1),
+#slide3:checked ~ #controls label:nth-child(2),
+#slide4:checked ~ #controls label:nth-child(3),
+#slide5:checked ~ #controls label:nth-child(4),
+#slide6:checked ~ #controls label:nth-child(5),
+#slide7:checked ~ #controls label:nth-child(6),
+#slide8:checked ~ #controls label:nth-child(7),
+#slide9:checked ~ #controls label:nth-child(8),
+#slide10:checked ~ #controls label:nth-child(9),
+#slide11:checked ~ #controls label:nth-child(10),
+#slide12:checked ~ #controls label:nth-child(11),
+#slide13:checked ~ #controls label:nth-child(12),
+#slide14:checked ~ #controls label:nth-child(13),
+#slide15:checked ~ #controls label:nth-child(14),
+#slide16:checked ~ #controls label:nth-child(15),
+#slide17:checked ~ #controls label:nth-child(16),
+#slide18:checked ~ #controls label:nth-child(17) {
+  background: url('img/flecheMauveGche.png') no-repeat;
+  background-size: 79%;
+float: left;
+  margin: 1.5em 0 0;
+  display: block;
+}
+
+#slide1:checked ~ #active label:nth-child(1),
+#slide2:checked ~ #active label:nth-child(2),
+#slide3:checked ~ #active label:nth-child(3),
+#slide4:checked ~ #active label:nth-child(3),
+#slide5:checked ~ #active label:nth-child(5),
+#slide6:checked ~ #active label:nth-child(6),
+#slide7:checked ~ #active label:nth-child(7),
+#slide8:checked ~ #active label:nth-child(8),
+#slide9:checked ~ #active label:nth-child(9),
+#slide10:checked ~ #active label:nth-child(10),
+#slide11:checked ~ #active label:nth-child(11),
+#slide12:checked ~ #active label:nth-child(12),
+#slide13:checked ~ #active label:nth-child(13),
+#slide14:checked ~ #active label:nth-child(14),
+#slide15:checked ~ #active label:nth-child(15),
+#slide16:checked ~ #active label:nth-child(16),
+#slide17:checked ~ #active label:nth-child(17),
+#slide18:checked ~ #active label:nth-child(18) {
+  background: #fff;
+  border-color: #777 !important;
+}
+
+/*------------------ Animation ------------------*/
+
+#slides .inner {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  -moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+}
+
+#controls label {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+#slider {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+#slide1:checked ~ #slides article:nth-child(1),
+#slide2:checked ~ #slides article:nth-child(2),
+#slide3:checked ~ #slides article:nth-child(3),
+#slide4:checked ~ #slides article:nth-child(4),
+#slide5:checked ~ #slides article:nth-child(5),
+#slide6:checked ~ #slides article:nth-child(6),
+#slide7:checked ~ #slides article:nth-child(7),
+#slide8:checked ~ #slides article:nth-child(8),
+#slide9:checked ~ #slides article:nth-child(9),
+#slide10:checked ~ #slides article:nth-child(10),
+#slide11:checked ~ #slides article:nth-child(11),
+#slide12:checked ~ #slides article:nth-child(12),
+#slide13:checked ~ #slides article:nth-child(13),
+#slide14:checked ~ #slides article:nth-child(14),
+#slide15:checked ~ #slides article:nth-child(15),
+#slide16:checked ~ #slides article:nth-child(16),
+#slide17:checked ~ #slides article:nth-child(17),
+#slide18:checked ~ #slides article:nth-child(18) {
+  opacity: 1;
+  -webkit-transition: all 1s ease-out 0.6s;
+  -moz-transition: all 1s ease-out 0.6s;
+  -o-transition: all 1s ease-out 0.6s;
+  transition: all 1s ease-out 0.6s;
+}
+
+#controls, #slides, #active, #active label, .desktop, .tablet, .mobile {
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+
+
+/*------------------ sommaire setup ----------------------*/
+
+#volet {
+      width: 12%;
+      height: auto;
+      padding: 1.9em 0.8em;
+      background: rgba(242, 202, 134, 0.4); 
+      color: #27082C; 
+      margin:-1.6em auto auto -0.5em;
+    }
+
+    #volet {
+      position: fixed;
+      -webkit-transition: all .5s ease-in;
+      -moz-transition: all .5s ease-in;
+      transition: all .5s ease-in;
+        text-align: left;
+    }
+
+
+/*--------- éléments du sommaire -------*/
+
+
+#volet ul {
+  /*width:100%;*/
+  margin:0.9em auto 1.3em -20%;
+  list-style: none;
+}
+
+#volet ul li{
+  border-radius: 0.1em;
+  margin-top: 0;
+  font-size: 0.9rem;
+  line-height:1rem;
+  padding: 2px;
+  cursor: pointer;
+}
+
+#volet ul li label {
+  cursor: pointer;
+}
+
+#volet ul li ul {
+  margin:0.1em auto 0.3em -20%;
+}
+
+#volet ul li:hover {
+  font-weight: bold;
+  background-color: rgba(95, 73, 122, 0.4);
+  color: #FFF;
+}
+
+#volet ul li:active {
+  color: #66246d;
+  background: rgba(242, 202, 134, 0.7);
+font-weight: bold;
+}
+
+#volet ul li:hover ul,
+#volet ul li.active ul {
+  /*display: block;*/
+  list-style: none;
+  /*width: 100%;*/
+}
+
+#volet ul li:hover ul li:hover {
+  font-weight: bold;
+  background-color: rgba(95, 73, 122, 0.4);
+  color: #FFF;
+}
+
+#volet ul li.active {
+  color: #66246d;
+  background: rgba(255,255,255,0.6);
+font-weight: bold;
+}
+
+#volet ul li.active ul li.active {
+  color: #66246d;
+  background-color: rgba(242, 202, 134, 0.7);
+}
+
+#volet ul li.active ul li.active ul li.active {
+  color: #66246d;
+  background-color: rgba(242, 202, 134, 0.7);
+}
+
+#volet label {
+  display: block;
+}
+
+#volet label:focus {
+  font-weight: bold;
+  color: #FFF;
+  background-color: #5f497a;
+}
+
+.margebottom {
+  margin-bottom: 0.5em;
+}
+.souligne {
+  text-decoration: underline;
+}
+.souligneBlc {
+  background-color: rgba(255,255,255,0.3);
+}
+
+/*------------------- sommaire Setup -------------------*/
+
+#label1:checked ~ #slides .inner {
+  margin-left: 0;
+}
+
+#label2:checked ~ #slides .inner {
+  margin-left: -100%;
+}
+
+#label3:checked ~ #slides .inner {
+  margin-left: -200%;
+}
+
+#label4:checked ~ #slides .inner {
+  margin-left: -300%;
+}
+
+#label5:checked ~ #slides .inner {
+  margin-left: -400%;
+}
+
+#label6:checked ~ #slides .inner {
+  margin-left: -500%;
+}
+
+#label7:checked ~ #slides .inner {
+  margin-left: -600%;
+}
+
+#label8:checked ~ #slides .inner {
+  margin-left: -700%;
+}
+
+#label9:checked ~ #slides .inner {
+  margin-left: -800%;
+}
+
+#label10:checked ~ #slides .inner {
+  margin-left: -900%;
+}
+
+#label11:checked ~ #slides .inner {
+  margin-left: -1000%;
+}
+
+#label12:checked ~ #slides .inner {
+  margin-left: -1100%;
+}
+
+#label13:checked ~ #slides .inner {
+  margin-left: -1200%;
+}
+
+#label14:checked ~ #slides .inner {
+  margin-left: -1300%;
+}
+
+#label15:checked ~ #slides .inner {
+  margin-left: -1400%;
+}
+
+#label16:checked ~ #slides .inner {
+  margin-left: -1500%;
+}
+
+#label17:checked ~ #slides .inner {
+  margin-left: -1600%;
+}
+
+#label18:checked ~ #slides .inner {
+  margin-left: -1700%;
+}
+
+/*--------- stepline --------------------------*/
+
+input[type="radio"].step-slide {
+  outline: none !important;
+}
+
+/*--- taille et espaces stepline ----*/
+
+input[type="radio"].step-slide {
+  /*background-color: grey;*/
+  cursor: pointer;
+  display: inline-block;
+  height: 0;
+  /*position: relative;*/
+  width: 1em;
+  -webkit-appearance: none !important;
+  –moz–appearance: none !important;
+  appearance: none !important;
+}
+
+input[type="radio"].step-slide:after {
+  background-color: rgba(242, 202, 134, 1);
+  content: '';
+  display: block;
+  height: 0;
+  position: relative;
+  width: 1em;
+}
+
+input[type="radio"].step-slide:checked:after {
+  background-color: rgba(95, 73, 122, 1);
+}
+
+input {
+  margin: 0 1em;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 719px) and (min-width: 640px) {
+  
+  #slider {
+      width: 80%;
+    margin-top: -2.5em;
+    }
+  #overflow {
+    width: 89%;
+  }
+    #controls {
+      top: 3.4em;
+    }
+    #controls label {
+      width: 8%;
+      height: 3.9em;
+    }
+  
+  
+  /*--------- éléments du sommaire -------*/
+  
+    #volet {
+          width: 19%;
+          padding: 1em 0.2em 0.8em 0.4em;
+          margin:-1.6em auto auto -0.5em;
+        }  
+  
+    #volet ul {
+      transform: scaleX(0.99);
+      margin:0.4em auto 1.1em -29%;
+      font-size: 0.85rem;
+      line-height:1rem;
+    }
+  
+  #volet ul li {
+    padding: 2px;
+  }  
+  
+    #volet ul li ul {
+      margin:0.3em auto 0em -27%;
+    }
+. {
+  margin-bottom:0.3em;
+}
+  
+}
+
+
+
+@media only screen and (max-width: 639px) and (min-width: 540px) {
+  
+#slider {
+    width: 76%;
+  margin-top: -2.5em;
+  }
+#overflow {
+  width: 91%;
+}
+  #controls {
+    top: 3.4em;
+  }
+  #controls label {
+    width: 8%;
+    height: 3.9em;
+  }
+  
+  
+/*--------- éléments du sommaire -------*/
+  
+  #volet {
+        width: 24.5%;
+        padding: 1em 0.2em 0.7em 0.9em;
+        margin:-1.6em auto auto -0.5em;
+      }  
+  
+  #volet ul {
+    transform: scaleX(0.96);
+    margin:0.9em 0 1.5em -29%;
+    font-size: 0.75rem;
+    line-height:0.9rem;
+  }
+  #volet ul li {
+    padding: 2px;
+  }   
+  
+  #volet ul li ul li {
+    font-size: 0.75rem;
+    line-height:0.9rem;
+    margin-top:0.3em;
+  }
+  
+  #volet ul li ul {
+    margin:0.5em 0 0.5em -31%;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 539px) and (min-width: 400px) {
+  
+  #slider {
+      width: 70%;
+    margin-top: -2.5em;
+    right:0;
+    }
+  #overflow {
+    width: 91%;
+  }
+    #controls {
+      top: 3.4em;
+    }
+    #controls label {
+      width: 8%;
+      height: 3.9em;
+    }
+  
+  
+  /*--------- éléments du sommaire -------*/
+  
+    #volet {
+          width: 30%;
+          padding: 1em 0.4em 0.4em 0.9em;
+          margin:-1.6em 1em auto -0.5em;
+        }  
+  
+    #volet ul {
+      transform: scaleX(0.97);
+      margin:0.5em auto 1.2em -30%;
+      font-size: 0.75rem;
+      line-height:0.85rem;
+    }
+  #volet ul li {
+    padding: 2px;
+  }   
+  
+    #volet ul li ul li {
+      font-size: 0.75rem;
+      line-height:0.85rem;
+      margin-top:0.4em;
+    }
+  
+    #volet ul li ul {
+      margin:0.2em auto 0.3em -29%;
+    }
+  
+}
+
+
+
+
+
+@media only screen and (max-width: 399px) {
+  
+#slider {
+    width: 70%;
+  margin-top: -4em;
+  right:0;
+  }
+#overflow {
+  width: 91%;
+}
+  #controls {
+    top: 5em;
+  }
+  #controls label {
+    width: 8%;
+    height: 3.9em;
+  }
+  
+  
+/*--------- éléments du sommaire -------*/
+  
+  #volet {
+        width: 30%;
+        padding: 1em 0.4em 0.4em 0.8em;
+        margin:-1.6em 1em auto -0.5em;
+      }  
+  
+  #volet ul {
+    transform: scaleX(0.97);
+    margin:0.5em auto 1.2em -42%;
+    font-size: 0.7rem;
+    line-height:0.85rem;
+  }
+#volet ul li {
+  padding: 2px;
+}   
+  
+  #volet ul li ul li {
+    font-size: 0.7rem;
+    line-height:0.85rem;
+    margin-top:0.3em;
+  }
+  
+  #volet ul li ul {
+    margin:0.2em auto 0.3em -42%;
+  }
+  
+  
+
+}
+
+
+
+
+
+
+
+  

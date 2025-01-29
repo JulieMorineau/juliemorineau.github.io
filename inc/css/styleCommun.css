@@ -51,6 +51,20 @@ body {
   font-weight: normal;
   color: rgba(44,12,50,0.7);
 }
+.bleu {
+  color: #00529C;
+}
+.fdbleu {
+  background-color: #00529C;
+  color: #FFF;
+  padding: 3px;
+}
+.comments {
+  color:rgba(126,91,121,0.8);
+  padding-left:0.8em;
+  width:90%;
+}
+
     a {
       color: rgba(126,91,121,0.8);
       text-decoration: none;
@@ -91,9 +105,15 @@ body {
     }
     h3 {
       margin: 1.4em auto 0 0;
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       line-height: 1.5rem;
       color: rgba(44,12,50,0.6);
+    }
+    .soustitre {
+      margin: 0.2em auto 0 0;
+      font-size: 1.25rem;
+      line-height: 1.4rem;
+      color: rgba(126,91,121,0.8);
     }
     h4 {
       margin: 1.1em auto 0 0;
@@ -130,9 +150,9 @@ body {
       margin: auto;
       padding-left:0.2em;
     }
-    .dte {
+    .droite {
       float:right;
-      margin-right: 0;
+      right: 0;
     }
     .moinslarge {
       width:79%; 
@@ -143,6 +163,10 @@ body {
       float: left;
       width:49%;
       margin-top: 0.4em;
+    }
+    .dossierDte {
+      width:34%;
+      float:right;
     }
     .moitieRight {
       width:49%;
@@ -164,6 +188,11 @@ body {
       width:25%;
       margin: 0.2em 0.9em;
     }
+    .icone {
+      float:left;
+      width:12%;
+      margin: 0 0.9em 0.2em 0;
+    }
     .textTrame {
       color: rgba(44,12,50,0.7);
       font-weight: bold;
@@ -171,6 +200,10 @@ body {
    .couv {
       width:86%;
       margin: 1.5em auto 0 0;
+    }
+    .logoWw {
+      width:63%;
+      margin: 1.5em auto auto auto;
     }
     figcaption {
       font-size:0.8rem;
@@ -221,6 +254,14 @@ figure {
 .personnageCn {
     height: 3.3em;
 }
+.cartesJeu {
+  width:70%;
+  max-height:187px;
+  background-color: #FFF;
+  border: rgba(151,115,128,0.6) solid 1px;
+  padding:0.6em;
+  margin-top:1.5em;
+}
 
 /*----- calage -------*/
 .nomarge {
@@ -247,6 +288,9 @@ figure {
 .margeBottom {
   margin-bottom:1.5em;
 }
+.nomargeBottom {
+  margin-bottom:0;
+}
 .margeLeft {
   margin-left: 1.1em;
   padding-left: 0.8em;
@@ -260,6 +304,14 @@ figure {
 .padd_top {
   padding-top:0.9em;
 }
+.nopad {
+  padding-left:0;
+}
+.padd {
+  padding:3px;
+  width:90%;
+}
+
 .decalGche {
   width:89%;
   margin: 1.5em auto auto 6%;
@@ -333,6 +385,23 @@ color:rgba(218,160,48,1);
 .ton9:hover {
   color:rgba(126,91,121,1);
 }
+.lienCnam {
+  border: rgba(126,91,121,0.3) solid 1px;
+  font-size:0.8rem;
+  line-height: 1.1rem;
+  color: rgba(44,12,50,0.7);
+  text-align:center;
+  padding: 0.3em;
+  border-radius: 1.6em;
+  background-color: rgba(126,91,121,0.1);
+}
+.lienCnam a {
+  text-decoration: none;
+}
+.lienCnam a:hover {
+  font-weight: bold;
+  color: rgba(44,12,50,0.99);
+}
 
 /*-------------- en-tête ---------------------------------*/
 .nav {
@@ -356,18 +425,7 @@ color:rgba(218,160,48,1);
   border-radius: 1.5em;
   padding: 0.2em;
 }
-.lienCnam {
-  margin: 0.7em auto 0.6em 0;
-  font-size: 1.1rem;
-  line-height: 1.6rem;
-  text-align: center;
-  font-weight: bold;
-}
-.lienCnam a:hover {
-  color:rgba(44,12,50,0.9);
-  padding: 0.2em;
-  text-decoration: underline;
-}
+
 .stage {
   font-weight: bold;
   background-color: rgba(44,12,50,0.79);

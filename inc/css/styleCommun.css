@@ -176,6 +176,25 @@ body {
   border: #C4122E solid 0.8px;
   margin: 0.8em 0.8em 0.8em 0;
 }
+.encartBis {
+  font-family: 'Quattrocento', serif;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  font-weight: normal;
+  color:rgba(44,12,50,0.7);
+  padding: 0.5em 0.8em 0.7em 0.8em;
+  width:96%;
+  border: rgba(44,12,50,0.7) solid 0.8px;
+  margin: 0.6em 0.8em 0.8em 0;
+}
+.encartBis p {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+}
+.encartBisSstitre {
+    font-weight: normal;
+    font-size: 93%;
+}
 .rouge {
   /*color: rgba(105,14,26,0.8);*/
   color:#C4122E;
@@ -305,6 +324,13 @@ figure {
 .cartesJeu {
   width:70%;
   max-height:187px;
+  background-color: #FFF;
+  border: rgba(151,115,128,0.6) solid 1px;
+  padding:0.6em;
+  margin-top:1.5em;
+}
+.imgCadree {
+  width:86%;
   background-color: #FFF;
   border: rgba(151,115,128,0.6) solid 1px;
   padding:0.6em;
@@ -655,6 +681,12 @@ ul li a:hover {
   color: rgba(44,12,50,0.89);
   border-radius: 1.5em;
   padding: 0.2em;
+}
+.encartBis ul {
+  color:rgba(44,12,50,0.7);
+  list-style: disc;
+  margin-left:1.1em;
+  width:85%;
 }
 
 /*------------------ sommaire setup ----------------------*/

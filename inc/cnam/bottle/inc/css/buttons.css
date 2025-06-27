@@ -1,0 +1,903 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("https://static.educlever.io/skin-api/css/fonts/CleverJul/CleverJul-granules.css");
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Sansita:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+
+/*-------- docu
+https://outils-javascript.aliasdmc.fr/encodage-caracteres-scientifiques/encode-caractere-22B3-html-css-js-autre.html
+https://www.toptal.com/designers/htmlarrows/
+-----*/
+
+/*-------------- button -------------*/
+.hide{display: none;}
+button {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  text-align: center;
+  background-color: #FCFCFC;
+  font-weight: bold;
+  cursor: pointer;
+  color:rgba(44,12,50,0.96);
+}
+/*.active-button {
+  border: #E8C52E solid 1px;
+  background-color: #E8C52E;
+  font-weight:bold;
+}*/
+
+/*-------class buttons -----------*/
+.cale {
+  float:left;
+}
+
+.inter3 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+  color:rgba(40,9,44,0.8);
+}
+
+.inline {
+  height:2.3em;
+  display:inline-block;
+  /*vertical-align: text-top;*/
+}
+
+
+/*--------- buttons ---------------*/
+
+#togg1 {
+  font-family: 'Quattrocento', serif;
+  border: rgba(40,9,44,0.7) solid 1px;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  padding: 0.2em 0.4em 0.2em 0.4em;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 90%;
+  margin-top: 0.8em;
+  border-radius:4px;
+  background-color: #E39F00;
+}
+#togg1:hover {
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color: #169DA2;
+  border: rgba(40,9,44,0.7) solid 1px;
+}
+#togg1.active-button {
+  background-color: #FCFCFC;
+  border:  #FCFCFC solid 3px;
+  font-weight:bold;
+  color: #169DA2;
+  box-shadow: 1px 2px 0px  #FCFCFC;
+ /* -webkit-text-stroke: 0.2px;
+-webkit-text-stroke-color:#FFFFFF;*/
+}
+
+#d1 {
+  position: relative;
+  width: 100%;
+}
+#d2 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  margin-top:1.3em;
+}
+#d3 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+#d9 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  /*margin: 0.6em auto auto 0.9em;*/
+}
+#d20 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0.6em auto auto -3em;
+}
+
+
+#togg2 {
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  padding: 0.3em auto 0.2em auto;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 4.4em;
+  height:3.9em;
+  /*margin-top: 0.9em;*/
+  border-radius:4px;
+  margin: auto;
+  background-image: url("../img/buttons/sante.png");
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #E39F00;
+}
+#togg2:hover {		
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color:#FFFFFF;
+  background-image: url("../img/buttons/sante_bis.png");
+}
+#togg2.active-button {
+  background-color: #FCFCFC;
+  font-weight:bold;
+  margin-top:0;
+}
+#d4 {
+  position: relative;
+  width: 100%; 
+  margin-left:0.6em;
+}
+#d8 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0.4em auto auto -1.9em;
+}
+#d12 {
+  /*position: relative;*/
+  width: 100%;
+  /*padding: 0;*/
+}
+#d13 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg3 {border: rgba(40,9,44,0.7) solid 1.5px;
+  padding: 0.2em auto 0.2em auto;
+  box-shadow: none;
+  width: 90%;
+  height:4.9em;
+  margin: 0.2em auto;
+  /*margin-top: 0.9em;*/
+  border: #FCFCFC solid 2px;
+  border-radius:4px;
+  background-image: url("../img/monde.png");
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#togg3:hover {    
+  background-color: rgba(40,9,44,0.9);
+  background-image: url("../img/mondebleu.png");
+  border: rgba(40,9,44,0.9) solid 2px;
+}
+#togg3.active-button {
+  background-color: #FCFCFC;
+  background-image: url("../img/mondebleu.png");
+}
+#d10 {
+  position: relative;
+  width: 100%;
+  padding: 0.2em;
+  margin: 0.2em auto 2em auto;
+}
+#d16 {
+  position: relative;
+  width: 96%;
+  padding: 0.9em;
+  background-color: rgba(252,252,252,0.95);
+  margin-top:4.9em;
+  border: rgba(40,9,44,0.7) solid 1.5px;
+}
+#d13 {
+  position: relative;
+  padding: 0.3em;
+}
+
+#togg4 {
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  padding: 0.2em auto 0.2em auto;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 4.4em;
+  height:3.9em;
+  border-radius:4px;
+  margin: auto;
+  background-image: url("../img/buttons/legislation.png");
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #E39F00;
+}
+#togg4:hover {    
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color:#FFFFFF;
+  background-image: url("../img/buttons/legislation_bis.png");
+}
+#togg4.active-button {
+  border: #FCFCFC solid 2px;
+  font-weight:bold;
+  background-color: #FCFCFC;
+}
+#d11 {
+  position: relative;
+  width: 99%;
+  padding: 0;
+  margin-left:1.1em;
+}
+#d18 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+#d29 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em;
+}
+
+
+#togg5 {
+  font-family: 'Quattrocento', serif;
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  padding: 0.2em;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 3em;
+  border-radius:4px;
+  margin-top:1em;
+  background-color: #E39F00;
+}
+#togg5:hover {    
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#togg5.active-button {
+  background-color: #FCFCFC;
+  font-weight:bold;
+  color: #E8C52E;
+}
+#d14 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin-left:0.6em;
+}
+#d15 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin-top:-0.3em;
+}
+
+#togg6 {
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  padding: 0.2em auto 0.2em auto;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 4.4em;
+  height:3.9em;
+  border-radius:4px;
+  background-color: rgba(252,252,252,0.9);
+  background-image: url("../img/buttons/sante.png");
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:1.6em auto auto 1.9em;
+  background-color: #E39F00;
+}
+#togg6:hover {    
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color:#FFFFFF;
+  background-image: url("../img/buttons/sante_bis.png");
+}
+#togg6.active-button {
+  background-color: #FCFCFC;
+  border: #FCFCFC solid 2px;
+  font-weight:bold;
+}
+#d27 {
+  position: relative;
+  width: 100%;
+  padding: 0.2em;
+  margin-top:1.6em;
+}
+
+
+#togg7 {
+  font-family: 'Quattrocento', serif;
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  padding: 0.2em;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 3em;
+  border-radius:4px;
+  margin-left:0.9em;
+  background-color: #E39F00;
+}
+#togg7:hover {    
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#togg7.active-button {
+  background-color: #FCFCFC;
+  font-weight:bold;
+  color: #E8C52E;
+}
+#d6 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+#d17 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#togg8 {
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  padding: 0.2em auto 0.2em auto;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 4.4em;
+  height:3.9em;
+  border-radius:4px;
+  margin: -0.2em auto auto auto;
+  background-image: url("../img/buttons/caddie-supermarche.png");
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #E39F00;
+}
+#togg8:hover { 
+  background-color: #FCFCFC;
+  font-weight:bold;
+  color:#FFFFFF;
+  background-image: url("../img/caddiebleu.png");
+}
+#togg8.active-button {
+  background-color: #FBCD5F;
+  font-weight:bold;
+}
+#d25 {
+  position: relative;
+  width: 123%;
+  padding: 0.2em;
+  margin: 0 auto auto -1.1em;
+  line-height: 1.2rem;
+  border:rgba(40,9,44,0.7) solid 1.5px;
+}
+#d26 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0.9em auto auto 1.1em;
+}
+
+#togg9 {
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  padding: 0.2em auto 0.2em auto;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 4.4em;
+  height:3.9em;
+  border-radius:4px;
+  background-image: url("../img/monde.png");
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #E39F00;
+}
+#togg9:hover {    
+  background-color: rgba(40,9,44,0.9);
+  background-image: url("../img/buttons/monde_bis.png");
+}
+#togg9.active-button {
+  background-color: #FCFCFC;
+  font-weight:bold;
+  color:#169DA2;
+}
+#d7 {
+  position: relative;
+  width: 100%;
+  margin: 0.6em auto auto 0.1em;
+  padding:0.6em;  
+  border: rgba(40,9,44,0.7) solid 1px;
+}
+#d35 {
+  position: relative;
+  width: 101%;
+  margin: 0.6em auto auto 0;
+  padding:0.1em;  
+  border: rgba(40,9,44,0.7) solid 1px;
+}
+#d37 {
+  position: relative;
+  width: 101%;
+  margin: 0.6em auto auto -1.3em;
+}
+
+#togg10 {
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  padding: 0.2em auto 0.2em auto;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 4.4em;
+  height:3.9em;
+  border-radius:4px;
+  margin: -1.6em auto auto 0.6em;
+  background-image: url("../img/jetable.png");
+  background-size: 76%;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: text-top;
+  background-color: #E39F00;
+}
+#togg10:hover {    
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color:#FFFFFF;
+  background-image: url("../img/jetable.png");
+  box-shadow: 0px #FCFCFC;
+
+}
+#togg10.active-button {
+  border: #FCFCFC solid 2px;
+  font-weight:bold;
+  background-color: #FCFCFC;
+}
+#d21 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0.9em auto auto 1.1em;
+}
+#d22 {
+  position: relative;
+  width: 100%;
+  padding: 0.2em;
+  margin: 0.9em auto auto 0.1em;
+  border: rgba(40,9,44,0.9) solid 1px;
+}
+
+#togg11 {
+  font-family: 'Quattrocento', serif;
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  padding: 0.2em;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 3em;
+  border-radius:4px;
+  margin:0.4em;
+  float:right;
+  background-color: #E39F00;
+}
+#togg11:hover {    
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#togg11.active-button {
+  background-color: #FCFCFC;
+  font-weight:bold;
+  color: #E8C52E;
+}
+#d23 {
+  position: relative;
+  width: 100%;
+  padding: 0.2em;
+  margin: 0.3em auto auto 0.9em;
+}
+
+#togg12 {
+  font-family: 'Quattrocento', serif;
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  padding: 0.2em;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 3em;
+  border-radius:4px;
+  margin: 1em auto auto 1.7em;
+  background-color: #E39F00;
+}
+#togg12:hover {    
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#togg12.active-button {
+  background-color: #FCFCFC;
+  font-weight:bold;
+}
+#d34 {
+  position: relative;
+  width: 100%;
+  padding: 0.2em 0;
+  margin: 0.4em auto auto -3em;
+}
+#d19 {
+  position: relative;
+  width: 100%;  
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  padding:0.5em;
+  /*margin: 0.4em auto auto -3em;*/
+}
+
+#togg13 {
+  font-family: 'Quattrocento', serif;
+  border: rgba(40,9,44,0.7) solid 1.5px;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  padding: 0.2em;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  width: 3em;
+  border-radius:4px;
+  margin:1.1em auto auto 0.9em;
+  background-color: #E39F00;
+}
+#togg13:hover {    
+  background-color: rgba(40,9,44,0.9);
+  font-weight:bold;
+  color:#FFFFFF;
+}
+#togg13.active-button {
+  background-color: #FCFCFC;
+  font-weight:bold;
+}
+#d24 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin-left:-0.9em;
+}
+#d30 {
+  position: relative;
+  width: 108%;
+  padding: 0.9em;
+  margin-left:0.7em;
+}
+
+/* astérisques */
+#togg14 {
+  padding: 0;
+  background-image: url("../img/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  margin-top:-0.2em;
+}
+#togg14:hover {
+  background-image: url("../img/asterisqueHover.png");
+}
+#togg14.active-button {
+  background-image: url("../img/asterisqueOn.png");
+}
+#d38 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 1.1em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  background-color: rgba(252,252,252,0.99);
+  border: rgba(229,185,46,0.75) solid 2px;
+  margin-top:1.1em;
+}
+
+#togg15 {
+  padding: 0;
+  background-image: url("../img/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg15:hover {
+  background-image: url("../img/asterisqueHover.png");
+}
+#togg15.active-button {
+  background-image: url("../img/asterisqueOn.png");
+}
+#d39 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 1.1em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(252,252,252,0.99);
+  border: rgba(229,185,46,0.75) solid 2px;
+  margin-top: 0.9em;
+}
+
+#togg16 {
+  padding: 0;
+  background-image: url("../img/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg16:hover {
+  background-image: url("../img/asterisqueHover.png");
+}
+#togg16.active-button {
+  background-image: url("../img/asterisqueOn.png");
+}
+#d40 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 1.1em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(252,252,252,0.99);
+  border: rgba(229,185,46,0.75) solid 2px;
+  margin-top: 6.9em;
+}
+
+#togg17 {
+  padding: 0;
+  background-image: url("../img/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg17:hover {
+  background-image: url("../img/asterisqueHover.png");
+}
+#togg17.active-button {
+  background-image: url("../img/asterisqueOn.png");
+}
+#d41 {
+  position: relative;
+  width: 100%;
+  padding: 0.3em 1.1em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(252,252,252,0.99);
+  border: rgba(229,185,46,0.75) solid 2px;
+  margin-top: 12.6em;
+}
+
+
+#togg18 {
+  padding: 0;
+  background-image: url("../img/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg18:hover {
+  background-image: url("../img/asterisqueHover.png");
+}
+#togg18.active-button {
+  background-image: url("../img/asterisqueOn.png");
+}
+#d42 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(229,185,46,0.9);
+  border: rgba(252,252,252,0.9) solid 1px;
+  margin-top: 0.5em;
+}
+#d43 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(229,185,46,0.9);
+  border: rgba(252,252,252,0.9) solid 1px;
+  margin-top: 0.5em;
+}
+#d44 {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  background-color: rgba(229,185,46,0.9);
+  border: rgba(252,252,252,0.9) solid 1px;
+  margin-top: 0.5em;
+}
+
+#togg19 {
+  padding: 0;
+  background-image: url("../img/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-top;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg19:hover {
+  background-image: url("../img/asterisqueHover.png");
+}
+#togg19.active-button {
+  background-image: url("../img/asterisqueOn.png");
+}
+#d45 {
+  position: relative;
+  width: 100%;
+  padding: 0.1em 0.2em 0.2em 0.2em;
+  font-family: 'Sansita', sans-serif;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  background-color: #F4BD05;
+  border: rgba(40,9,44,0.9) solid 1px;
+  margin-top: 0.5em;
+  transform: rotate(-20deg);
+}
+#d46 {
+  position: relative;
+  width: 100%;
+  padding: 0.1em 0.2em 0.2em 0.2em;
+  font-family: 'Sansita', sans-serif;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  background-color: #F4BD05;
+  border: rgba(40,9,44,0.9) solid 1px;
+  margin-top: 0.5em;
+  transform: rotate(-5deg);
+}
+#d47 {
+  position: relative;
+  width: 100%;
+  padding: 0.1em 0.2em 0.2em 0.2em;
+  font-family: 'Sansita', sans-serif;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  background-color: #F4BD05;
+  border: rgba(40,9,44,0.9) solid 1px;
+  margin-top: 0.5em;
+  transform: rotate(4deg);
+}
+
+#togg20 {
+  padding: 0;
+  background-image: url("../img/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  vertical-align: text-top;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+  margin-top:-0.4em;
+}
+#togg20:hover {
+  background-image: url("../img/asterisqueHover.png");
+}
+#togg20.active-button {
+  background-image: url("../img/asterisqueOn.png");
+}
+#d48 {
+  position: relative;
+  width: 100%;
+  padding: 0.1em 0.2em 0.2em 0.2em;
+  font-family: 'Sansita', sans-serif;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  background-color: #F4BD05;
+  border: rgba(40,9,44,0.9) solid 1px;
+  margin-top: 4em;
+  transform: rotate(-11deg);
+}
+#d49 {
+  position: relative;
+  width: 100%;
+  padding: 0.1em 0.2em 0.2em 0.2em;
+  font-family: 'Sansita', sans-serif;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  background-color: #F4BD05;
+  border: rgba(40,9,44,0.9) solid 1px;
+  margin-top: 7em;
+  transform: rotate(-5deg);
+}
+#d50 {
+  position: relative;
+  width: 100%;
+  padding: 0.6em 0.9em;
+  font-family: 'CleverJul', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  background-color: rgba(252,252,252,0.95);
+  border: rgba(40,9,44,0.9) solid 1px;
+  /*margin-top: 0.5em;*/
+}
+#d51 {
+  position: relative;
+  width: 100%;
+  padding: 0.1em 0.2em 0.2em 0.2em;
+  font-family: 'Sansita', sans-serif;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  background-color: #F4BD05;
+  border: rgba(40,9,44,0.9) solid 1px;
+  margin-top: 0.5em;
+  transform: rotate(4deg);
+}
+
+#togg21 {
+  padding: 0.9em;
+  background-image: url("../img/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 0.8em;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg21:hover {
+  background-image: url("../img/asterisqueHover.png");
+}
+#togg21.active-button {
+  background-image: url("../img/asterisqueOn.png");
+}
+
+#d53 {
+  position: relative;
+  width: 100%;
+  padding: 0.1em 0.2em 0.2em 0.2em;
+  background-color: #FCFCFC;
+  border: rgba(40,9,44,0.9) solid 1px;
+  margin-top: 0.5em;
+}
+
+
+
+
+
+

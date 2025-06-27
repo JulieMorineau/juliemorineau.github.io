@@ -574,7 +574,11 @@ font-family: "Playwrite VN", serif;
   color: rgba(44,12,50,0.9);
 }
 
-
+/*----- iframes ---------*/
+#bottle {
+  border:none;
+  padding:0.2em;
+}
 
 
 /*------------ border --------------------*/

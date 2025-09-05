@@ -191,25 +191,13 @@ box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
 
 #togg5 {
   font-family: 'Sansita', sans-serif;
-  border: rgba(40,9,44,0.7) solid 1.5px;
+  border: rgba(40,9,44,0.7) solid 1px;
   font-size: 1.7rem;
   line-height: 1.7rem;
   padding: 0 0.4em 0.3em 0.4em;
-  box-shadow: 1px 2px 2px rgba(40,9,44,0.8);
   width:100%;
   padding-bottom:0.2em;
-}
-#togg5:hover {
-  background-color: rgba(40,9,44,0.9);
-  font-weight:bold;
-  color: #FFFFFF;
-  border: rgba(40,9,44,0.7) solid 1px;
-}
-#togg5.active-button {
-  background-color: rgba(40,9,44,0.7);
-  font-weight:bold;
-  color: #FFFFFF;
-  box-shadow: 1px 2px 0px rgba(40,9,44,0.5);
+    cursor: default;
 }
 #d6 {
   position: relative;
@@ -248,7 +236,7 @@ box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
 }
 .visible {
   width: 100%;
-  padding: 0;
+  padding: 0.3em 0 0 0;
   font-size: 1rem;
   font-weight: bold;
   color: rgba(40,9,44,0.5);
@@ -258,7 +246,7 @@ box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
 #togg6 {
   font-family: 'Quattrocento', serif;
   border: rgba(40,9,44,0.4) solid 1px;
-  margin-top: 0.4em;
+  /*margin-top: 0.4em;*/
   font-size: 1.2rem;
   line-height: 1.4rem;
   padding: 0.3em 0.4em;
@@ -469,7 +457,7 @@ box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
   box-shadow: 1px 2px 2px rgba(40,9,44,0.8);
   width:100%;
   color: rgba(40,9,44,0.9);
-  margin-top: 0.4em;
+  /*margin-top: 0.4em;*/
 }
 #togg11:hover {
   background-color: rgba(40,9,44,0.7);

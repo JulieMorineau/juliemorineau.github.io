@@ -315,6 +315,9 @@ figure {
 .borders {
   border: rgba(151,115,128,0.6) solid 1px;
 }
+.cadre {
+  border: rgba(151,115,128,0.6) solid 1px;
+}
 .borders:hover {
   border: rgba(151,115,128,0.6) solid 1px;
 }
@@ -372,6 +375,10 @@ figure {
   margin-left: 1.1em;
   padding-left: 0.8em;
 }
+.marge_Left {
+  margin-left: 1.8em;
+  padding-left: 0.8em;
+}
 .paddTop {
   padding-top:1.5em;
 }
@@ -387,6 +394,9 @@ figure {
 .padd {
   padding:3px;
   width:90%;
+}
+.paddi {
+  padding:0.8em;
 }
 
 .decalGche {

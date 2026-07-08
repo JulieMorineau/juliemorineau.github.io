@@ -566,7 +566,7 @@ box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
 
 #d23 {
   position: relative;
-  width: 49%;
+  width: 99%;
   padding: 0.6em;
   float:left;
   background-image: url("../img/outils.png");
@@ -576,52 +576,42 @@ box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
   margin-left:0.9em;
   text-align: left;
 }
-#d24 {
-  position: relative;
-  width: 45%;
-  float:right;
-  text-align: left;
-}
+
+
+
+/* asterisques */
 
 #togg14 {
-  font-family: 'Quattrocento', serif;
-  font-size: 1rem;
-  line-height: 1.3rem;
-  font-weight: bold;
-  color: rgba(40,9,44,0.8);
-  border: rgba(232,197,46,0.9) solid 1px;
-  padding: 0.3em 0.5em;
-  margin-top: -1.1em;
-  margin-left:-9%;
-  width: 110%;
-  text-align: left;
-  background-color: rgba(252,252,252,1);
+  padding: 0;
+  background-image: url("../img/asterisque.png");
+  border: rgba(40,9,44,0.9) solid 1px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:1.5em;
+  height:1.5em;
+  border-radius: 1em;
+  vertical-align: text-bottom;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.8);
 }
 #togg14:hover {
-  font-weight:bold;
-  color: rgba(167,172,39,0.9);
+  background-image: url("../img/asterisqueHover.png");
 }
 #togg14.active-button {
-  background-color: #FEE2A2;
-  font-weight:bold;
-  color: rgba(40,9,44,1);
-  border: rgba(232,197,46,0.8) solid 1px;
+  background-image: url("../img/asterisqueOn.png");
 }
 
 #d25 {
   position: relative;
-  margin-top: -0.1em;
-  width: 110%;
-  padding: 0 0 0.9em 0.5em;
+  width: 100%;
+  padding: 0.3em 0.7em;
+  font-family: 'CleverJul', sans-serif;
   font-size: 1rem;
   line-height: 1.3rem;
-  background-color: rgba(232,197,46,0.2);
-  margin-left:-9%;
-  border: rgba(232,197,46,0.8) solid 1px;
+  background-color: rgba(229,185,46,0.95);
+  border: rgba(252,252,252,0.9) solid 4px;
 }
 
-
-/* asterisques */
 
 #togg15 {
   padding: 0;
@@ -770,7 +760,7 @@ box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
   background-image: url("../img/asterisqueOn.png");
 }
 
-#d31 {
+#d24 {
   position: relative;
   width: 100%;
   padding: 0.3em 0.7em;
@@ -781,37 +771,7 @@ box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
   border: rgba(252,252,252,0.9) solid 4px;
   margin-top: 3em;
 }
-
-#togg20 {
-  padding: 0;
-  background-image: url("../img/asterisque.png");
-  border: rgba(40,9,44,0.9) solid 1px;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  width:1.5em;
-  height:1.5em;
-  border-radius: 1em;
-  vertical-align: text-bottom;
-  box-shadow: 1px 2px 2px rgba(40,9,44,0.8);
-}
-#togg20:hover {
-  background-image: url("../img/asterisqueHover.png");
-}
-#togg20.active-button {
-  background-image: url("../img/asterisqueOn.png");
-}
-
-#d32 {
-  position: relative;
-  width: 100%;
-  padding: 0.3em 0.7em;
-  font-family: 'CleverJul', sans-serif;
-  font-size: 1rem;
-  line-height: 1.3rem;
-  background-color: rgba(229,185,46,0.95);
-  border: rgba(252,252,252,0.9) solid 4px;
-}
+  
 
 #togg21 {
   padding: 0;

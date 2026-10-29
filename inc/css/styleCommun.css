@@ -301,6 +301,7 @@ width: 1111px;
       margin: 1.5em auto auto auto;
     }
     figcaption {
+      font-family: 'Quattrocento', serif;
       font-size:0.8rem;
   line-height: 1.1rem;
   color: rgba(44,12,50,0.7);
@@ -432,6 +433,9 @@ color:rgba(218,160,48,1);
 .margeLeft {
   margin-left: 1.1em;
   padding-left: 0.8em;
+}
+.margeright {
+  margin-right: 1.5em;
 }
 .smallmargeLeft {
   margin-left: 1.1em;

@@ -41,8 +41,14 @@ background-color: rgba(44,12,50,0.7);
   background-color: rgba(44,12,50,0.3);
 }
 
+#togg1 {
+  border: rgba(218,160,48,1) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg1.active-button {
-  border: rgba(120,87,116,0.3) solid 2px;
+  border: rgba(218,160,48,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
   font-weight:bold;
   background-color: rgba(44,12,50,0.2);
@@ -55,8 +61,14 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg1 {
+  border: rgba(218,160,48,1) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg2.active-button {
-  border: rgba(120,87,116,0.3) solid 2px;
+  border: rgba(218,160,48,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
   font-weight:bold;
   background-color: rgba(44,12,50,0.2);
@@ -69,8 +81,14 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg3 {
+  border: rgba(218,160,48,1) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg3.active-button {
-  border: rgba(120,87,116,0.3) solid 2px;
+  border: rgba(218,160,48,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
   font-weight:bold;
   background-color: rgba(44,12,50,0.2);
@@ -83,8 +101,14 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg4 {
+  border: rgba(218,160,48,1) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg4.active-button {
-  border: rgba(120,87,116,0.3) solid 2px;
+  border: rgba(218,160,48,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
   font-weight:bold;
   background-color: rgba(44,12,50,0.2);
@@ -97,8 +121,14 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg5 {
+  border: rgba(218,160,48,1) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg5.active-button {
-  border: rgba(120,87,116,0.3) solid 2px;
+  border: rgba(218,160,48,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
   font-weight:bold;
   background-color: rgba(44,12,50,0.2);
@@ -111,8 +141,14 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg6 {
+  border: rgba(218,160,48,1) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg6.active-button {
-  border: rgba(120,87,116,0.3) solid 2px;
+  border: rgba(218,160,48,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
   font-weight:bold;
   background-color: rgba(44,12,50,0.2);
@@ -123,27 +159,6 @@ background-color: rgba(44,12,50,0.7);
   margin-left:auto;
   margin-right:auto;
   padding: 0;
-}
-
-
-
-@media only screen and (max-width: 720px) {
-
-button {
-  font-size: 0.8rem;
-  line-height: 1rem;
-  padding: 0.4em;
-  min-height:3em;
-  border: rgba(120,87,116,0.3) solid 1px;
-  background-color: rgba(252,252,252,0.85);
-  margin: 0.2em 0;
-}
-.small {
-  font-size:0.6rem;
-  line-height: 0.8rem;
-}
-
-
 }
 
 

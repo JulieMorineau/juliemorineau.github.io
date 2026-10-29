@@ -4,6 +4,7 @@
 /*-------------- button -------------*/
 
 .hide{display: none;}
+.present {display: block;}
 
 button {
   font-family: 'CleverJul', sans-serif;  
@@ -30,7 +31,6 @@ button {
 button:hover {
 background-color: rgba(44,12,50,0.7);
   color:#FFFFFF;
-  /*font-weight:bold;*/
 }
 .active-button {
   border: rgba(120,87,116,0.3) solid 2px;
@@ -41,6 +41,21 @@ background-color: rgba(44,12,50,0.7);
   background-color: rgba(44,12,50,0.3);
 }
 
+/*----- iframes ---------*/
+
+.border_interact {
+  border: rgba(193,96,88,0.2) solid 2px;
+  border-radius: 0.4em;
+}
+
+/* capsules pédagos */
+
+#togg1 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg1.active-button {
   border: rgba(120,87,116,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
@@ -55,6 +70,12 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg1 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg2.active-button {
   border: rgba(120,87,116,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
@@ -69,6 +90,12 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg3 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg3.active-button {
   border: rgba(120,87,116,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
@@ -83,6 +110,12 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg4 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg4.active-button {
   border: rgba(120,87,116,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
@@ -97,6 +130,12 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg5 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg5.active-button {
   border: rgba(120,87,116,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
@@ -111,6 +150,12 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg6 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg6.active-button {
   border: rgba(120,87,116,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
@@ -125,6 +170,12 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg7 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg7.active-button {
   border: rgba(120,87,116,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
@@ -139,6 +190,12 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+#togg8 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
 #togg8.active-button {
   border: rgba(120,87,116,0.3) solid 2px;
   color: rgba(44,12,50,0.6);
@@ -153,10 +210,186 @@ background-color: rgba(44,12,50,0.7);
   padding: 0;
 }
 
+/* séries */
+
+/* Canard masqué */
+
+#togg9 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg9.active-button {
+  border: rgba(193,96,88,0.8) solid 2px;
+  color: rgba(44,12,50,0.6);
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.2);
+}
+#d9 {
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+#togg10 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg10.active-button {
+  border: rgba(120,87,116,0.3) solid 2px;
+  color: rgba(44,12,50,0.6);
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.2);
+}
+#d10 {
+  position: relative;
+  width: 99%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+#togg11 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg11.active-button {
+  border: rgba(120,87,116,0.3) solid 2px;
+  color: rgba(44,12,50,0.6);
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.2);
+}
+#d11 {
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+#togg12 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg12.active-button {
+  border: rgba(120,87,116,0.3) solid 2px;
+  color: rgba(44,12,50,0.6);
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.2);
+}
+#d12 {
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+/* Doré Mifa Sciences */
+
+#togg13 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg13.active-button {
+  border: rgba(120,87,116,0.3) solid 2px;
+  color: rgba(44,12,50,0.6);
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.2);
+}
+#d13 {
+  border-top: #977380 solid 2px;
+  margin-top:0.3em;
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+#togg14 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg14.active-button {
+  border: rgba(120,87,116,0.3) solid 2px;
+  color: rgba(44,12,50,0.6);
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.2);
+}
+#d14 {
+  border-top: #977380 solid 2px;
+  margin-top:0.3em;
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+#togg15 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg15.active-button {
+  border: rgba(120,87,116,0.3) solid 2px;
+  color: rgba(44,12,50,0.6);
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.2);
+}
+#d15 {
+  border-top: #977380 solid 2px;
+  margin-top:0.3em;
+  position: relative;
+  width: 99%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
+
+#togg16 {
+  border: rgba(193,96,88,0.9) solid 1px;
+  border-radius: 0.4em;
+  text-align: center;
+  box-shadow: 1px 2px 2px rgba(40,9,44,0.6);
+}
+#togg16.active-button {
+  border: rgba(120,87,116,0.3) solid 2px;
+  color: rgba(44,12,50,0.6);
+  font-weight:bold;
+  background-color: rgba(44,12,50,0.2);
+}
+#d16 {
+  border-top: #977380 solid 2px;
+  margin-top:0.3em;
+  position: relative;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 0;
+}
 
 
+
+
+
+/*
 @media only screen and (max-width: 720px) {
-
 button {
   font-size: 0.8rem;
   line-height: 1rem;
@@ -170,7 +403,5 @@ button {
   font-size:0.6rem;
   line-height: 0.8rem;
 }
-
-
-}
+}*/
 

@@ -20,8 +20,6 @@ cursor: pointer;
 
 .element {
   width: 30%;
-  height:18em;
-  overflow: hidden;
   border: rgba(44,12,50,0.3) solid 1px;
   padding: 0.4em;
   margin: 0.3em 0.2em;

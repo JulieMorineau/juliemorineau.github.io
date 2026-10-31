@@ -28,8 +28,6 @@
 		let d14 = document.getElementById("d14");
 		let togg15 = document.getElementById("togg15");
 		let d15 = document.getElementById("d15");
-		let togg16 = document.getElementById("togg16");
-		let d16 = document.getElementById("d16");
 		
 		togg1.addEventListener("click", () => {
 			if (getComputedStyle(d1).display != "none") {
@@ -58,8 +56,7 @@
 			togg12.classList.remove("active-button");
 			togg13.classList.remove("active-button"); 
 			togg14.classList.remove("active-button"); 
-			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button");
+			togg15.classList.remove("active-button");
 			});
 		
 		togg2.addEventListener("click", () => {
@@ -89,8 +86,7 @@
 			togg12.classList.remove("active-button");
 			togg13.classList.remove("active-button"); 
 			togg14.classList.remove("active-button"); 
-			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button");
+			togg15.classList.remove("active-button");
 			});
 		
 		togg3.addEventListener("click", () => {
@@ -120,8 +116,7 @@
 			togg12.classList.remove("active-button");
 			togg13.classList.remove("active-button"); 
 			togg14.classList.remove("active-button"); 
-			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button");
+			togg15.classList.remove("active-button");
 			});
 		
 		togg4.addEventListener("click", () => {
@@ -151,8 +146,7 @@
 			togg12.classList.remove("active-button");
 			togg13.classList.remove("active-button"); 
 			togg14.classList.remove("active-button"); 
-			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button");
+			togg15.classList.remove("active-button");
 			});
 
 	togg5.addEventListener("click", () => {
@@ -182,8 +176,7 @@
 		togg12.classList.remove("active-button");
 		togg13.classList.remove("active-button"); 
 		togg14.classList.remove("active-button"); 
-		togg15.classList.remove("active-button"); 
-		togg16.classList.remove("active-button");
+		togg15.classList.remove("active-button");
 	});
 
 	togg6.addEventListener("click", () => {
@@ -213,8 +206,7 @@
 		togg12.classList.remove("active-button");
 		togg13.classList.remove("active-button"); 
 		togg14.classList.remove("active-button"); 
-		togg15.classList.remove("active-button"); 
-		togg16.classList.remove("active-button");
+		togg15.classList.remove("active-button");
 		});
 
 	togg7.addEventListener("click", () => {
@@ -244,8 +236,7 @@
 		togg12.classList.remove("active-button");
 		togg13.classList.remove("active-button"); 
 		togg14.classList.remove("active-button"); 
-		togg15.classList.remove("active-button"); 
-		togg16.classList.remove("active-button");
+		togg15.classList.remove("active-button");
 		});
 
 togg8.addEventListener("click", () => {
@@ -276,7 +267,6 @@ togg8.addEventListener("click", () => {
 	togg13.classList.remove("active-button"); 
 	togg14.classList.remove("active-button"); 
 	togg15.classList.remove("active-button"); 
-	togg16.classList.remove("active-button"); 
 });
 
 togg9.addEventListener("click", () => {
@@ -298,7 +288,6 @@ togg9.addEventListener("click", () => {
 				d13.style.display = "none";
 				d14.style.display = "none";
 				d15.style.display = "none";
-				d16.style.display = "none";
 			}
 			togg1.classList.remove("active-button"); 
 			togg2.classList.remove("active-button"); // Retirer la classe active 
@@ -315,7 +304,6 @@ togg9.addEventListener("click", () => {
 			togg13.classList.remove("active-button"); 
 			togg14.classList.remove("active-button"); 
 			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button"); 
 		});
 		
 		togg10.addEventListener("click", () => {
@@ -337,7 +325,6 @@ togg9.addEventListener("click", () => {
 				d13.style.display = "none";
 				d14.style.display = "none";
 				d15.style.display = "none";
-				d16.style.display = "none";
 			}
 			togg1.classList.remove("active-button");
 			togg2.classList.remove("active-button"); 
@@ -353,8 +340,7 @@ togg9.addEventListener("click", () => {
 			togg12.classList.remove("active-button");
 			togg13.classList.remove("active-button"); 
 			togg14.classList.remove("active-button"); 
-			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button");  
+			togg15.classList.remove("active-button");  
 		});
 		
 		togg11.addEventListener("click", () => {
@@ -376,7 +362,6 @@ togg9.addEventListener("click", () => {
 				d13.style.display = "none";
 				d14.style.display = "none";
 				d15.style.display = "none";
-				d16.style.display = "none";
 			}
 			togg1.classList.remove("active-button");
 			togg2.classList.remove("active-button");
@@ -393,7 +378,6 @@ togg9.addEventListener("click", () => {
 			togg13.classList.remove("active-button"); 
 			togg14.classList.remove("active-button"); 
 			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button"); 
 		});
 		
 		togg12.addEventListener("click", () => {
@@ -415,7 +399,6 @@ togg9.addEventListener("click", () => {
 				d13.style.display = "none";
 				d14.style.display = "none";
 				d15.style.display = "none";
-				d16.style.display = "none";
 			}
 			togg1.classList.remove("active-button");
 			togg2.classList.remove("active-button");
@@ -432,7 +415,6 @@ togg9.addEventListener("click", () => {
 			togg13.classList.remove("active-button"); 
 			togg14.classList.remove("active-button"); 
 			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button"); 
 		});
 
 		togg13.addEventListener("click", () => {
@@ -454,7 +436,6 @@ togg9.addEventListener("click", () => {
 				d13.style.display = "block";
 				d14.style.display = "none";
 				d15.style.display = "none";
-				d16.style.display = "none";
 			}
 			togg1.classList.remove("active-button");
 			togg2.classList.remove("active-button");
@@ -470,8 +451,7 @@ togg9.addEventListener("click", () => {
 			togg12.classList.remove("active-button");
 			togg13.classList.toggle("active-button"); 
 			togg14.classList.remove("active-button"); 
-			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button");  
+			togg15.classList.remove("active-button");  
 		});
 		
 		togg14.addEventListener("click", () => {
@@ -493,7 +473,6 @@ togg9.addEventListener("click", () => {
 				d13.style.display = "none";
 				d14.style.display = "block";
 				d15.style.display = "none";
-				d16.style.display = "none";
 			}
 			togg1.classList.remove("active-button");
 			togg2.classList.remove("active-button");
@@ -510,7 +489,6 @@ togg9.addEventListener("click", () => {
 			togg13.classList.remove("active-button"); 
 			togg14.classList.toggle("active-button"); 
 			togg15.classList.remove("active-button"); 
-			togg16.classList.remove("active-button"); 
 		});
 
 	togg15.addEventListener("click", () => {
@@ -532,7 +510,6 @@ togg9.addEventListener("click", () => {
 			d13.style.display = "none";
 			d14.style.display = "none";
 			d15.style.display = "block";
-			d16.style.display = "none";
 		}
 		togg1.classList.remove("active-button");
 		togg2.classList.remove("active-button");
@@ -549,46 +526,6 @@ togg9.addEventListener("click", () => {
 		togg13.classList.remove("active-button"); 
 		togg14.classList.remove("active-button"); 
 		togg15.classList.toggle("active-button"); 
-		togg16.classList.remove("active-button"); 
 	});
 
-	togg16.addEventListener("click", () => {
-		if (getComputedStyle(d16).display != "none") {
-			d16.style.display = "none";
-		} else {
-			d1.style.display = "none";
-			d2.style.display = "none";
-			d3.style.display = "none";
-			d4.style.display = "none";
-			d5.style.display = "none";
-			d6.style.display = "none";
-			d7.style.display = "none";
-			d8.style.display = "none";
-			d9.style.display = "none";
-			d10.style.display = "none";
-			d11.style.display = "none";
-			d12.style.display = "none";
-			d13.style.display = "none";
-			d14.style.display = "none";
-			d15.style.display = "none";
-			d16.style.display = "block";
-		}
-		togg1.classList.remove("active-button");
-		togg2.classList.remove("active-button");
-		togg3.classList.remove("active-button");
-		togg4.classList.remove("active-button"); 
-		togg5.classList.remove("active-button"); 
-		togg6.classList.remove("active-button"); 
-		togg7.classList.remove("active-button"); 
-		togg8.classList.remove("active-button");  
-		togg9.classList.remove("active-button"); 
-		togg10.classList.remove("active-button"); 
-		togg11.classList.remove("active-button"); 
-		togg12.classList.remove("active-button");
-		togg13.classList.remove("active-button"); 
-		togg14.classList.remove("active-button"); 
-		togg15.classList.remove("active-button"); 
-		togg16.classList.toggle("active-button"); 
-	});
-
-
+	

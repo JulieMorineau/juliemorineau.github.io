@@ -390,6 +390,10 @@
   grid-column: 1 / 11;
   grid-row: 9;
 }
+.unonze10 {
+  grid-column: 1 / 11;
+  grid-row: 10;
+}
 .undouze {
   grid-column: 1 / 13;
   grid-row: 1;
@@ -1052,6 +1056,14 @@
   grid-column: 5 / 12;
   grid-row: 4;
 }
+.cinqonze9 {
+  grid-column: 5 / 12;
+  grid-row: 9;
+}
+.cinqdouze9 {
+  grid-column: 5 / 13;
+  grid-row: 9;
+}
 
 .sixsept {
   grid-column: 6 / 8;
@@ -1143,6 +1155,14 @@
 .sixdix8 {
   grid-column: 6 / 11;
   grid-row: 8;
+}
+.sixdix10 {
+  grid-column: 6 / 11;
+  grid-row: 10;
+}
+.sixonze10 {
+  grid-column: 6 / 12;
+  grid-row: 10;
 }
 .sixdix12 {
   grid-column: 6 / 11;

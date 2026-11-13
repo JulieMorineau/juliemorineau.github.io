@@ -267,6 +267,15 @@ width: 1111px;
     .moitieRight {
       width:49%;
     }
+    .moitiemoinsLeft {
+      float: left;
+      width:45%;
+      margin-top: 0.4em;
+    }
+    .moitieplusRight {
+      width:54%;
+      margin-left: 0.6em;
+    }
     .captScreen {
       width:78%; 
       margin: 0 0 auto 0;
